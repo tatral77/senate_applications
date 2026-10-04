@@ -1,0 +1,10 @@
+C:\Users\Masood\Desktop\HRM\ManEntities\bin\Release\ManEntities.dll
+C:\Users\Masood\Desktop\HRM\ManEntities\bin\Release\ManEntities.pdb
+C:\Users\Masood\Desktop\HRM\ManEntities\obj\Release\ManEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\HRM\ManEntities\obj\Release\ManEntities.dll
+C:\Users\Masood\Desktop\HRM\ManEntities\obj\Release\ManEntities.pdb
+\\172.16.15.9\Applications\HRM\ManEntities\bin\Release\ManEntities.dll
+\\172.16.15.9\Applications\HRM\ManEntities\bin\Release\ManEntities.pdb
+\\172.16.15.9\Applications\HRM\ManEntities\obj\Release\ManEntities.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\HRM\ManEntities\obj\Release\ManEntities.dll
+\\172.16.15.9\Applications\HRM\ManEntities\obj\Release\ManEntities.pdb

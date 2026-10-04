@@ -1,0 +1,95 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\obj\Debug\FinBiz.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\FinBiz.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\FinBiz.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\FinDal.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\FinEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\FinDal.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\FinEntities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\obj\Debug\FinBiz.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinBiz\obj\Debug\FinBiz.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\FinBiz.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\FinBiz.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\FinDal.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\FinEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\FinDal.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\FinEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\obj\Debug\FinBiz.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\obj\Debug\FinBiz.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinBiz\obj\Debug\FinBiz.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\FinBiz.dll
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\FinBiz.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\FinDal.dll
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\FinEntities.dll
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\FinDal.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\FinEntities.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\obj\Debug\FinBiz.dll
+\\172.16.15.9\Applications\Finance\FinBiz\obj\Debug\FinBiz.pdb
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\FinBiz.dll
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\FinBiz.pdb
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\FinDal.dll
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\FinEntities.dll
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\BUDDAL.dll
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\FinDal.pdb
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\FinEntities.pdb
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+\\172.18.1.12\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+\\172.18.1.12\Applications\Finance\FinBiz\obj\Debug\FinBiz.csprojResolveAssemblyReference.cache
+\\172.18.1.12\Applications\Finance\FinBiz\obj\Debug\FinBiz.dll
+\\172.18.1.12\Applications\Finance\FinBiz\obj\Debug\FinBiz.pdb
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\FinBiz.dll
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\FinBiz.pdb
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\FinDal.dll
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\FinEntities.dll
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\BUDDAL.dll
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\FinDal.pdb
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\FinEntities.pdb
+C:\Apps-06-09-18\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+C:\Apps-06-09-18\Finance\FinBiz\obj\Debug\FinBiz.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\FinBiz\obj\Debug\FinBiz.dll
+C:\Apps-06-09-18\Finance\FinBiz\obj\Debug\FinBiz.pdb
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\FinBiz.dll
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\FinBiz.pdb
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\FinDal.dll
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\FinEntities.dll
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\FinDal.pdb
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\FinEntities.pdb
+C:\Users\Masood\Desktop\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Finance\FinBiz\obj\Debug\FinBiz.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Finance\FinBiz\obj\Debug\FinBiz.dll
+C:\Users\Masood\Desktop\Finance\FinBiz\obj\Debug\FinBiz.pdb
+E:\Applications\Finance\FinBiz\bin\Debug\FinBiz.dll
+E:\Applications\Finance\FinBiz\bin\Debug\FinBiz.pdb
+E:\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.dll
+E:\Applications\Finance\FinBiz\bin\Debug\FinDal.dll
+E:\Applications\Finance\FinBiz\bin\Debug\FinEntities.dll
+E:\Applications\Finance\FinBiz\bin\Debug\BUDDAL.dll
+E:\Applications\Finance\FinBiz\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Finance\FinBiz\bin\Debug\FinDal.pdb
+E:\Applications\Finance\FinBiz\bin\Debug\FinEntities.pdb
+E:\Applications\Finance\FinBiz\bin\Debug\BUDDAL.pdb
+E:\Applications\Finance\FinBiz\obj\Debug\FinBiz.csproj.AssemblyReference.cache
+E:\Applications\Finance\FinBiz\obj\Debug\FinBiz.csproj.CoreCompileInputs.cache
+E:\Applications\Finance\FinBiz\obj\Debug\FinBiz.csproj.CopyComplete
+E:\Applications\Finance\FinBiz\obj\Debug\FinBiz.dll
+E:\Applications\Finance\FinBiz\obj\Debug\FinBiz.pdb
+\\172.16.15.9\Applications\Finance\FinBiz\obj\Debug\FinBiz.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Finance\FinBiz\obj\Debug\FinBiz.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Finance\FinBiz\obj\Debug\FinBiz.csproj.CopyComplete

@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="QuestionManagement.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles/MainStyles.css" rel="stylesheet" />
+  <script src="./Jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="./Styles/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+ 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+        
+    </asp:ContentPlaceHolder>
+ </head>   
+
+<body >
+<form role="form" data-toggle="validator" runat="server" id="form1">
+    <div class="form-group">
+<div class="container-flued">
+    
+         <div class="row">
+                <div class="col-md-2">
+                    <asp:Image ID="logoImage" runat="server" ImageUrl="~/images/logo.png" 
+                AlternateText="EVS Logo" Width="80px" Height="90px" 
+                style="margin-top: 0px" />
+                </div>
+                <div class="col-md-8" style="text-align:center">
+                    <h2>SENATE OF PAKISTAN</h2><h4>Question Management</h4>
+                </div>
+             <div class="col-md-2" >
+                
+                   
+                
+
+            </div>
+
+                 
+            </div>
+   
+   
+        <div class="col-md-12 img-rounded" style="background-color:lightsteelblue;height:50px;padding:10px" >
+            <div class="btn-group">
+                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Question <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="../NewQuestion.aspx">New Question</a></li>
+                    <li><a href="../SearchQuestion.aspx">Search Question</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button"  class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Manage<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="../EmpPosts.aspx">Sessions</a></li>
+                    <li><a href="../BranchesInfo.aspx">Members</a></li>
+                    <li><a href="#">Question Status</a></li>
+                    <li><a href="ManageGroups.aspx">Groups</a></li>
+                    <li><a href="../ManageDivisions.aspx">Divisions</a></li>
+                    <li><a href="#">Ministries</a></li>
+                </ul>
+             </div>
+
+             <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Reports<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Employees Details</a></li>
+                    <li><a href="../Reports/SuperanuationReport.aspx">Superannuation Report</a></li>
+                    <li><a href="../Reports/Rpt_8_Extensionaspx.aspx">Contract, Deputation, Adhoc Extension</a></li>
+                    <li><a href="../Reports/Rpt_5_Designation.aspx">Designation during Specific Time Period </a></li>
+                    <li><a href="../Reports/Rpt_3_Probation.aspx">Employees on Probation</a></li>
+                    <li><a href="../Reports/Rpt_Employees_On_Leave.aspx">Employees on Leave</a></li>
+                    <li><a href="../Reports/LeaveEncashmentList.aspx">Leave Encashment</a></li>
+                    <li><a href="ContactDetails.aspx">Employees Contact Details</a></li>
+                    <li><a href="#">Employees Working on Deputation</a></li>
+                    <li><a href="#">Appointment Made during Last 3 Years</a></li>
+                    <li><a href="#">Age Report</a></li>
+                    <li><a href="#">Job Experience Report</a></li>
+                     <li><a href="../ReportSearch/PostsReport.aspx">Posts Report</a></li>
+
+
+        
+      
+                </ul>
+             </div>
+             <asp:Button ID="btn" class=" btn btn-primary" runat="server" onclick="Logout_Click" Text="Logout" />
+            </div>
+            
+      
+</div>
+   </div>
+    <div class="clearfix"></div>
+    
+        <div class="container-fluid">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>     
+</form>  
+</body>
+</html>

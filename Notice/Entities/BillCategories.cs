@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entities
+{
+    public class BillCategories
+    {
+        public int BillCategoriesId { get; set; }
+        public String Description { get; set; }
+        public int IsActive { get; set; }
+    }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seating Plan</title>
+    <style>
+        div:nth-child(1) { top: 90px; }
+        div:nth-child(2) { top: 80px; }
+        div:nth-child(3) { top: 70px; }
+        div:nth-child(4) { top: 60px; }
+        div:nth-child(5) { top: 50px; }
+        div:nth-child(6) { top: 40px; }
+        div:nth-child(7) { top: 30px; }
+        div:nth-child(8) { top: 20px; }
+        div:nth-child(9) { top: 10px; }
+        div:nth-child(10) { top: 10px; }
+        div:nth-child(11) { top: 10px; }
+        div:nth-child(12) { top: 20px; }
+        div:nth-child(13) { top: 30px; }
+        div:nth-child(14) { top: 40px; }
+        div:nth-child(15) { top: 50px; }
+        div:nth-child(16) { top: 60px; }
+        div:nth-child(17) { top: 70px; }
+        div:nth-child(18) { top: 80px; }
+        div:nth-child(19) { top: 90px; }
+
+        div:nth-of-type(odd) { background: #f1f3f4; }
+        div:nth-of-type(even) { background: #fff; }
+
+        .row {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .bdr {
+            border: 1px solid #000;
+            border-radius: 10px;
+            font-size: 10px;
+            min-height: 50px;
+            text-align: center;
+        }
+
+        .col, .chariman {
+            position: relative;
+            min-width: 30px;
+            padding-right: 13px;
+            padding-left: 13px;
+            float: left;
+            margin-right: 10px;
+        }
+            
+        .col-left {transform: rotate(-5deg);}
+        .col-right {transform: rotate(5deg);}
+        .row2-height {
+            min-height: 20px;
+            margin-top: 3px;
+            margin-right: 10px;
+            background-color: transparent !important;
+            font-weight: bold;
+            text-align: right;
+        }
+        .chariman{
+            margin: 0px auto !important;
+            left:45%;
+            min-height: 50px;
+            border:2px solid #8f8f8f;
+        }
+        body{
+            padding:0;
+            margin:0;
+        }
+        .clearfix {
+            clear: both;
+        }
+        .blank-div{
+            width:35px;
+            float:left;
+            position: relative;
+            /* border:1px solid black; */
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div id="1" class="col bdr col-left">First</div>
+        <div id="2" class="col bdr col-left">Second</div>
+        <div id="3" class="col bdr col-left">Third</div>
+        <div id="4" class="col bdr col-left">Fourth</div>
+        <div id="5" class="col bdr col-left">Fifth</div>
+        <div id="6" class="col bdr col-left">Sixth</div>
+        <div id="7" class="col bdr col-left">Seventh</div>
+        <div id="8" class="col bdr col-left">Eighth</div>
+        <div id="9" class="col bdr col-left">Ninth</div>
+        <div class="blank-div">c</div>
+        <div id="10" class="col bdr col-right">One</div>
+        <div id="11" class="col bdr col-right">Two</div>
+        <div id="12" class="col bdr col-right">Three</div>
+        <div id="13" class="col bdr col-right">Four</div>
+        <div id="14" class="col bdr col-right">Five</div>
+        <div id="15" class="col bdr col-right">Six</div>
+        <div id="16" class="col bdr col-right">Seven</div>
+        <div id="17" class="col bdr col-right">Eight</div>
+        <div id="18" class="col bdr col-right">Nine</div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="row2-height col col-left">18</div>
+        <div class="row2-height col col-left">17</div>
+        <div class="row2-height col col-left">16</div>
+        <div class="row2-height col col-left">15</div>
+        <div class="row2-height col col-left">14</div>
+        <div class="row2-height col col-left">13</div>
+        <div class="row2-height col col-left">12</div>
+        <div class="row2-height col col-left">11</div>
+        <div class="row2-height col col-left">10</div>
+        <div class="blank-div">c</div>
+        <div class="row2-height col col-right">9</div>
+        <div class="row2-height col col-right">8</div>
+        <div class="row2-height col col-right">7</div>
+        <div class="row2-height col col-right">6</div>
+        <div class="row2-height col col-right">5</div>
+        <div class="row2-height col col-right">4</div>
+        <div class="row2-height col col-right">3</div>
+        <div class="row2-height col col-right">2</div>
+        <div class="row2-height col col-right">1</div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+            <div id="1" class="col bdr col-left">First</div>
+            <div id="2" class="col bdr col-left">Second</div>
+            <div id="3" class="col bdr col-left">Third</div>
+            <div id="4" class="col bdr col-left">Fourth</div>
+            <div id="5" class="col bdr col-left">Fifth</div>
+            <div id="6" class="col bdr col-left">Sixth</div>
+            <div id="7" class="col bdr col-left">Seventh</div>
+            <div id="8" class="col bdr col-left">Eighth</div>
+            <div id="9" class="col bdr col-left">Ninth</div>
+            <div class="blank-div">c</div>
+            <div id="10" class="col bdr col-right">One</div>
+            <div id="11" class="col bdr col-right">Two</div>
+            <div id="12" class="col bdr col-right">Three</div>
+            <div id="13" class="col bdr col-right">Four</div>
+            <div id="14" class="col bdr col-right">Five</div>
+            <div id="15" class="col bdr col-right">Six</div>
+            <div id="16" class="col bdr col-right">Seven</div>
+            <div id="17" class="col bdr col-right">Eight</div>
+            <div id="18" class="col bdr col-right">Nine</div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="row2-height col col-left">18</div>
+            <div class="row2-height col col-left">17</div>
+            <div class="row2-height col col-left">16</div>
+            <div class="row2-height col col-left">15</div>
+            <div class="row2-height col col-left">14</div>
+            <div class="row2-height col col-left">13</div>
+            <div class="row2-height col col-left">12</div>
+            <div class="row2-height col col-left">11</div>
+            <div class="row2-height col col-left">10</div>
+            <div class="blank-div">c</div>
+            <div class="row2-height col col-right">9</div>
+            <div class="row2-height col col-right">8</div>
+            <div class="row2-height col col-right">7</div>
+            <div class="row2-height col col-right">6</div>
+            <div class="row2-height col col-right">5</div>
+            <div class="row2-height col col-right">4</div>
+            <div class="row2-height col col-right">3</div>
+            <div class="row2-height col col-right">2</div>
+            <div class="row2-height col col-right">1</div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+                <div id="1" class="col bdr col-left">First</div>
+                <div id="2" class="col bdr col-left">Second</div>
+                <div id="3" class="col bdr col-left">Third</div>
+                <div id="4" class="col bdr col-left">Fourth</div>
+                <div id="5" class="col bdr col-left">Fifth</div>
+                <div id="6" class="col bdr col-left">Sixth</div>
+                <div id="7" class="col bdr col-left">Seventh</div>
+                <div id="8" class="col bdr col-left">Eighth</div>
+                <div id="9" class="col bdr col-left">Ninth</div>
+                <div class="blank-div">c</div>
+                <div id="10" class="col bdr col-right">One</div>
+                <div id="11" class="col bdr col-right">Two</div>
+                <div id="12" class="col bdr col-right">Three</div>
+                <div id="13" class="col bdr col-right">Four</div>
+                <div id="14" class="col bdr col-right">Five</div>
+                <div id="15" class="col bdr col-right">Six</div>
+                <div id="16" class="col bdr col-right">Seven</div>
+                <div id="17" class="col bdr col-right">Eight</div>
+                <div id="18" class="col bdr col-right">Nine</div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+                <div class="row2-height col col-left">18</div>
+                <div class="row2-height col col-left">17</div>
+                <div class="row2-height col col-left">16</div>
+                <div class="row2-height col col-left">15</div>
+                <div class="row2-height col col-left">14</div>
+                <div class="row2-height col col-left">13</div>
+                <div class="row2-height col col-left">12</div>
+                <div class="row2-height col col-left">11</div>
+                <div class="row2-height col col-left">10</div>
+                <div class="blank-div">c</div>
+                <div class="row2-height col col-right">9</div>
+                <div class="row2-height col col-right">8</div>
+                <div class="row2-height col col-right">7</div>
+                <div class="row2-height col col-right">6</div>
+                <div class="row2-height col col-right">5</div>
+                <div class="row2-height col col-right">4</div>
+                <div class="row2-height col col-right">3</div>
+                <div class="row2-height col col-right">2</div>
+                <div class="row2-height col col-right">1</div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+                    <div id="1" class="col bdr col-left">First</div>
+                    <div id="2" class="col bdr col-left">Second</div>
+                    <div id="3" class="col bdr col-left">Third</div>
+                    <div id="4" class="col bdr col-left">Fourth</div>
+                    <div id="5" class="col bdr col-left">Fifth</div>
+                    <div id="6" class="col bdr col-left">Sixth</div>
+                    <div id="7" class="col bdr col-left">Seventh</div>
+                    <div id="8" class="col bdr col-left">Eighth</div>
+                    <div id="9" class="col bdr col-left">Ninth</div>
+                    <div class="blank-div">c</div>
+                    <div id="10" class="col bdr col-right">One</div>
+                    <div id="11" class="col bdr col-right">Two</div>
+                    <div id="12" class="col bdr col-right">Three</div>
+                    <div id="13" class="col bdr col-right">Four</div>
+                    <div id="14" class="col bdr col-right">Five</div>
+                    <div id="15" class="col bdr col-right">Six</div>
+                    <div id="16" class="col bdr col-right">Seven</div>
+                    <div id="17" class="col bdr col-right">Eight</div>
+                    <div id="18" class="col bdr col-right">Nine</div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="row2-height col col-left">18</div>
+                    <div class="row2-height col col-left">17</div>
+                    <div class="row2-height col col-left">16</div>
+                    <div class="row2-height col col-left">15</div>
+                    <div class="row2-height col col-left">14</div>
+                    <div class="row2-height col col-left">13</div>
+                    <div class="row2-height col col-left">12</div>
+                    <div class="row2-height col col-left">11</div>
+                    <div class="row2-height col col-left">10</div>
+                    <div class="blank-div">c</div>
+                    <div class="row2-height col col-right">9</div>
+                    <div class="row2-height col col-right">8</div>
+                    <div class="row2-height col col-right">7</div>
+                    <div class="row2-height col col-right">6</div>
+                    <div class="row2-height col col-right">5</div>
+                    <div class="row2-height col col-right">4</div>
+                    <div class="row2-height col col-right">3</div>
+                    <div class="row2-height col col-right">2</div>
+                    <div class="row2-height col col-right">1</div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="chariman">chariman</div>
+                </div>
+                        
+</body>
+
+</html>

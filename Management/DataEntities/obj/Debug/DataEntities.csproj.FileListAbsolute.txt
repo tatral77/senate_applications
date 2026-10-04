@@ -1,0 +1,12 @@
+\\172.16.15.9\Applications\Management\DataEntities\bin\Debug\DataEntities.dll
+\\172.16.15.9\Applications\Management\DataEntities\bin\Debug\DataEntities.pdb
+\\172.16.15.9\Applications\Management\DataEntities\obj\Debug\DataEntities.dll
+\\172.16.15.9\Applications\Management\DataEntities\obj\Debug\DataEntities.pdb
+E:\Applications\Management\DataEntities\bin\Debug\DataEntities.dll
+E:\Applications\Management\DataEntities\bin\Debug\DataEntities.pdb
+E:\Applications\Management\DataEntities\obj\Debug\DataEntities.csproj.AssemblyReference.cache
+E:\Applications\Management\DataEntities\obj\Debug\DataEntities.csproj.CoreCompileInputs.cache
+E:\Applications\Management\DataEntities\obj\Debug\DataEntities.dll
+E:\Applications\Management\DataEntities\obj\Debug\DataEntities.pdb
+\\172.16.15.9\Applications\Management\DataEntities\obj\Debug\DataEntities.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Management\DataEntities\obj\Debug\DataEntities.csproj.CoreCompileInputs.cache

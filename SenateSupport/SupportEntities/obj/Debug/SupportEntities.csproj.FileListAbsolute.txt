@@ -1,0 +1,18 @@
+D:\Senate Projects\SenateSupport\SupportEntities\bin\Debug\SupportEntities.dll
+D:\Senate Projects\SenateSupport\SupportEntities\bin\Debug\SupportEntities.pdb
+D:\Senate Projects\SenateSupport\SupportEntities\obj\Debug\SupportEntities.csprojAssemblyReference.cache
+D:\Senate Projects\SenateSupport\SupportEntities\obj\Debug\SupportEntities.csproj.CoreCompileInputs.cache
+D:\Senate Projects\SenateSupport\SupportEntities\obj\Debug\SupportEntities.dll
+D:\Senate Projects\SenateSupport\SupportEntities\obj\Debug\SupportEntities.pdb
+E:\Applications\SenateSupport\SupportEntities\bin\Debug\SupportEntities.dll
+E:\Applications\SenateSupport\SupportEntities\bin\Debug\SupportEntities.pdb
+E:\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.csproj.AssemblyReference.cache
+E:\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.csproj.CoreCompileInputs.cache
+E:\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.dll
+E:\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportEntities\bin\Debug\SupportEntities.dll
+\\172.16.15.9\Applications\SenateSupport\SupportEntities\bin\Debug\SupportEntities.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.dll
+\\172.16.15.9\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportEntities\obj\Debug\SupportEntities.csproj.AssemblyReference.cache

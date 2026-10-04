@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="STUSER3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="IPR_FRIENDSHIP_GROUP">
+          <Key>
+            <PropertyRef Name="FRIENDSHIP_GROUP_ID" />
+          </Key>
+          <Property Name="FRIENDSHIP_GROUP_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="FRIENDSHIP_GROUP" Type="nchar" MaxLength="10" />
+          <Property Name="COUNTRY_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="CONVINER_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="TERM_ID" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="MEMBERS">
+          <Key>
+            <PropertyRef Name="SYSTEM_USERS_ID" />
+          </Key>
+          <Property Name="SYSTEM_USERS_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="ELECTION_PROVINCE" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="POLITICAL_PARTY" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="PORTFOLIO" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="MEMBER_STATUS" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="CONSTITUENCIES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="POL_AFFILIATION" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="IS_ACTIVE" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="ASSEMBLIES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="SUITE_NO" Type="varchar" MaxLength="20" />
+          <Property Name="ACCOUNT_ID" Type="varchar" MaxLength="20" />
+          <Property Name="HOUSE_AFFILIATIONS_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="MEM_ELECT_TYPES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ELECTION_TYPES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="PARTY_DESIGNATIONS_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="TENURE_FROM" Type="datetime2" Precision="0" />
+          <Property Name="TENURE_TO" Type="datetime2" Precision="0" />
+          <Property Name="PREDECESSOR" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="OTHER_PARTY_DESIGNATION" Type="varchar" MaxLength="50" />
+          <Property Name="SEAT_TYPES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="DESCRIPTION" Type="varchar(max)" />
+          <Property Name="ACHIEVEMENTS" Type="varchar(max)" />
+          <Property Name="SPL_TRAVEL_INSTRUCTIONS" Type="varchar" MaxLength="200" />
+          <Property Name="MEM_TENURES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="SAL_CATEGORY_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PARLIAMENTARY_TENURES">
+          <Key>
+            <PropertyRef Name="PARLIAMENTARY_TENURES_ID" />
+          </Key>
+          <Property Name="PARLIAMENTARY_TENURES_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="FROM_DATE" Type="datetime2" Precision="0" />
+          <Property Name="TO_DATE" Type="datetime2" Precision="0" />
+          <Property Name="IS_ACTIVE" Type="numeric" Precision="1" Scale="0" />
+          <Property Name="IS_CURRENT" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="PARLIAMENTARY_TERMS">
+          <Key>
+            <PropertyRef Name="PARLIAMENTARY_TERMS_ID" />
+          </Key>
+          <Property Name="PARLIAMENTARY_TERMS_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="50" />
+          <Property Name="FROM_DATE" Type="date" />
+          <Property Name="TO_DATE" Type="date" />
+          <Property Name="IS_ACTIVE" Type="int" />
+          <Property Name="IS_CURRENT" Type="int" />
+          <Property Name="PARLIAMENTARY_TENURE_ID" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="SYSTEM_USERS">
+          <Key>
+            <PropertyRef Name="SYSTEM_USERS_ID" />
+          </Key>
+          <Property Name="SYSTEM_USERS_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="LOGIN_ID" Type="varchar" MaxLength="10" />
+          <Property Name="PASSWORD" Type="varchar" MaxLength="10" />
+          <Property Name="ROLES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="F_NAME" Type="varchar" MaxLength="100" />
+          <Property Name="M_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="L_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="FATHER_HUSBAND_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="PICTURE" Type="varbinary(max)" />
+          <Property Name="DOB" Type="datetime2" Precision="0" />
+          <Property Name="PLACE_OF_BIRTH" Type="varchar" MaxLength="50" />
+          <Property Name="CITY_OF_BIRTH" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="DOMICILE_DISTRICT" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="RELIGIONS_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="NIC_NUMBER" Type="varchar" MaxLength="17" />
+          <Property Name="NIC_DATE" Type="datetime2" Precision="0" />
+          <Property Name="NIC_EXP_DATE" Type="datetime" />
+          <Property Name="NIC_PLACE" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="NTN" Type="varchar" MaxLength="24" />
+          <Property Name="MARITAL_STATUS" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="GENDER" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="PERM_ADDRESS" Type="varchar" MaxLength="250" />
+          <Property Name="PERM_CITY" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="PERM_PROVINCE" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="WEB_SITE" Type="varchar" MaxLength="100" />
+          <Property Name="LOCAL_ADDRESS" Type="varchar" MaxLength="200" />
+          <Property Name="LOCAL_CITY" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="LOCAL_PROVINCE" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="CORRESPONDENCE_ADDR_FLAG" Type="numeric" Precision="1" Scale="0" />
+          <Property Name="IS_EMPLOYEE" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="IS_ACTIVE" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="ASSEMBLIES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="TITLE" Type="varchar" MaxLength="10" />
+          <Property Name="URDU_NAME" Type="nvarchar" MaxLength="1000" />
+          <Property Name="URDU_MAPPING" Type="varchar" MaxLength="500" />
+          <Property Name="OLD_NIC_NO" Type="varchar" MaxLength="13" />
+          <Property Name="LAST_UPDATED_ON" Type="datetime2" Precision="0" />
+          <Property Name="SEAT_TYPES_ID" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="MOTHER_MDN_NAME" Type="varchar" MaxLength="60" />
+          <Property Name="PICTUREID" Type="varchar" MaxLength="50" />
+          <Property Name="EMAIL" Type="varchar" MaxLength="200" />
+          <Property Name="ImageUrl" Type="varchar" MaxLength="50" />
+          <Property Name="ENTEREDBY" Type="nvarchar" MaxLength="50" />
+          <Property Name="ENTEREDON" Type="datetime" />
+          <Property Name="RECHECKEDBY" Type="nvarchar" MaxLength="500" />
+          <Property Name="VENDOR_NUMBER" Type="nvarchar" MaxLength="50" />
+          <Property Name="SALARY_ACTIVE" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_IPR_FRIENDSHIP_GROUP_MEMBERS">
+          <End Role="MEMBERS" Type="Self.MEMBERS" Multiplicity="0..1" />
+          <End Role="IPR_FRIENDSHIP_GROUP" Type="Self.IPR_FRIENDSHIP_GROUP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MEMBERS">
+              <PropertyRef Name="SYSTEM_USERS_ID" />
+            </Principal>
+            <Dependent Role="IPR_FRIENDSHIP_GROUP">
+              <PropertyRef Name="CONVINER_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS">
+          <End Role="PARLIAMENTARY_TERMS" Type="Self.PARLIAMENTARY_TERMS" Multiplicity="0..1" />
+          <End Role="IPR_FRIENDSHIP_GROUP" Type="Self.IPR_FRIENDSHIP_GROUP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PARLIAMENTARY_TERMS">
+              <PropertyRef Name="PARLIAMENTARY_TERMS_ID" />
+            </Principal>
+            <Dependent Role="IPR_FRIENDSHIP_GROUP">
+              <PropertyRef Name="TERM_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MEMBERS_SYSTEM_USERS">
+          <End Role="SYSTEM_USERS" Type="Self.SYSTEM_USERS" Multiplicity="1" />
+          <End Role="MEMBERS" Type="Self.MEMBERS" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="SYSTEM_USERS">
+              <PropertyRef Name="SYSTEM_USERS_ID" />
+            </Principal>
+            <Dependent Role="MEMBERS">
+              <PropertyRef Name="SYSTEM_USERS_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES">
+          <End Role="PARLIAMENTARY_TENURES" Type="Self.PARLIAMENTARY_TENURES" Multiplicity="0..1" />
+          <End Role="PARLIAMENTARY_TERMS" Type="Self.PARLIAMENTARY_TERMS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PARLIAMENTARY_TENURES">
+              <PropertyRef Name="PARLIAMENTARY_TENURES_ID" />
+            </Principal>
+            <Dependent Role="PARLIAMENTARY_TERMS">
+              <PropertyRef Name="PARLIAMENTARY_TENURE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="STUSER3ModelStoreContainer">
+          <EntitySet Name="IPR_FRIENDSHIP_GROUP" EntityType="Self.IPR_FRIENDSHIP_GROUP" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MEMBERS" EntityType="Self.MEMBERS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PARLIAMENTARY_TENURES" EntityType="Self.PARLIAMENTARY_TENURES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PARLIAMENTARY_TERMS" EntityType="Self.PARLIAMENTARY_TERMS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SYSTEM_USERS" EntityType="Self.SYSTEM_USERS" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_IPR_FRIENDSHIP_GROUP_MEMBERS" Association="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS">
+            <End Role="MEMBERS" EntitySet="MEMBERS" />
+            <End Role="IPR_FRIENDSHIP_GROUP" EntitySet="IPR_FRIENDSHIP_GROUP" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" Association="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS">
+            <End Role="PARLIAMENTARY_TERMS" EntitySet="PARLIAMENTARY_TERMS" />
+            <End Role="IPR_FRIENDSHIP_GROUP" EntitySet="IPR_FRIENDSHIP_GROUP" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MEMBERS_SYSTEM_USERS" Association="Self.FK_MEMBERS_SYSTEM_USERS">
+            <End Role="SYSTEM_USERS" EntitySet="SYSTEM_USERS" />
+            <End Role="MEMBERS" EntitySet="MEMBERS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" Association="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES">
+            <End Role="PARLIAMENTARY_TENURES" EntitySet="PARLIAMENTARY_TENURES" />
+            <End Role="PARLIAMENTARY_TERMS" EntitySet="PARLIAMENTARY_TERMS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="STUSER3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="IPR_FRIENDSHIP_GROUP">
+          <Key>
+            <PropertyRef Name="FRIENDSHIP_GROUP_ID" />
+          </Key>
+          <Property Name="FRIENDSHIP_GROUP_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="FRIENDSHIP_GROUP" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="COUNTRY_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CONVINER_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TERM_ID" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="MEMBER" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS" FromRole="IPR_FRIENDSHIP_GROUP" ToRole="MEMBERS" />
+          <NavigationProperty Name="PARLIAMENTARY_TERMS" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" FromRole="IPR_FRIENDSHIP_GROUP" ToRole="PARLIAMENTARY_TERMS" />
+        </EntityType>
+        <EntityType Name="MEMBER">
+          <Key>
+            <PropertyRef Name="SYSTEM_USERS_ID" />
+          </Key>
+          <Property Name="SYSTEM_USERS_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="ELECTION_PROVINCE" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="POLITICAL_PARTY" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PORTFOLIO" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="MEMBER_STATUS" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CONSTITUENCIES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="POL_AFFILIATION" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="IS_ACTIVE" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="ASSEMBLIES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="SUITE_NO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="ACCOUNT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="HOUSE_AFFILIATIONS_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="MEM_ELECT_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ELECTION_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PARTY_DESIGNATIONS_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TENURE_FROM" Type="DateTime" Precision="0" />
+          <Property Name="TENURE_TO" Type="DateTime" Precision="0" />
+          <Property Name="PREDECESSOR" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="OTHER_PARTY_DESIGNATION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="SEAT_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ACHIEVEMENTS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="SPL_TRAVEL_INSTRUCTIONS" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="MEM_TENURES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="SAL_CATEGORY_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <NavigationProperty Name="IPR_FRIENDSHIP_GROUP" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS" FromRole="MEMBERS" ToRole="IPR_FRIENDSHIP_GROUP" />
+          <NavigationProperty Name="SYSTEM_USERS" Relationship="Self.FK_MEMBERS_SYSTEM_USERS" FromRole="MEMBERS" ToRole="SYSTEM_USERS" />
+        </EntityType>
+        <EntityType Name="PARLIAMENTARY_TENURES">
+          <Key>
+            <PropertyRef Name="PARLIAMENTARY_TENURES_ID" />
+          </Key>
+          <Property Name="PARLIAMENTARY_TENURES_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FROM_DATE" Type="DateTime" Precision="0" />
+          <Property Name="TO_DATE" Type="DateTime" Precision="0" />
+          <Property Name="IS_ACTIVE" Type="Decimal" Precision="1" Scale="0" />
+          <Property Name="IS_CURRENT" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="PARLIAMENTARY_TERMS" Relationship="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" FromRole="PARLIAMENTARY_TENURES" ToRole="PARLIAMENTARY_TERMS" />
+        </EntityType>
+        <EntityType Name="PARLIAMENTARY_TERMS">
+          <Key>
+            <PropertyRef Name="PARLIAMENTARY_TERMS_ID" />
+          </Key>
+          <Property Name="PARLIAMENTARY_TERMS_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="FROM_DATE" Type="DateTime" Precision="0" />
+          <Property Name="TO_DATE" Type="DateTime" Precision="0" />
+          <Property Name="IS_ACTIVE" Type="Int32" />
+          <Property Name="IS_CURRENT" Type="Int32" />
+          <Property Name="PARLIAMENTARY_TENURE_ID" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="IPR_FRIENDSHIP_GROUP" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" FromRole="PARLIAMENTARY_TERMS" ToRole="IPR_FRIENDSHIP_GROUP" />
+          <NavigationProperty Name="PARLIAMENTARY_TENURES" Relationship="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" FromRole="PARLIAMENTARY_TERMS" ToRole="PARLIAMENTARY_TENURES" />
+        </EntityType>
+        <EntityType Name="SYSTEM_USERS">
+          <Key>
+            <PropertyRef Name="SYSTEM_USERS_ID" />
+          </Key>
+          <Property Name="SYSTEM_USERS_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="LOGIN_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="PASSWORD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ROLES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="F_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="M_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="L_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FATHER_HUSBAND_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PICTURE" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="DOB" Type="DateTime" Precision="0" />
+          <Property Name="PLACE_OF_BIRTH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CITY_OF_BIRTH" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="DOMICILE_DISTRICT" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="RELIGIONS_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="NIC_NUMBER" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+          <Property Name="NIC_DATE" Type="DateTime" Precision="0" />
+          <Property Name="NIC_EXP_DATE" Type="DateTime" Precision="3" />
+          <Property Name="NIC_PLACE" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="NTN" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+          <Property Name="MARITAL_STATUS" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="GENDER" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PERM_ADDRESS" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="PERM_CITY" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PERM_PROVINCE" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="WEB_SITE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LOCAL_ADDRESS" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="LOCAL_CITY" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="LOCAL_PROVINCE" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CORRESPONDENCE_ADDR_FLAG" Type="Decimal" Precision="1" Scale="0" />
+          <Property Name="IS_EMPLOYEE" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="IS_ACTIVE" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+          <Property Name="ASSEMBLIES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TITLE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="URDU_NAME" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="URDU_MAPPING" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="OLD_NIC_NO" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+          <Property Name="LAST_UPDATED_ON" Type="DateTime" Precision="0" />
+          <Property Name="SEAT_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="MOTHER_MDN_NAME" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="PICTUREID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="ImageUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ENTEREDBY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ENTEREDON" Type="DateTime" Precision="3" />
+          <Property Name="RECHECKEDBY" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="VENDOR_NUMBER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SALARY_ACTIVE" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MEMBER" Relationship="Self.FK_MEMBERS_SYSTEM_USERS" FromRole="SYSTEM_USERS" ToRole="MEMBERS" />
+        </EntityType>
+        <Association Name="FK_IPR_FRIENDSHIP_GROUP_MEMBERS">
+          <End Role="MEMBERS" Type="Self.MEMBER" Multiplicity="0..1" />
+          <End Role="IPR_FRIENDSHIP_GROUP" Type="Self.IPR_FRIENDSHIP_GROUP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MEMBERS">
+              <PropertyRef Name="SYSTEM_USERS_ID" />
+            </Principal>
+            <Dependent Role="IPR_FRIENDSHIP_GROUP">
+              <PropertyRef Name="CONVINER_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS">
+          <End Role="PARLIAMENTARY_TERMS" Type="Self.PARLIAMENTARY_TERMS" Multiplicity="0..1" />
+          <End Role="IPR_FRIENDSHIP_GROUP" Type="Self.IPR_FRIENDSHIP_GROUP" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PARLIAMENTARY_TERMS">
+              <PropertyRef Name="PARLIAMENTARY_TERMS_ID" />
+            </Principal>
+            <Dependent Role="IPR_FRIENDSHIP_GROUP">
+              <PropertyRef Name="TERM_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MEMBERS_SYSTEM_USERS">
+          <End Role="SYSTEM_USERS" Type="Self.SYSTEM_USERS" Multiplicity="1" />
+          <End Role="MEMBERS" Type="Self.MEMBER" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="SYSTEM_USERS">
+              <PropertyRef Name="SYSTEM_USERS_ID" />
+            </Principal>
+            <Dependent Role="MEMBERS">
+              <PropertyRef Name="SYSTEM_USERS_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES">
+          <End Role="PARLIAMENTARY_TENURES" Type="Self.PARLIAMENTARY_TENURES" Multiplicity="0..1" />
+          <End Role="PARLIAMENTARY_TERMS" Type="Self.PARLIAMENTARY_TERMS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PARLIAMENTARY_TENURES">
+              <PropertyRef Name="PARLIAMENTARY_TENURES_ID" />
+            </Principal>
+            <Dependent Role="PARLIAMENTARY_TERMS">
+              <PropertyRef Name="PARLIAMENTARY_TENURE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="STUSER3Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="IPR_FRIENDSHIP_GROUP" EntityType="Self.IPR_FRIENDSHIP_GROUP" />
+          <EntitySet Name="MEMBERS" EntityType="Self.MEMBER" />
+          <EntitySet Name="PARLIAMENTARY_TENURES" EntityType="Self.PARLIAMENTARY_TENURES" />
+          <EntitySet Name="PARLIAMENTARY_TERMS" EntityType="Self.PARLIAMENTARY_TERMS" />
+          <EntitySet Name="SYSTEM_USERS" EntityType="Self.SYSTEM_USERS" />
+          <AssociationSet Name="FK_IPR_FRIENDSHIP_GROUP_MEMBERS" Association="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS">
+            <End Role="MEMBERS" EntitySet="MEMBERS" />
+            <End Role="IPR_FRIENDSHIP_GROUP" EntitySet="IPR_FRIENDSHIP_GROUP" />
+          </AssociationSet>
+          <AssociationSet Name="FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" Association="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS">
+            <End Role="PARLIAMENTARY_TERMS" EntitySet="PARLIAMENTARY_TERMS" />
+            <End Role="IPR_FRIENDSHIP_GROUP" EntitySet="IPR_FRIENDSHIP_GROUP" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MEMBERS_SYSTEM_USERS" Association="Self.FK_MEMBERS_SYSTEM_USERS">
+            <End Role="SYSTEM_USERS" EntitySet="SYSTEM_USERS" />
+            <End Role="MEMBERS" EntitySet="MEMBERS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" Association="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES">
+            <End Role="PARLIAMENTARY_TENURES" EntitySet="PARLIAMENTARY_TENURES" />
+            <End Role="PARLIAMENTARY_TERMS" EntitySet="PARLIAMENTARY_TERMS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="STUSER3ModelStoreContainer" CdmEntityContainer="STUSER3Entities">
+          <EntitySetMapping Name="IPR_FRIENDSHIP_GROUP">
+            <EntityTypeMapping TypeName="STUSER3Model.IPR_FRIENDSHIP_GROUP">
+              <MappingFragment StoreEntitySet="IPR_FRIENDSHIP_GROUP">
+                <ScalarProperty Name="FRIENDSHIP_GROUP_ID" ColumnName="FRIENDSHIP_GROUP_ID" />
+                <ScalarProperty Name="FRIENDSHIP_GROUP" ColumnName="FRIENDSHIP_GROUP" />
+                <ScalarProperty Name="COUNTRY_ID" ColumnName="COUNTRY_ID" />
+                <ScalarProperty Name="CONVINER_ID" ColumnName="CONVINER_ID" />
+                <ScalarProperty Name="TERM_ID" ColumnName="TERM_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MEMBERS">
+            <EntityTypeMapping TypeName="STUSER3Model.MEMBER">
+              <MappingFragment StoreEntitySet="MEMBERS">
+                <ScalarProperty Name="SYSTEM_USERS_ID" ColumnName="SYSTEM_USERS_ID" />
+                <ScalarProperty Name="ELECTION_PROVINCE" ColumnName="ELECTION_PROVINCE" />
+                <ScalarProperty Name="POLITICAL_PARTY" ColumnName="POLITICAL_PARTY" />
+                <ScalarProperty Name="PORTFOLIO" ColumnName="PORTFOLIO" />
+                <ScalarProperty Name="MEMBER_STATUS" ColumnName="MEMBER_STATUS" />
+                <ScalarProperty Name="CONSTITUENCIES_ID" ColumnName="CONSTITUENCIES_ID" />
+                <ScalarProperty Name="POL_AFFILIATION" ColumnName="POL_AFFILIATION" />
+                <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+                <ScalarProperty Name="ASSEMBLIES_ID" ColumnName="ASSEMBLIES_ID" />
+                <ScalarProperty Name="SUITE_NO" ColumnName="SUITE_NO" />
+                <ScalarProperty Name="ACCOUNT_ID" ColumnName="ACCOUNT_ID" />
+                <ScalarProperty Name="HOUSE_AFFILIATIONS_ID" ColumnName="HOUSE_AFFILIATIONS_ID" />
+                <ScalarProperty Name="MEM_ELECT_TYPES_ID" ColumnName="MEM_ELECT_TYPES_ID" />
+                <ScalarProperty Name="ELECTION_TYPES_ID" ColumnName="ELECTION_TYPES_ID" />
+                <ScalarProperty Name="PARTY_DESIGNATIONS_ID" ColumnName="PARTY_DESIGNATIONS_ID" />
+                <ScalarProperty Name="TENURE_FROM" ColumnName="TENURE_FROM" />
+                <ScalarProperty Name="TENURE_TO" ColumnName="TENURE_TO" />
+                <ScalarProperty Name="PREDECESSOR" ColumnName="PREDECESSOR" />
+                <ScalarProperty Name="OTHER_PARTY_DESIGNATION" ColumnName="OTHER_PARTY_DESIGNATION" />
+                <ScalarProperty Name="SEAT_TYPES_ID" ColumnName="SEAT_TYPES_ID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="ACHIEVEMENTS" ColumnName="ACHIEVEMENTS" />
+                <ScalarProperty Name="SPL_TRAVEL_INSTRUCTIONS" ColumnName="SPL_TRAVEL_INSTRUCTIONS" />
+                <ScalarProperty Name="MEM_TENURES_ID" ColumnName="MEM_TENURES_ID" />
+                <ScalarProperty Name="SAL_CATEGORY_ID" ColumnName="SAL_CATEGORY_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PARLIAMENTARY_TENURES">
+            <EntityTypeMapping TypeName="STUSER3Model.PARLIAMENTARY_TENURES">
+              <MappingFragment StoreEntitySet="PARLIAMENTARY_TENURES">
+                <ScalarProperty Name="PARLIAMENTARY_TENURES_ID" ColumnName="PARLIAMENTARY_TENURES_ID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="FROM_DATE" ColumnName="FROM_DATE" />
+                <ScalarProperty Name="TO_DATE" ColumnName="TO_DATE" />
+                <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+                <ScalarProperty Name="IS_CURRENT" ColumnName="IS_CURRENT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PARLIAMENTARY_TERMS">
+            <EntityTypeMapping TypeName="STUSER3Model.PARLIAMENTARY_TERMS">
+              <MappingFragment StoreEntitySet="PARLIAMENTARY_TERMS">
+                <ScalarProperty Name="PARLIAMENTARY_TERMS_ID" ColumnName="PARLIAMENTARY_TERMS_ID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="FROM_DATE" ColumnName="FROM_DATE" />
+                <ScalarProperty Name="TO_DATE" ColumnName="TO_DATE" />
+                <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+                <ScalarProperty Name="IS_CURRENT" ColumnName="IS_CURRENT" />
+                <ScalarProperty Name="PARLIAMENTARY_TENURE_ID" ColumnName="PARLIAMENTARY_TENURE_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SYSTEM_USERS">
+            <EntityTypeMapping TypeName="STUSER3Model.SYSTEM_USERS">
+              <MappingFragment StoreEntitySet="SYSTEM_USERS">
+                <ScalarProperty Name="SYSTEM_USERS_ID" ColumnName="SYSTEM_USERS_ID" />
+                <ScalarProperty Name="LOGIN_ID" ColumnName="LOGIN_ID" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+                <ScalarProperty Name="ROLES_ID" ColumnName="ROLES_ID" />
+                <ScalarProperty Name="F_NAME" ColumnName="F_NAME" />
+                <ScalarProperty Name="M_NAME" ColumnName="M_NAME" />
+                <ScalarProperty Name="L_NAME" ColumnName="L_NAME" />
+                <ScalarProperty Name="FATHER_HUSBAND_NAME" ColumnName="FATHER_HUSBAND_NAME" />
+                <ScalarProperty Name="PICTURE" ColumnName="PICTURE" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="PLACE_OF_BIRTH" ColumnName="PLACE_OF_BIRTH" />
+                <ScalarProperty Name="CITY_OF_BIRTH" ColumnName="CITY_OF_BIRTH" />
+                <ScalarProperty Name="DOMICILE_DISTRICT" ColumnName="DOMICILE_DISTRICT" />
+                <ScalarProperty Name="RELIGIONS_ID" ColumnName="RELIGIONS_ID" />
+                <ScalarProperty Name="NIC_NUMBER" ColumnName="NIC_NUMBER" />
+                <ScalarProperty Name="NIC_DATE" ColumnName="NIC_DATE" />
+                <ScalarProperty Name="NIC_EXP_DATE" ColumnName="NIC_EXP_DATE" />
+                <ScalarProperty Name="NIC_PLACE" ColumnName="NIC_PLACE" />
+                <ScalarProperty Name="NTN" ColumnName="NTN" />
+                <ScalarProperty Name="MARITAL_STATUS" ColumnName="MARITAL_STATUS" />
+                <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+                <ScalarProperty Name="PERM_ADDRESS" ColumnName="PERM_ADDRESS" />
+                <ScalarProperty Name="PERM_CITY" ColumnName="PERM_CITY" />
+                <ScalarProperty Name="PERM_PROVINCE" ColumnName="PERM_PROVINCE" />
+                <ScalarProperty Name="WEB_SITE" ColumnName="WEB_SITE" />
+                <ScalarProperty Name="LOCAL_ADDRESS" ColumnName="LOCAL_ADDRESS" />
+                <ScalarProperty Name="LOCAL_CITY" ColumnName="LOCAL_CITY" />
+                <ScalarProperty Name="LOCAL_PROVINCE" ColumnName="LOCAL_PROVINCE" />
+                <ScalarProperty Name="CORRESPONDENCE_ADDR_FLAG" ColumnName="CORRESPONDENCE_ADDR_FLAG" />
+                <ScalarProperty Name="IS_EMPLOYEE" ColumnName="IS_EMPLOYEE" />
+                <ScalarProperty Name="IS_ACTIVE" ColumnName="IS_ACTIVE" />
+                <ScalarProperty Name="ASSEMBLIES_ID" ColumnName="ASSEMBLIES_ID" />
+                <ScalarProperty Name="TITLE" ColumnName="TITLE" />
+                <ScalarProperty Name="URDU_NAME" ColumnName="URDU_NAME" />
+                <ScalarProperty Name="URDU_MAPPING" ColumnName="URDU_MAPPING" />
+                <ScalarProperty Name="OLD_NIC_NO" ColumnName="OLD_NIC_NO" />
+                <ScalarProperty Name="LAST_UPDATED_ON" ColumnName="LAST_UPDATED_ON" />
+                <ScalarProperty Name="SEAT_TYPES_ID" ColumnName="SEAT_TYPES_ID" />
+                <ScalarProperty Name="MOTHER_MDN_NAME" ColumnName="MOTHER_MDN_NAME" />
+                <ScalarProperty Name="PICTUREID" ColumnName="PICTUREID" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+                <ScalarProperty Name="ENTEREDBY" ColumnName="ENTEREDBY" />
+                <ScalarProperty Name="ENTEREDON" ColumnName="ENTEREDON" />
+                <ScalarProperty Name="RECHECKEDBY" ColumnName="RECHECKEDBY" />
+                <ScalarProperty Name="VENDOR_NUMBER" ColumnName="VENDOR_NUMBER" />
+                <ScalarProperty Name="SALARY_ACTIVE" ColumnName="SALARY_ACTIVE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

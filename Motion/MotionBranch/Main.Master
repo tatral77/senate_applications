@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MotionBranch.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles/MainStyles.css" rel="stylesheet" />
+    <script src="CustomScripts/jquery.min.js"></script>
+    <script src="./Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="CustomScripts/jquery-ui.min.js"></script>
+    <link href="CustomScripts/jquery-ui.css.css" rel="stylesheet" />
+
+    <%-- <link href="Styles/new.css" rel="stylesheet" />--%>
+    <style type="text/css">
+        #header {
+            background-color: #333; /* Black background color */
+            position: fixed; /* Make it stick/fixed */
+            top: 0; /* Stay on top */
+            width: 100%; /* Full width */
+            transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        }
+        li a {
+            color: #fff;
+        }
+        .btn-outline-dark:hover {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn-outline-dark {
+    color: #000;
+    border-color: #212529;
+    border-width:2px;
+}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form role="form" data-toggle="validator" runat="server" id="form2">
+
+        <div class="container-flued">
+
+            <div class="row">
+                <div class="col-md-12 navbar-fixed-top" style="background-color: #fff; height: 100px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <asp:Image ID="logoImage" runat="server" ImageUrl="~/images/banner.png" AlternateText="Senate Logo" Width="100%" Style="margin-top: 0px;" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar" style="background-color:#171717; margin-top:0px;">
+
+                                <div class="container-fluid" style="background-color:#171717">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#" style="color: #fff; font-family: Arial; font-size: 25px;">MMS</a>
+                                    </div>
+                                  
+                                   
+                                    <ul class="nav navbar-nav">
+                                        <%-- <li><a href="../SearchMotion.aspx">Search Motion</a></li>--%>
+                                      <%--  <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="../SearchMotion.aspx">Motion<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                                <li><a href="../NewMotion.aspx">New Motion</a></li>
+                                                 <li><a href="../SearchMotion.aspx">Search Motion</a></li>
+                                            </ul>
+                                        </li>--%>
+                                          <li><a href="../NewMotion.aspx">New Motion</a></li>
+                                    </ul>
+                                     <ul class="nav navbar-nav">
+                                         <li><a href="../SearchMotion.aspx">Search Motion</a></li>
+                                       <%-- <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="../SearchMotion.aspx">Motion<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                                <li><a href="../NewMotion.aspx">New Motion</a></li>
+                                                 <li><a href="../SearchMotion.aspx">Search Motion</a></li>
+                                            </ul>
+                                        </li>--%>
+                                    </ul>
+                                     <%-- <ul class="nav navbar-nav">
+                                         <li><a href="../SearchResolution.aspx">Search Resolution</a></li>
+                                       <%-- <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="../SearchMotion.aspx">Motion<span class="caret"></span></a>
+                                          <ul class="dropdown-menu">
+                                                <li><a href="../NewMotion.aspx">New Motion</a></li>
+                                                 <li><a href="../SearchMotion.aspx">Search Motion</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+                                     <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Reports<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../MotionsSummary.aspx">Summary</a></li>
+                                                  <li><a href="../MotionsList.aspx">Motion Lists</a></li>
+                                                <li><a href="../Rpt_MotionsReport.aspx">Motions Report</a></li>
+                                                <li><a href="../Rpt_MemberWiseReport.aspx">Member Wise Report</a></li>
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                  <%--  <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Motion 218<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                               <li><a href="../NewMotion.aspx">New Motion</a></li>
+                                                 <li><a href="../SentMotions.aspx">Sent Motions</a></li>
+                                                <li><a href="../SearchMotion.aspx">Search Motion</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+
+
+
+
+                                 <%--   <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Resolution<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                 <li><a href="../NewResolution.aspx">New Resolution</a></li>
+                                                 <li><a href="../SearchResolution.aspx">Search Resolution</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+                                 <%--   <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Manage
+        <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                   <li><a href="../ManageGroups.aspx">Groups</a></li>
+                    <li><a href="../SessionsRotaList.aspx">Rota</a></li>
+                    <li><a href="../ManageAssemblySessions.aspx">Sessions</a></li>
+                      <li><a href="../ManageListNumbers.aspx">Remove Questions from List</a></li>
+                     <li><a href="../SwapQuestion.aspx" target="_blank">Swap Question</a></li>
+                    <li><a href="../NewMember.aspx">Members</a></li>
+                    <li><a href="../ManageQuestionStatuses.aspx">Question Status</a></li>
+                    <li><a href="../ManageAssemblies.aspx">Assemblies</a></li>
+                    <li><a href="../ManageDivisions.aspx">Divisions</a></li>
+                    <li><a href="../ManageParliamentaryTenures.aspx">Parliamentary Tenures</a></li>
+                    <li><a href="../ManageParliamentaryYears.aspx">Parliamentary Years</a></li>
+                    <li><a href="../ManageQuestionCategories.aspx">Question Categories</a></li>
+                    <li><a href="../ManageSessionSittings.aspx">Session Sittings</a></li>
+                    <li><a href="../ManageSittingTypes.aspx">Sitting Types</a></li>
+                    <li><a href="#">Ministries</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+                                   <%--  <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Reports
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+             <li><a href="../QuestionsList.aspx">Question List</a></li>
+                    <li><a href="../GroupsDiary.aspx">Group Diary</a></li>    
+                    <li><a href="../QuestionsSummary.aspx">Questions Summary</a></li> 
+                    <li><a href="../UnderProcessDetails.aspx">Pending Under Process</a></li>     
+        </ul>
+      </li>
+    </ul>--%>
+                                    <ul class="nav navbar-nav navbar-right ">
+                                           <li><a href="../TranslationMotions.aspx">Translations<span runat="server" id="Span1" class="badge" style="background-color: red"><%=GetTranslations()%></span></a></li>
+                                           <li><a href="../SentMotions.aspx">Notice Motions<span runat="server" id="motionbadge" class="badge"  style="background-color:red"><%=GetMotions()%></span></a></li>
+                                           <li><a href="../Login.aspx"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="container-fluid" style="margin-top:250px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

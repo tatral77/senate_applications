@@ -1,0 +1,24 @@
+\\172.16.15.9\Applications\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.dll
+\\172.16.15.9\Applications\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.pdb
+\\172.16.15.9\Applications\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.dll
+\\172.16.15.9\Applications\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.dll
+C:\Users\masood.akhtar\Desktop\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.AssemblyReference.cache
+C:\Users\masood.akhtar\Desktop\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.CoreCompileInputs.cache
+C:\Users\masood.akhtar\Desktop\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.dll
+C:\Users\masood.akhtar\Desktop\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.AssemblyReference.cache
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.CoreCompileInputs.cache
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.pdb
+E:\Senate Code Improvement\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.dll
+E:\Senate Code Improvement\Legislation\CommitteesEntities\bin\Debug\CommitteesEntities.pdb
+E:\Senate Code Improvement\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.AssemblyReference.cache
+E:\Senate Code Improvement\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.dll
+E:\Senate Code Improvement\Legislation\CommitteesEntities\obj\Debug\CommitteesEntities.pdb

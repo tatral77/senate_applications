@@ -1,0 +1,82 @@
+﻿body {
+}
+.EmpName, .EmpDesig, .EmpBPS, .EmpActions
+{
+    padding: 5px;
+    background-color: #D5DCE8;
+    font-family: Arial;
+    font-size: small;
+}
+
+
+.EmpAddress
+{
+    background-color: #DFDFDF;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px;
+}
+.AltEmpName, .AltEmpDesig, .AltEmpBPS, .AltEmpActions, .AltEmpAddress
+{
+    background-color: #C6CFDF;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px;
+    
+}
+
+.SelEmpName, .SelEmpDesig, .SelEmpBPS, .SelEmpActions
+{
+    background-color: #6C82A4;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px;
+    color: #FFFFFF;
+}
+.itemCent
+{
+   background-color: #D5DCE8;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px;
+    text-align: center;
+    color: #fff000;
+}
+ .altCent
+{
+    background-color: #C6CFDF;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px;
+    text-align: center;
+}
+.itemLeft
+{
+    background-color: #D5DCE8;
+    font-family: Arial;
+    font-size: small;
+    padding: 5px;
+    text-align: left;
+}
+ .altLeft
+ {
+      background-color: #C6CFDF;
+     font-family: Arial;
+    font-size: small;
+    padding: 5px;
+    text-align: left;
+     }
+     a:visited
+{
+    color: #fff000;
+}
+a:link    {color: #fff000;}
+a:visited {color:#fff000;}
+a:hover
+{
+    color: White;
+    background-color: #657A9E;
+}
+     
+
+     

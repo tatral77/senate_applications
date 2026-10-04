@@ -1,0 +1,46 @@
+﻿@media print {
+    a[href]:after {
+        content: none !important;
+    }
+    a {
+        text-decoration: none !important;
+        color: #000 !important;
+    }
+    /* Set page orientation */
+    @page {
+        /*size: A4 landscape;*/
+        size: A4;
+        margin: 15mm;
+    }
+    .keep-together {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+    table {
+        width: 100% !important;
+        max-width: 100% !important;
+       /* table-layout: fixed; /* forces columns to fit */
+    }
+    /* Change table font size ONLY while printing */
+    .table-data td,
+    .table-data th {
+        font-size: 11pt !important;
+        padding:3px;
+       /* word-wrap: break-word;
+        overflow-wrap: break-word;*/
+    }
+
+    /* Optional: hide buttons / headers / footers */
+    .no-print {
+        display: none !important;
+    }
+
+    /* Ensure panel prints fully */
+    .print-panel {
+        overflow: visible !important;
+    }
+    .subject-matter {
+        width: 32% !important;
+        max-width: 32% !important;
+    }
+}

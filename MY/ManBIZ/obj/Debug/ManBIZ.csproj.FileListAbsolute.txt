@@ -1,0 +1,11 @@
+E:\Senate Code Improvement\MY\ManBIZ\bin\Debug\ManBIZ.dll
+E:\Senate Code Improvement\MY\ManBIZ\bin\Debug\ManBIZ.pdb
+E:\Senate Code Improvement\MY\ManBIZ\bin\Debug\ManDAL.dll
+E:\Senate Code Improvement\MY\ManBIZ\bin\Debug\ManEntities.dll
+E:\Senate Code Improvement\MY\ManBIZ\bin\Debug\ManDAL.pdb
+E:\Senate Code Improvement\MY\ManBIZ\bin\Debug\ManEntities.pdb
+E:\Senate Code Improvement\MY\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Senate Code Improvement\MY\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\MY\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+E:\Senate Code Improvement\MY\ManBIZ\obj\Debug\ManBIZ.dll
+E:\Senate Code Improvement\MY\ManBIZ\obj\Debug\ManBIZ.pdb

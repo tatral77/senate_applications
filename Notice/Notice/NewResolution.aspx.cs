@@ -1,0 +1,215 @@
+﻿using BIZ;
+using Entities;
+using Notice.Utilities;
+//using MODI;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Web.UI.WebControls;
+
+
+namespace Notice
+{
+    public partial class NewResolution : System.Web.UI.Page
+    {
+        int ResolutionId=new ResolutionBiz().GetPk("NOTICE_RESOLUTIONS", "RESOLUTIONS_ID");
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                BindCombos();
+                AssemblySessions ASession = new AdministrationBiz().GetCurrentAssemblySessionDetails();
+                NoticeDiaryNoTxt.Text = ResolutionId.ToString();
+                SessionTxt.Text = ASession.SessionNumber.ToString();
+                HidSessionNumber.Value = ASession.AssemblySessionsId.ToString();
+                NoticeDiaryDateTxt.Text = FormInput.FormatDate(DateTime.Now);
+                NoticeDiaryTimeTxt.Text = DateTime.Now.ToString("HH:mm");
+                ResolutionTxt.Value = "No English Text";
+                UrduTxt.Value = "No Urdu Text";
+
+            }
+        }
+        protected void BindCombos()
+        {
+            List<ResolutionTypesEnt> Resolutiontypes = new ResolutionBiz().GetResolutionTypes();
+            foreach (ResolutionTypesEnt row in Resolutiontypes)
+            {
+                ListItem li = new ListItem();
+                li.Text = row.Description.ToString();
+                li.Value = row.ResTypesId.ToString();
+                ResolutionTypeDDL.Items.Add(li);
+            }
+            //List<ResolutionWeek> Resolutionweeks = new MBResolutionBiz().GetResolutionWeeks();
+            //foreach (ResolutionWeek row in Resolutionweeks)
+            //{
+            //    ListItem li = new ListItem();
+            //    li.Text = row.WeekName.ToString();
+            //    li.Value = row.WeekId.ToString();
+            //    ResolutionWeekCB.Items.Add(li);
+            //}
+
+        }
+        protected void AddNewBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/NewResolution.aspx");
+        }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            ResolutionEnt Resolution = new ResolutionEnt();
+            Resolution.ResolutionsId = ResolutionId;
+            Resolution.AssemblySessionsId = Convert.ToInt32(HidSessionNumber.Value);
+            Resolution.NoticeDiaryNo = Convert.ToInt32(NoticeDiaryNoTxt.Text);
+            Resolution.NoticeDiaryDate = FormInput.ParseDate(NoticeDiaryDateTxt.Text);
+            Resolution.NoticeDiaryTime = Convert.ToDateTime(NoticeDiaryTimeTxt.Text);
+            Resolution.ResolutionTypeId = Convert.ToInt32(ResolutionTypeDDL.SelectedItem.Value);
+            Resolution.ResolutionStatusId = 5;
+            //  Resolution.Description = Convert.ToString(ResolutionTxt.Value);
+
+            //Resolution.Movers = new List<ResolutionMoversEnt>();
+            //foreach (ListItem listItem in MoversLB.Items)
+            //{
+            //    ResolutionMoversEnt mover = new ResolutionMoversEnt();
+            //    mover.ResolutionMoversId = Convert.ToInt32(listItem.Value);
+            //    Resolution.Movers.Add(mover);
+            //}
+            List<int> mover_ids = FormInput.ParseIds(HidMemberId.Value);
+            if (mover_ids.Count > 0)
+                Resolution.Mover = string.Join(",", mover_ids);
+            if (ResolutionTxt.Value == "")
+                Resolution.Description = "No English Text";
+            else
+                Resolution.Description = Convert.ToString(ResolutionTxt.Value);
+
+            if (UrduTxt.Value == "")
+                Resolution.UrduText = "No Urdu Text";
+            else
+                Resolution.UrduText = Convert.ToString(UrduTxt.Value);
+            int id = new ResolutionBiz().InsertResolution(Resolution);
+         //   Button1.Enabled = false;
+            if (FileUpload1.HasFile)
+            {
+                string DiaryNo = " Notice Diary No.: " + NoticeDiaryNoTxt.Text;
+                string DiaryDate = " Notice Diary Date: " + NoticeDiaryDateTxt.Text;
+                string DiaryTime = " Notice Diary Time: " + Convert.ToDateTime(NoticeDiaryTimeTxt.Text).ToString("hh:mm tt");
+                string TextToAdd = DiaryNo + " " + DiaryDate + " " + DiaryTime;
+                string strname = FileUpload1.FileName.ToString();
+                ////string fileExt = System.IO.Path.GetExtension(FileUpload1.FileName);
+                FileInfo fi = new FileInfo(strname);
+                string ext = fi.Extension;
+                string filename = id + ext;
+                string FilePath = Server.MapPath("~//contents//temp//" + filename);
+                string url = "./contents/resolution/" + filename;
+                if (ext.Equals(".pdf"))
+                {
+                    url = "./contents/resolution/" + filename;
+                    string filePath = Server.MapPath("~//contents//temp//" + filename);
+                    FileUpload1.SaveAs(filePath);
+                    Utils.AddTextToPdf(FilePath, Server.MapPath("~//contents//resolution//" + filename), TextToAdd);
+                }
+                else
+                {
+                    AddWaterMark(Resolution.ResolutionsId,ext);
+                }
+                Resolution.ResolutionFile = url;
+                new ResolutionBiz().InsertResolutionFile(url, id);
+            }
+            Response.Redirect("~/ResolutionDetail.aspx?ResolutionId=" + id);
+
+        }
+        protected void PrintBtn_Click(object sender, EventArgs e)
+        {
+            // int id=InsertQuestion();
+            // Response.Redirect("~/PrintQuestion.aspx?questionsId=" + id);
+
+        }
+
+        protected void Upload(object sender, EventArgs e)
+        {
+            if (FileUpload1.HasFile)
+            {
+                string filePath = Server.MapPath("~/Uploads/" + Path.GetFileName(FileUpload1.PostedFile.FileName));
+                FileUpload1.SaveAs(filePath);
+                string extractText = this.ExtractTextFromImage(filePath);
+                ResolutionTxt.Value += extractText.Replace(Environment.NewLine, "<p>");
+            }
+        }
+
+        private string ExtractTextFromImage(string filePath)
+        {
+            //Document modiDocument = new Document();
+            //modiDocument.Create(filePath);
+            //modiDocument.OCR(MiLANGUAGES.miLANG_ENGLISH);
+            //MODI.Image modiImage = (modiDocument.Images[0] as MODI.Image);
+            //string extractedText = modiImage.Layout.Text;
+            //modiDocument.Close();
+            //return extractedText;
+            return "abc";
+        }
+        protected int AddWaterMark(int id,string ext)
+        {
+            string DiaryNo = "Notice Diary No.: " + NoticeDiaryNoTxt.Text;
+            string DiaryDate = "Notice Diary Date: " + NoticeDiaryDateTxt.Text;
+            string DiaryTime = "Notice Diary Time: " + Convert.ToDateTime(NoticeDiaryTimeTxt.Text).ToString("hh:mm tt");
+
+            //Get the file name.
+            // string fileName = Path.GetFileNameWithoutExtension(FileUpload1.PostedFile.FileName) + ".png";
+            string fileName = id + ext;
+            //Read the File into a Bitmap.
+            using (Bitmap bmp = new Bitmap(FileUpload1.PostedFile.InputStream, false))
+            {
+                Bitmap originalBmp = new Bitmap(bmp);
+
+                // Create a blank bitmap with the same dimensions
+                Bitmap tempBitmap = new Bitmap(bmp.Width, bmp.Height);
+
+                using (Graphics grp = Graphics.FromImage(tempBitmap))
+                {
+                    grp.DrawImage(originalBmp, 0, 0);
+                    //Set the Color of the Watermark text.
+                    Brush brush = new SolidBrush(Color.Green);
+
+                    //Set the Font and its size.
+                    Font font = new System.Drawing.Font("Arial", 20, FontStyle.Bold, GraphicsUnit.Pixel);
+
+                    //Determine the size of the Watermark text.
+                    SizeF textSize = new SizeF();
+                    textSize = grp.MeasureString(DiaryNo, font);
+                    //Position the text and draw it on the image.
+                    Point Diaryposition = new Point((tempBitmap.Width - ((int)textSize.Width + 100)), (tempBitmap.Height - ((int)textSize.Height + 70)));
+                    grp.DrawString(DiaryNo, font, brush, Diaryposition);
+
+                    Point Dateposition = new Point((tempBitmap.Width - ((int)textSize.Width + 100)), (tempBitmap.Height - ((int)textSize.Height + 50)));
+                    grp.DrawString(DiaryDate, font, brush, Dateposition);
+
+                    Point Timeposition = new Point((tempBitmap.Width - ((int)textSize.Width + 100)), (tempBitmap.Height - ((int)textSize.Height + 30)));
+                    grp.DrawString(DiaryTime, font, brush, Timeposition);
+
+                    using (MemoryStream memoryStream = new MemoryStream())
+                    {
+                        //Save the Watermarked image to the MemoryStream.
+                        tempBitmap.Save(memoryStream, ImageFormat.Png);
+                        memoryStream.Position = 0;
+
+                        //Start file download.
+                        //Response.Clear();
+                        //Response.ContentType = "image/png";
+                        //Response.AddHeader("Content-Disposition", "attachment; filename=" + fileName);
+
+                        //Write the MemoryStream to the Response.
+                        // memoryStream.WriteTo(Response.OutputStream);
+                        FileStream file = new FileStream(Server.MapPath("~//contents//resolution//" + fileName), FileMode.Create, FileAccess.Write);
+                        memoryStream.WriteTo(file);
+                        file.Close();
+                        memoryStream.Close();
+                        //Response.Flush();
+                        //Response.Close();
+                        //Response.End();
+                    }
+                }
+            }
+            return 0;
+        }
+    }
+}

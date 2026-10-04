@@ -1,0 +1,78 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\bin\Debug\BUDBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\bin\Debug\BUDBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\obj\Debug\BUDBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\obj\Debug\BUDBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDBIZ\obj\Debug\BUDBIZ.pdb
+D:\Applications\Budget\BUDBIZ\bin\Debug\BUDBIZ.dll
+D:\Applications\Budget\BUDBIZ\bin\Debug\BUDBIZ.pdb
+D:\Applications\Budget\BUDBIZ\bin\Debug\BUDDAL.dll
+D:\Applications\Budget\BUDBIZ\bin\Debug\BUDENTITIES.dll
+D:\Applications\Budget\BUDBIZ\bin\Debug\BUDDAL.pdb
+D:\Applications\Budget\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+D:\Applications\Budget\BUDBIZ\obj\Debug\BUDBIZ.csprojResolveAssemblyReference.cache
+D:\Applications\Budget\BUDBIZ\obj\Debug\BUDBIZ.dll
+D:\Applications\Budget\BUDBIZ\obj\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\Budget\BUDBIZ\bin\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\Budget\BUDBIZ\bin\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\Budget\BUDBIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Budget\BUDBIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Budget\BUDBIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Budget\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Budget\BUDBIZ\obj\Debug\BUDBIZ.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\BUDBIZ\obj\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\Budget\BUDBIZ\obj\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\bin\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\bin\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\obj\Debug\BUDBIZ.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\obj\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDBIZ\obj\Debug\BUDBIZ.pdb
+D:\BUDGET\AutomationBranch\BUDBIZ\bin\Debug\BUDBIZ.dll
+D:\BUDGET\AutomationBranch\BUDBIZ\bin\Debug\BUDBIZ.pdb
+D:\BUDGET\AutomationBranch\BUDBIZ\bin\Debug\BUDDAL.dll
+D:\BUDGET\AutomationBranch\BUDBIZ\bin\Debug\BUDENTITIES.dll
+D:\BUDGET\AutomationBranch\BUDBIZ\bin\Debug\BUDDAL.pdb
+D:\BUDGET\AutomationBranch\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+D:\BUDGET\AutomationBranch\BUDBIZ\obj\Debug\BUDBIZ.csprojResolveAssemblyReference.cache
+D:\BUDGET\AutomationBranch\BUDBIZ\obj\Debug\BUDBIZ.dll
+D:\BUDGET\AutomationBranch\BUDBIZ\obj\Debug\BUDBIZ.pdb
+D:\Senate Projects\IPRAPP\BUDBIZ\bin\Debug\BUDBIZ.dll
+D:\Senate Projects\IPRAPP\BUDBIZ\bin\Debug\BUDBIZ.pdb
+D:\Senate Projects\IPRAPP\BUDBIZ\bin\Debug\BUDDAL.dll
+D:\Senate Projects\IPRAPP\BUDBIZ\bin\Debug\BUDENTITIES.dll
+D:\Senate Projects\IPRAPP\BUDBIZ\bin\Debug\BUDDAL.pdb
+D:\Senate Projects\IPRAPP\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+D:\Senate Projects\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csprojAssemblyReference.cache
+D:\Senate Projects\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.CoreCompileInputs.cache
+D:\Senate Projects\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.CopyComplete
+D:\Senate Projects\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.dll
+D:\Senate Projects\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.pdb
+E:\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDBIZ.dll
+E:\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDBIZ.pdb
+E:\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDDAL.dll
+E:\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDENTITIES.dll
+E:\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDDAL.pdb
+E:\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+E:\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.AssemblyReference.cache
+E:\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.CopyComplete
+E:\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.dll
+E:\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\BUDBIZ\obj\Debug\BUDBIZ.csproj.CopyComplete

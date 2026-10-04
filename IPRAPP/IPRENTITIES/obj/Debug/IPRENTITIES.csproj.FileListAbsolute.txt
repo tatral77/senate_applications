@@ -1,0 +1,37 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRENITITIES\bin\Debug\IPRENITITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRENITITIES\bin\Debug\IPRENITITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRENITITIES\obj\Debug\IPRENITITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRENITITIES\obj\Debug\IPRENITITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRENITITIES\obj\Debug\IPRENTITIES.csprojResolveAssemblyReference.cache
+D:\Applications\IPR\IPRENITITIES\bin\Debug\IPRENITITIES.dll
+D:\Applications\IPR\IPRENITITIES\bin\Debug\IPRENITITIES.pdb
+D:\Applications\IPR\IPRENITITIES\obj\Debug\IPRENTITIES.csprojResolveAssemblyReference.cache
+D:\Applications\IPR\IPRENITITIES\obj\Debug\IPRENITITIES.dll
+D:\Applications\IPR\IPRENITITIES\obj\Debug\IPRENITITIES.pdb
+D:\Applications\IPR\IPRENTITIES\bin\Debug\IPRENITITIES.dll
+D:\Applications\IPR\IPRENTITIES\bin\Debug\IPRENITITIES.pdb
+D:\Applications\IPR\IPRENTITIES\obj\Debug\IPRENITITIES.dll
+D:\Applications\IPR\IPRENTITIES\obj\Debug\IPRENITITIES.pdb
+D:\Applications\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.dll
+D:\Applications\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.pdb
+D:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csprojResolveAssemblyReference.cache
+D:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.dll
+D:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.pdb
+D:\Senate Projects\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.dll
+D:\Senate Projects\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.pdb
+D:\Senate Projects\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csprojAssemblyReference.cache
+D:\Senate Projects\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csproj.CoreCompileInputs.cache
+D:\Senate Projects\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.dll
+D:\Senate Projects\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.pdb
+E:\Applications\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.dll
+E:\Applications\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.pdb
+E:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csproj.AssemblyReference.cache
+E:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csproj.CoreCompileInputs.cache
+E:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.dll
+E:\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.dll
+\\172.16.15.9\Applications\IPRAPP\IPRENTITIES\bin\Debug\IPRENITITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENTITIES.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.dll
+\\172.16.15.9\Applications\IPRAPP\IPRENTITIES\obj\Debug\IPRENITITIES.pdb

@@ -1,0 +1,31 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinEntities\bin\Debug\FinEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinEntities\bin\Debug\FinEntities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinEntities\obj\Debug\FinEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinEntities\obj\Debug\FinEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\FinEntities\obj\Debug\FinEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinEntities\bin\Debug\FinEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinEntities\bin\Debug\FinEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\FinEntities\obj\Debug\FinEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\FinEntities\obj\Debug\FinEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\FinEntities\obj\Debug\FinEntities.pdb
+\\172.16.15.9\Applications\Finance\FinEntities\bin\Debug\FinEntities.dll
+\\172.16.15.9\Applications\Finance\FinEntities\bin\Debug\FinEntities.pdb
+\\172.16.15.9\Applications\Finance\FinEntities\obj\Debug\FinEntities.dll
+\\172.16.15.9\Applications\Finance\FinEntities\obj\Debug\FinEntities.pdb
+\\172.18.1.12\Applications\Finance\FinEntities\bin\Debug\FinEntities.dll
+\\172.18.1.12\Applications\Finance\FinEntities\bin\Debug\FinEntities.pdb
+\\172.18.1.12\Applications\Finance\FinEntities\obj\Debug\FinEntities.csprojResolveAssemblyReference.cache
+\\172.18.1.12\Applications\Finance\FinEntities\obj\Debug\FinEntities.dll
+\\172.18.1.12\Applications\Finance\FinEntities\obj\Debug\FinEntities.pdb
+C:\Apps-06-09-18\Finance\FinEntities\bin\Debug\FinEntities.dll
+C:\Apps-06-09-18\Finance\FinEntities\bin\Debug\FinEntities.pdb
+C:\Apps-06-09-18\Finance\FinEntities\obj\Debug\FinEntities.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\FinEntities\obj\Debug\FinEntities.dll
+C:\Apps-06-09-18\Finance\FinEntities\obj\Debug\FinEntities.pdb
+E:\Applications\Finance\FinEntities\bin\Debug\FinEntities.dll
+E:\Applications\Finance\FinEntities\bin\Debug\FinEntities.pdb
+E:\Applications\Finance\FinEntities\obj\Debug\FinEntities.csproj.CoreCompileInputs.cache
+E:\Applications\Finance\FinEntities\obj\Debug\FinEntities.dll
+E:\Applications\Finance\FinEntities\obj\Debug\FinEntities.pdb
+\\172.16.15.9\Applications\Finance\FinEntities\obj\Debug\FinEntities.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Finance\FinEntities\obj\Debug\FinEntities.csproj.CoreCompileInputs.cache

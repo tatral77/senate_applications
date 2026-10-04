@@ -1,0 +1,124 @@
+﻿body
+{
+    
+}
+#content
+{
+    background-color: #BCC6D7;
+}
+#Pagetitle
+{
+    padding: 5px;
+    background-color: #9CAAC1;
+    color: #000000;
+    font-family: verdana;
+    font-size: medium;
+    text-align: left;
+}
+.PageField
+{
+    text-align: right;
+    font-size: small;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.PageControl
+{
+    text-align:left;
+    font-weight: bold; font-family: Verdana; font-size: small
+    }
+ .PageHeading
+{
+    padding: 5px 3px 3px 3px;
+    font-size: large;
+    background-color: #5B7091;
+    color: #FFFFFF;
+    font-family: Verdana;
+    height: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+.Labels
+{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: small;
+}
+.heading
+{
+    padding: 7px;
+    background-color: #5B7091;
+    color: #FFFFFF;
+    font-size: medium;
+    font-family: Verdana;
+    width: 930px;
+    font-weight: bold;
+}
+.section
+{
+    padding: 0px 0px 0px 4px;
+    background-color: #4D5E79;
+    color: #FFFFFF;
+    width: 800px;
+    height: 20px;
+    font-size: small;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: middle;
+}
+th
+{
+    background-color: #596D8E;
+    color: #FFFFFF;
+    font-size: small;
+    font-weight: bold;
+    font-family: verdana;
+}
+.style1
+{
+    text-align: right;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: small;
+}
+   .PhoneLabels
+{
+    font-size: small;
+    font-family: Verdana;
+}
+#EmpImage
+{
+    text-align: left;
+    background-color: #B4BFD1;
+    padding: 6px;
+    width: 495px;
+    float: right;
+}
+
+  #HeaderEmpname
+{
+    text-align: left;
+    background-color: #9CAAC1;
+    padding: 6px;
+    width: 500px;
+    float: left;
+    color: #FFFFFF;
+}
+.LabelName
+{
+    padding: 6px;
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+    color: #000000;
+    background-color: #9CAAC1;
+}
+
+.Pagebutton
+{
+    background-color: #536584;
+    color: #FFFFFF;
+    width: 100px;
+    font-weight: bold;
+}

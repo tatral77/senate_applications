@@ -1,0 +1,9 @@
+﻿------ Build started: Project: EstablishmentENT, Configuration: Debug Any CPU ------
+  EstablishmentENT -> C:\inetpub\wwwroot\EstablishmentASP\EstablishmentENT\bin\Debug\EstablishmentENT.dll
+------ Build started: Project: EstablishmentDAL, Configuration: Debug Any CPU ------
+  EstablishmentDAL -> C:\inetpub\wwwroot\EstablishmentASP\EstablishmentDAL\bin\Debug\EstablishmentDAL.dll
+------ Build started: Project: EstablishmentBIZ, Configuration: Debug Any CPU ------
+  EstablishmentBIZ -> C:\inetpub\wwwroot\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentBIZ.dll
+------ Build started: Project: EstablishmentASP, Configuration: Debug Any CPU ------
+  EstablishmentASP -> C:\inetpub\wwwroot\EstablishmentASP\EstablishmentASP\bin\EstablishmentASP.dll
+========== Build: 4 succeeded or up-to-date, 0 failed, 0 skipped ==========

@@ -1,0 +1,76 @@
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManDAL.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManDAL.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManEntities.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\obj\Debug\ManDAL.csprojResolveAssemblyReference.cache
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\obj\Debug\ManDAL.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\obj\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManDAL\obj\Debug\ManDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\ManDAL\obj\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Administration\ManDAL\obj\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\HRM\ManDAL\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\HRM\ManDAL\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\HRM\ManDAL\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\HRM\ManDAL\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\HRM\ManDAL\obj\Debug\ManDAL.csprojAssemblyReference.cache
+C:\Users\Masood\Desktop\HRM\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+C:\Users\Masood\Desktop\HRM\ManDAL\obj\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\HRM\ManDAL\obj\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\HRM\ManDAL\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\HRM\ManDAL\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\HRM\ManDAL\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\HRM\ManDAL\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\HRM\ManDAL\obj\Debug\ManDAL.dll
+\\172.16.15.9\Applications\HRM\ManDAL\obj\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\HRM\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\HRM\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+\\172.16.15.9\Applications\HRM\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+E:\Applications\HRM\ManDAL\bin\Debug\ManDAL.dll
+E:\Applications\HRM\ManDAL\bin\Debug\ManDAL.pdb
+E:\Applications\HRM\ManDAL\bin\Debug\ManEntities.dll
+E:\Applications\HRM\ManDAL\bin\Debug\ManEntities.pdb
+E:\Applications\HRM\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+E:\Applications\HRM\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+E:\Applications\HRM\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+E:\Applications\HRM\ManDAL\obj\Debug\ManDAL.dll
+E:\Applications\HRM\ManDAL\obj\Debug\ManDAL.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\bin\Debug\ManDAL.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\bin\Debug\ManDAL.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\bin\Debug\ManEntities.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\bin\Debug\ManEntities.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\obj\Debug\ManDAL.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManDAL\obj\Debug\ManDAL.pdb
+E:\Applications\VisitorManagement_old\ManDAL\bin\Debug\ManDAL.dll
+E:\Applications\VisitorManagement_old\ManDAL\bin\Debug\ManDAL.pdb
+E:\Applications\VisitorManagement_old\ManDAL\bin\Debug\ManEntities.dll
+E:\Applications\VisitorManagement_old\ManDAL\bin\Debug\ManEntities.pdb
+E:\Applications\VisitorManagement_old\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+E:\Applications\VisitorManagement_old\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+E:\Applications\VisitorManagement_old\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+E:\Applications\VisitorManagement_old\ManDAL\obj\Debug\ManDAL.dll
+E:\Applications\VisitorManagement_old\ManDAL\obj\Debug\ManDAL.pdb
+E:\Applications\VisitorManagement\ManDAL\bin\Debug\ManDAL.dll
+E:\Applications\VisitorManagement\ManDAL\bin\Debug\ManDAL.pdb
+E:\Applications\VisitorManagement\ManDAL\bin\Debug\ManEntities.dll
+E:\Applications\VisitorManagement\ManDAL\bin\Debug\ManEntities.pdb
+E:\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+E:\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+E:\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+E:\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.dll
+E:\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.dll
+\\172.16.15.9\Applications\VisitorManagement\ManDAL\obj\Debug\ManDAL.pdb

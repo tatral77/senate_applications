@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="CountryMaster.master.cs" Inherits="IPR.CountryMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <%--<link href="Styles/Pages.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/SearchList.css" rel="stylesheet" type="text/css" />--%>
+    <link href="Styles/MainStyles.css" rel="stylesheet" />
+    <script src="Custom/jquery-ui.min.js"></script>
+    <link href="Custom/jquery-ui.css.css" rel="stylesheet" />
+    <style>
+        .ui-autocomplete {
+            position: relative;
+            cursor: default;
+            z-index: 2000 !important;
+        }
+    </style>
+    <style type="text/css">
+        lis {
+            background-color: #00688B;
+        }
+
+        li a {
+            color: #fff;
+        }
+
+        .navbar-fixed-left {
+            position: fixed;
+            border-radius: 0;
+            height: 100%;
+            width: 12%;
+        }
+
+            .navbar-fixed-left .navbar-nav > li {
+                float: none; /* Cancel default li float: left */
+            }
+
+            .navbar-fixed-left + .container {
+            }
+
+            /* On using dropdown menu (To right shift popuped) */
+            .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+                margin-top: -50px;
+            }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+
+                <ul class="nav nav-pills nav-stacked navbar-fixed-left">
+                    <li class="dropdown active">
+                        <asp:HyperLink ID="ProfileHL" runat="server" Style="background-color: #2E6444">Country Profile</asp:HyperLink>
+                    </li>
+                    <li class="dropdown active">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="background-color: #2E6444">Documents</a>
+                        <ul class="dropdown-menu">
+                            <li><asp:HyperLink ID="MOUsHL" runat="server">MOUs</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="LettersHL" runat="server">Letters</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="InvitationsHL" runat="server">Invitations</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="CallsHL" runat="server">Telephonic Calls</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="MeetingsHL" runat="server">Meetings</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="ExBriefHL" runat="server">Executive Brief</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="TalkingPointsHL" runat="server">Talking Points</asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <asp:HyperLink ID="FriendshipGroupsHL" runat="server" style="background-color: #2E6444">Friendship Group</asp:HyperLink>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-10" style="position: relative;">
+                <div class="col-md-12 img-rounded " style="text-align: left; background-color: #2E6444; color: white; padding: 5px;">
+                    <asp:Label ID="NameLabel" runat="server" Style="font-size: medium; padding: 5px;"></asp:Label>
+
+                </div>
+
+                <div class="clearfix"></div>
+                <asp:ContentPlaceHolder ID="EmpMenues" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+    </div>
+
+
+</asp:Content>

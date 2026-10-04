@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IPRDAL
+{
+    public class DalHelper
+    {
+        public SqlConnection GetConnection()
+        {
+            string connString = GetConnectionString();
+            SqlConnection conn = new SqlConnection(connString);
+            conn.Open();
+            return conn;
+        }
+        public string GetConnectionString()
+        {
+            return "Server=db-server.senate.gov.pk;Database=STUSER3; User id=sa;password=X#Bv7_4qT!Ma;Max Pool Size=200;Encrypt=True";
+        }
+        public int GetPk(string Table,string Field)
+        {
+            SqlConnection con = new DalHelper().GetConnection();
+            try
+            {
+                int pk = 0;
+                string query = "SELECT MAX(" + Field + ") AS ID FROM " + Table;
+                SqlCommand cmd = new SqlCommand(query, con);
+                using (con)
+                {
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    dr.Read();
+                    if (dr["ID"]!=DBNull.Value)
+                    {
+                       
+                        pk = Convert.ToInt32(dr["ID"]);
+                    }
+
+                }
+                return ++pk;
+            }
+            finally
+            {
+                con.Close();
+
+            }
+        }
+
+    }
+
+}

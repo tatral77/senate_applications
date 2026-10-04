@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="7" virtualPath="/ManageItems.aspx" hash="9fc23f6b" filehash="fffffffa6946b69c" flags="100000" CCUpreservationFileName="manageitems.aspx.cdcab7d2_CBMResult.ccu">
+    <filedeps>
+        <filedep name="/Main.Master" />
+        <filedep name="/ManageItems.aspx" />
+    </filedeps>
+</preserve>

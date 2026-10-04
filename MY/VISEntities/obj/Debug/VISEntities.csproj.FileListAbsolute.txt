@@ -1,0 +1,17 @@
+E:\Applications\MY\VISEntities\bin\Debug\VISEntities.dll
+E:\Applications\MY\VISEntities\bin\Debug\VISEntities.pdb
+E:\Applications\MY\VISEntities\obj\Debug\VISEntities.csproj.AssemblyReference.cache
+E:\Applications\MY\VISEntities\obj\Debug\VISEntities.csproj.CoreCompileInputs.cache
+E:\Applications\MY\VISEntities\obj\Debug\VISEntities.dll
+E:\Applications\MY\VISEntities\obj\Debug\VISEntities.pdb
+\\172.16.15.9\Applications\MY\VISEntities\bin\Debug\VISEntities.dll
+\\172.16.15.9\Applications\MY\VISEntities\bin\Debug\VISEntities.pdb
+\\172.16.15.9\Applications\MY\VISEntities\obj\Debug\VISEntities.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\MY\VISEntities\obj\Debug\VISEntities.dll
+\\172.16.15.9\Applications\MY\VISEntities\obj\Debug\VISEntities.pdb
+\\172.16.15.9\Applications\MY\VISEntities\obj\Debug\VISEntities.csproj.AssemblyReference.cache
+E:\Senate Code Improvement\MY\VISEntities\bin\Debug\VISEntities.dll
+E:\Senate Code Improvement\MY\VISEntities\bin\Debug\VISEntities.pdb
+E:\Senate Code Improvement\MY\VISEntities\obj\Debug\VISEntities.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\MY\VISEntities\obj\Debug\VISEntities.dll
+E:\Senate Code Improvement\MY\VISEntities\obj\Debug\VISEntities.pdb

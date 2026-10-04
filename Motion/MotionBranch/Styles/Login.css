@@ -1,0 +1,53 @@
+﻿body {
+}
+#LoginTD
+{
+   background-color: #336699;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: medium;
+}
+#LoginLbl
+{
+    
+    
+    }
+.ControlName
+{
+    text-align: right;
+    font-family: Verdana;
+    font-size: small;
+}
+#logindiv
+{
+    border: thin solid #FFFFFF;
+    background-color: #336699;
+    width: 300px;
+    height: 130px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: verdana;
+}
+#LoginHead
+{
+    border: medium solid #003366;
+    background-color: #336699;
+    color: #FFFFFF;
+    width: 800px;
+    height: 600px;
+    font-size: x-large;
+    font-family: Verdana;
+    text-align: center;
+}
+#errordiv
+{
+    }
+#errorlbl
+{
+    color: #CC3300;
+    width: 260px;
+    font-family: verdana;
+    font-size: small;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+}

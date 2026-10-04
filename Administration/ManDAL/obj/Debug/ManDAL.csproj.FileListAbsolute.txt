@@ -1,0 +1,32 @@
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManDAL.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManDAL.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\bin\Debug\ManEntities.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\obj\Debug\ManDAL.csprojResolveAssemblyReference.cache
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\obj\Debug\ManDAL.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManDAL\obj\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManDAL\obj\Debug\ManDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\ManDAL\obj\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Administration\ManDAL\obj\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManDAL\bin\Debug\ManEntities.pdb
+E:\Applications\Administration\ManDAL\bin\Debug\ManDAL.dll
+E:\Applications\Administration\ManDAL\bin\Debug\ManDAL.pdb
+E:\Applications\Administration\ManDAL\bin\Debug\ManEntities.dll
+E:\Applications\Administration\ManDAL\bin\Debug\ManEntities.pdb
+E:\Applications\Administration\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+E:\Applications\Administration\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+E:\Applications\Administration\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+E:\Applications\Administration\ManDAL\obj\Debug\ManDAL.dll
+E:\Applications\Administration\ManDAL\obj\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\Administration\ManDAL\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\Administration\ManDAL\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\Administration\ManDAL\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Administration\ManDAL\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Administration\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Administration\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Administration\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+\\172.16.15.9\Applications\Administration\ManDAL\obj\Debug\ManDAL.dll
+\\172.16.15.9\Applications\Administration\ManDAL\obj\Debug\ManDAL.pdb

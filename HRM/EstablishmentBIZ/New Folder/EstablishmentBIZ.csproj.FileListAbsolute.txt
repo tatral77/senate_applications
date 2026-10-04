@@ -1,0 +1,11 @@
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentBIZ.dll
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentBIZ.pdb
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\obj\Debug\ResolveAssemblyReference.cache
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\obj\Debug\EstablishmentBIZ.dll
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\obj\Debug\EstablishmentBIZ.pdb
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentDAL.dll
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentENT.dll
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentDAL.pdb
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\EstablishmentENT.pdb
+D:\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\bin\Debug\Oracle.DataAccess.dll
+E:\Completed Projects\EstablishmentASP\EstablishmentASP\EstablishmentBIZ\obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,125 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\ApplicationInsights.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\csc.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\vbc.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Management.dll.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Management.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Management.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\BIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Entities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.Web.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\BIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Entities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.Web.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\obj\Debug\Management.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\obj\Debug\Management.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\obj\Debug\Management.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\DAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Management\bin\DAL.pdb
+\\172.16.15.9\Applications\Management\Management\bin\ApplicationInsights.config
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\csc.exe
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\Microsoft.CSharp.Core.targets
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\System.Collections.Immutable.dll
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\System.Reflection.Metadata.dll
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\vbc.exe
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\VBCSCompiler.exe
+\\172.16.15.9\Applications\Management\Management\bin\roslyn\VBCSCompiler.exe.config
+\\172.16.15.9\Applications\Management\Management\bin\Management.dll.config
+\\172.16.15.9\Applications\Management\Management\bin\Management.dll
+\\172.16.15.9\Applications\Management\Management\bin\Management.pdb
+\\172.16.15.9\Applications\Management\Management\bin\BIZ.dll
+\\172.16.15.9\Applications\Management\Management\bin\Entities.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.Agent.Intercept.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.DependencyCollector.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.PerfCounterCollector.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.Web.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.WindowsServer.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.ApplicationInsights.dll
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\172.16.15.9\Applications\Management\Management\bin\DAL.dll
+\\172.16.15.9\Applications\Management\Management\bin\BIZ.pdb
+\\172.16.15.9\Applications\Management\Management\bin\Entities.pdb
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.DependencyCollector.xml
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.Web.xml
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.AI.WindowsServer.xml
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.ApplicationInsights.xml
+\\172.16.15.9\Applications\Management\Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\172.16.15.9\Applications\Management\Management\bin\DAL.pdb
+\\172.16.15.9\Applications\Management\Management\obj\Debug\Management.dll
+\\172.16.15.9\Applications\Management\Management\obj\Debug\Management.pdb
+\\172.16.15.9\Applications\Management\Management\bin\DataEntities.dll
+\\172.16.15.9\Applications\Management\Management\bin\DataEntities.pdb
+E:\Applications\Management\Management\bin\ApplicationInsights.config
+E:\Applications\Management\Management\bin\roslyn\csc.exe
+E:\Applications\Management\Management\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Applications\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Applications\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Applications\Management\Management\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Applications\Management\Management\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Applications\Management\Management\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Applications\Management\Management\bin\roslyn\System.Collections.Immutable.dll
+E:\Applications\Management\Management\bin\roslyn\System.Reflection.Metadata.dll
+E:\Applications\Management\Management\bin\roslyn\vbc.exe
+E:\Applications\Management\Management\bin\roslyn\VBCSCompiler.exe
+E:\Applications\Management\Management\bin\roslyn\VBCSCompiler.exe.config
+E:\Applications\Management\Management\bin\Management.dll.config
+E:\Applications\Management\Management\bin\Management.dll
+E:\Applications\Management\Management\bin\Management.pdb
+E:\Applications\Management\Management\bin\BIZ.dll
+E:\Applications\Management\Management\bin\DataEntities.dll
+E:\Applications\Management\Management\bin\Entities.dll
+E:\Applications\Management\Management\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Applications\Management\Management\bin\Microsoft.AI.DependencyCollector.dll
+E:\Applications\Management\Management\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Applications\Management\Management\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Applications\Management\Management\bin\Microsoft.AI.Web.dll
+E:\Applications\Management\Management\bin\Microsoft.AI.WindowsServer.dll
+E:\Applications\Management\Management\bin\Microsoft.ApplicationInsights.dll
+E:\Applications\Management\Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Applications\Management\Management\bin\DAL.dll
+E:\Applications\Management\Management\bin\BIZ.pdb
+E:\Applications\Management\Management\bin\DataEntities.pdb
+E:\Applications\Management\Management\bin\Entities.pdb
+E:\Applications\Management\Management\bin\Microsoft.AI.DependencyCollector.xml
+E:\Applications\Management\Management\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Applications\Management\Management\bin\Microsoft.AI.Web.xml
+E:\Applications\Management\Management\bin\Microsoft.AI.WindowsServer.xml
+E:\Applications\Management\Management\bin\Microsoft.ApplicationInsights.xml
+E:\Applications\Management\Management\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Applications\Management\Management\bin\DAL.pdb
+E:\Applications\Management\Management\obj\Debug\Management.csproj.AssemblyReference.cache
+E:\Applications\Management\Management\obj\Debug\Management.csproj.CoreCompileInputs.cache
+E:\Applications\Management\Management\obj\Debug\Management.csproj.CopyComplete
+E:\Applications\Management\Management\obj\Debug\Management.dll
+E:\Applications\Management\Management\obj\Debug\Management.pdb
+\\172.16.15.9\Applications\Management\Management\obj\Debug\Management.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Management\Management\obj\Debug\Management.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Management\Management\obj\Debug\Management.csproj.CopyComplete

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="STUSER3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="IPR_FRIENDSHIP_GROUP">
+    <Key>
+      <PropertyRef Name="FRIENDSHIP_GROUP_ID" />
+    </Key>
+    <Property Name="FRIENDSHIP_GROUP_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="FRIENDSHIP_GROUP" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="COUNTRY_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CONVINER_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="TERM_ID" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="MEMBER" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS" FromRole="IPR_FRIENDSHIP_GROUP" ToRole="MEMBERS" />
+    <NavigationProperty Name="PARLIAMENTARY_TERMS" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" FromRole="IPR_FRIENDSHIP_GROUP" ToRole="PARLIAMENTARY_TERMS" />
+  </EntityType>
+  <EntityType Name="MEMBER">
+    <Key>
+      <PropertyRef Name="SYSTEM_USERS_ID" />
+    </Key>
+    <Property Name="SYSTEM_USERS_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ELECTION_PROVINCE" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="POLITICAL_PARTY" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PORTFOLIO" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="MEMBER_STATUS" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CONSTITUENCIES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="POL_AFFILIATION" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IS_ACTIVE" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="ASSEMBLIES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SUITE_NO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ACCOUNT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="HOUSE_AFFILIATIONS_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="MEM_ELECT_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ELECTION_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PARTY_DESIGNATIONS_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="TENURE_FROM" Type="DateTime" Precision="0" />
+    <Property Name="TENURE_TO" Type="DateTime" Precision="0" />
+    <Property Name="PREDECESSOR" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="OTHER_PARTY_DESIGNATION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SEAT_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ACHIEVEMENTS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SPL_TRAVEL_INSTRUCTIONS" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="MEM_TENURES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="SAL_CATEGORY_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="IPR_FRIENDSHIP_GROUP" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS" FromRole="MEMBERS" ToRole="IPR_FRIENDSHIP_GROUP" />
+    <NavigationProperty Name="SYSTEM_USERS" Relationship="Self.FK_MEMBERS_SYSTEM_USERS" FromRole="MEMBERS" ToRole="SYSTEM_USERS" />
+  </EntityType>
+  <EntityType Name="PARLIAMENTARY_TENURES">
+    <Key>
+      <PropertyRef Name="PARLIAMENTARY_TENURES_ID" />
+    </Key>
+    <Property Name="PARLIAMENTARY_TENURES_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FROM_DATE" Type="DateTime" Precision="0" />
+    <Property Name="TO_DATE" Type="DateTime" Precision="0" />
+    <Property Name="IS_ACTIVE" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="IS_CURRENT" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="PARLIAMENTARY_TERMS" Relationship="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" FromRole="PARLIAMENTARY_TENURES" ToRole="PARLIAMENTARY_TERMS" />
+  </EntityType>
+  <EntityType Name="PARLIAMENTARY_TERMS">
+    <Key>
+      <PropertyRef Name="PARLIAMENTARY_TERMS_ID" />
+    </Key>
+    <Property Name="PARLIAMENTARY_TERMS_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FROM_DATE" Type="DateTime" Precision="0" />
+    <Property Name="TO_DATE" Type="DateTime" Precision="0" />
+    <Property Name="IS_ACTIVE" Type="Int32" />
+    <Property Name="IS_CURRENT" Type="Int32" />
+    <Property Name="PARLIAMENTARY_TENURE_ID" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="IPR_FRIENDSHIP_GROUP" Relationship="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" FromRole="PARLIAMENTARY_TERMS" ToRole="IPR_FRIENDSHIP_GROUP" />
+    <NavigationProperty Name="PARLIAMENTARY_TENURES" Relationship="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" FromRole="PARLIAMENTARY_TERMS" ToRole="PARLIAMENTARY_TENURES" />
+  </EntityType>
+  <EntityType Name="SYSTEM_USERS">
+    <Key>
+      <PropertyRef Name="SYSTEM_USERS_ID" />
+    </Key>
+    <Property Name="SYSTEM_USERS_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="LOGIN_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PASSWORD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ROLES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="F_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="M_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="L_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FATHER_HUSBAND_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PICTURE" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="PLACE_OF_BIRTH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CITY_OF_BIRTH" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DOMICILE_DISTRICT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="RELIGIONS_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NIC_NUMBER" Type="String" MaxLength="17" FixedLength="false" Unicode="false" />
+    <Property Name="NIC_DATE" Type="DateTime" Precision="0" />
+    <Property Name="NIC_EXP_DATE" Type="DateTime" Precision="3" />
+    <Property Name="NIC_PLACE" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NTN" Type="String" MaxLength="24" FixedLength="false" Unicode="false" />
+    <Property Name="MARITAL_STATUS" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="GENDER" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PERM_ADDRESS" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="PERM_CITY" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PERM_PROVINCE" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="WEB_SITE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="LOCAL_ADDRESS" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="LOCAL_CITY" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="LOCAL_PROVINCE" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CORRESPONDENCE_ADDR_FLAG" Type="Decimal" Precision="1" Scale="0" />
+    <Property Name="IS_EMPLOYEE" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="IS_ACTIVE" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="ASSEMBLIES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="TITLE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="URDU_NAME" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="URDU_MAPPING" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="OLD_NIC_NO" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Name="LAST_UPDATED_ON" Type="DateTime" Precision="0" />
+    <Property Name="SEAT_TYPES_ID" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="MOTHER_MDN_NAME" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="PICTUREID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ENTEREDBY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ENTEREDON" Type="DateTime" Precision="3" />
+    <Property Name="RECHECKEDBY" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="VENDOR_NUMBER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SALARY_ACTIVE" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MEMBER" Relationship="Self.FK_MEMBERS_SYSTEM_USERS" FromRole="SYSTEM_USERS" ToRole="MEMBERS" />
+  </EntityType>
+  <Association Name="FK_IPR_FRIENDSHIP_GROUP_MEMBERS">
+    <End Role="MEMBERS" Type="Self.MEMBER" Multiplicity="0..1" />
+    <End Role="IPR_FRIENDSHIP_GROUP" Type="Self.IPR_FRIENDSHIP_GROUP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MEMBERS">
+        <PropertyRef Name="SYSTEM_USERS_ID" />
+      </Principal>
+      <Dependent Role="IPR_FRIENDSHIP_GROUP">
+        <PropertyRef Name="CONVINER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS">
+    <End Role="PARLIAMENTARY_TERMS" Type="Self.PARLIAMENTARY_TERMS" Multiplicity="0..1" />
+    <End Role="IPR_FRIENDSHIP_GROUP" Type="Self.IPR_FRIENDSHIP_GROUP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARLIAMENTARY_TERMS">
+        <PropertyRef Name="PARLIAMENTARY_TERMS_ID" />
+      </Principal>
+      <Dependent Role="IPR_FRIENDSHIP_GROUP">
+        <PropertyRef Name="TERM_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MEMBERS_SYSTEM_USERS">
+    <End Role="SYSTEM_USERS" Type="Self.SYSTEM_USERS" Multiplicity="1" />
+    <End Role="MEMBERS" Type="Self.MEMBER" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="SYSTEM_USERS">
+        <PropertyRef Name="SYSTEM_USERS_ID" />
+      </Principal>
+      <Dependent Role="MEMBERS">
+        <PropertyRef Name="SYSTEM_USERS_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES">
+    <End Role="PARLIAMENTARY_TENURES" Type="Self.PARLIAMENTARY_TENURES" Multiplicity="0..1" />
+    <End Role="PARLIAMENTARY_TERMS" Type="Self.PARLIAMENTARY_TERMS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PARLIAMENTARY_TENURES">
+        <PropertyRef Name="PARLIAMENTARY_TENURES_ID" />
+      </Principal>
+      <Dependent Role="PARLIAMENTARY_TERMS">
+        <PropertyRef Name="PARLIAMENTARY_TENURE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="STUSER3Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="IPR_FRIENDSHIP_GROUP" EntityType="Self.IPR_FRIENDSHIP_GROUP" />
+    <EntitySet Name="MEMBERS" EntityType="Self.MEMBER" />
+    <EntitySet Name="PARLIAMENTARY_TENURES" EntityType="Self.PARLIAMENTARY_TENURES" />
+    <EntitySet Name="PARLIAMENTARY_TERMS" EntityType="Self.PARLIAMENTARY_TERMS" />
+    <EntitySet Name="SYSTEM_USERS" EntityType="Self.SYSTEM_USERS" />
+    <AssociationSet Name="FK_IPR_FRIENDSHIP_GROUP_MEMBERS" Association="Self.FK_IPR_FRIENDSHIP_GROUP_MEMBERS">
+      <End Role="MEMBERS" EntitySet="MEMBERS" />
+      <End Role="IPR_FRIENDSHIP_GROUP" EntitySet="IPR_FRIENDSHIP_GROUP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" Association="Self.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS">
+      <End Role="PARLIAMENTARY_TERMS" EntitySet="PARLIAMENTARY_TERMS" />
+      <End Role="IPR_FRIENDSHIP_GROUP" EntitySet="IPR_FRIENDSHIP_GROUP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MEMBERS_SYSTEM_USERS" Association="Self.FK_MEMBERS_SYSTEM_USERS">
+      <End Role="SYSTEM_USERS" EntitySet="SYSTEM_USERS" />
+      <End Role="MEMBERS" EntitySet="MEMBERS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" Association="Self.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES">
+      <End Role="PARLIAMENTARY_TENURES" EntitySet="PARLIAMENTARY_TENURES" />
+      <End Role="PARLIAMENTARY_TERMS" EntitySet="PARLIAMENTARY_TERMS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

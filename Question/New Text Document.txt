@@ -1,0 +1,1 @@
+update questions set STATUS_DATE=(select max(status_date) from QUEST_STATUS_HIST where QUEST_STATUS_HIST.QUESTION_ID=questions.QUESTIONS_ID)

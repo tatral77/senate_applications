@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMaster.Master" AutoEventWireup="true" CodeBehind="EmployeeInformation.master.cs" Inherits="EstablishmentASP.EmployeeInformation" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-lg-3">
+                <div class="emp-side">
+
+                    <div class="emp-photo">
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                            <ContentTemplate>
+                                <asp:Image ID="ImageButton1" runat="server" AlternateText="Employee photo" CssClass="emp-photo-img" />
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                        <button type="button" class="emp-photo-change" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-camera"></span> Change photo</button>
+                    </div>
+
+                    <nav class="emp-nav" id="empNav">
+                        <ul class="emp-links emp-top">
+                            <li><asp:HyperLink ID="PersonalDetails" runat="server"><span class="glyphicon glyphicon-user"></span> Personal Details</asp:HyperLink></li>
+                        </ul>
+
+                        <a class="emp-grp collapsed" data-toggle="collapse" href="#grpEmployment"><span class="glyphicon glyphicon-briefcase"></span> Employment <span class="glyphicon glyphicon-chevron-down emp-chev"></span></a>
+                        <ul id="grpEmployment" class="emp-links collapse">
+                            <li><asp:HyperLink ID="EmploymentDetails" runat="server">Employment Details</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="EmploymentHistory" runat="server">Previous Employments</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="PromotionDetails" runat="server">Promotion Details</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="EmpPostings" runat="server">Posting Details</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="OtherCharges" runat="server">Other Charges</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="EmpProfile" runat="server" Target="_blank">Profile</asp:HyperLink></li>
+                        </ul>
+
+                        <a class="emp-grp collapsed" data-toggle="collapse" href="#grpEducation"><span class="glyphicon glyphicon-education"></span> Education / Trainings <span class="glyphicon glyphicon-chevron-down emp-chev"></span></a>
+                        <ul id="grpEducation" class="emp-links collapse">
+                            <li><asp:HyperLink ID="Education" runat="server">Education</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Trainings" runat="server">Trainings</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="ResPerson" runat="server">Resource Person</asp:HyperLink></li>
+                        </ul>
+
+                        <a class="emp-grp collapsed" data-toggle="collapse" href="#grpDocuments"><span class="glyphicon glyphicon-file"></span> Documents <span class="glyphicon glyphicon-chevron-down emp-chev"></span></a>
+                        <ul id="grpDocuments" class="emp-links collapse">
+                            <li><asp:HyperLink ID="Passport" runat="server">Passport</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="NOC" runat="server">NOCs</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="EmpAcrs" runat="server">ACR</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="SecClearance" runat="server">Security Clearance</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Medical" runat="server">Medical</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Assets" runat="server">Assets</asp:HyperLink></li>
+                        </ul>
+
+                        <a class="emp-grp collapsed" data-toggle="collapse" href="#grpOthers"><span class="glyphicon glyphicon-th-list"></span> Others <span class="glyphicon glyphicon-chevron-down emp-chev"></span></a>
+                        <ul id="grpOthers" class="emp-links collapse">
+                            <li><asp:HyperLink ID="DiscipActions" runat="server">Disciplinary Actions</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Suspension" runat="server">Suspension Details</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Dependants" runat="server">Dependants</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Leaves" runat="server">Leaves</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="Visits" runat="server">Visits</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="OtherDuties" runat="server">Other Duties</asp:HyperLink></li>
+                            <li><asp:HyperLink ID="BenFund" runat="server">Benevolent Funds</asp:HyperLink></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Change Photo</h4>
+                            </div>
+                            <div class="modal-body">
+                                <asp:FileUpload ID="FileUpload1" runat="server" accept="image/jpeg,image/png,image/gif" data-scan="true" />
+                                <div class="nf-hint" style="margin-top: 8px">JPG, PNG or GIF, up to 2 MB.</div>
+                            </div>
+                            <div class="modal-footer">
+                                <asp:Button ID="SaveImage" runat="server" Text="Upload" class="btn btn-custom" OnClick="SaveImage_Click"></asp:Button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                <asp:Button class="btn btn-default" ID="Button3" runat="server" Text="Reset" Visible="false" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 col-lg-9">
+                <div class="emp-banner">
+                    <div class="emp-name">
+                        <asp:Label ID="NameLabel" class="LabelName" runat="server"></asp:Label>
+                    </div>
+                    <div class="emp-chips">
+                        <span class="emp-chip"><span class="glyphicon glyphicon-tower"></span>
+                            <asp:Label ID="DesignationLabel" runat="server"></asp:Label></span>
+                        <span class="emp-chip"><span class="glyphicon glyphicon-briefcase"></span>
+                            <asp:Label ID="BranchLabel" runat="server"></asp:Label></span>
+                        <span class="emp-chip"><span class="glyphicon glyphicon-tag"></span>
+                            <asp:Label ID="StatusLabel" runat="server"></asp:Label></span>
+                        <span class="emp-chip"><span class="glyphicon glyphicon-ok-circle"></span>
+                            <asp:Label ID="CurrentStatusLbl" runat="server"></asp:Label></span>
+                    </div>
+                </div>
+
+                <asp:ContentPlaceHolder ID="EmpMenues" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // highlight the page being viewed in the employee menu and open its group
+        (function () {
+            var here = location.pathname.split('/').pop().toLowerCase();
+            var links = document.querySelectorAll('#empNav a[href]:not([data-toggle])');
+            for (var i = 0; i < links.length; i++) {
+                var target = (links[i].getAttribute('href') || '').split('?')[0].split('/').pop().toLowerCase();
+                if (target && target === here) {
+                    links[i].className += ' active';
+                    var ul = links[i].parentNode.parentNode;
+                    if (ul && /(^|\s)collapse(\s|$)/.test(ul.className)) {
+                        ul.className += ' in';
+                        var head = document.querySelector('#empNav a[href="#' + ul.id + '"]');
+                        if (head) { head.className = head.className.replace('collapsed', '').trim(); }
+                    }
+                }
+            }
+        })();
+    </script>
+
+    <script src='<%= ResolveUrl("~/Scripts/attachbox.js")+"?v=20260928a" %>' type="text/javascript"></script>
+    <script src='<%= ResolveUrl("~/Scripts/senatescan.js")+"?v=20260928a" %>' data-download='<%= ResolveUrl("~/SenateScan/SenateScan.zip") %>' type="text/javascript"></script>
+</asp:Content>

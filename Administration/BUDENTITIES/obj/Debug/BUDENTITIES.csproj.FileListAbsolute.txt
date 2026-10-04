@@ -1,0 +1,29 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDENTITIES\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDENTITIES\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.pdb
+D:\Applications\Budget\BUDENTITIES\bin\Debug\BUDENTITIES.dll
+D:\Applications\Budget\BUDENTITIES\bin\Debug\BUDENTITIES.pdb
+D:\Applications\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.dll
+D:\Applications\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Budget\BUDENTITIES\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Budget\BUDENTITIES\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Budget\BUDENTITIES\obj\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDENTITIES\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDENTITIES\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDENTITIES\obj\Debug\BUDENTITIES.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\AutomationBranch\BUDENTITIES\obj\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDENTITIES\obj\Debug\BUDENTITIES.pdb
+E:\Applications\Administration\BUDENTITIES\bin\Debug\BUDENTITIES.dll
+E:\Applications\Administration\BUDENTITIES\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.csproj.CoreCompileInputs.cache
+E:\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.dll
+E:\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Administration\BUDENTITIES\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Administration\BUDENTITIES\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Administration\BUDENTITIES\obj\Debug\BUDENTITIES.csproj.AssemblyReference.cache

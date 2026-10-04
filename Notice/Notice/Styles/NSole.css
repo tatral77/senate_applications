@@ -1,0 +1,598 @@
+﻿html, body 
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	
+	color:black;
+	
+	
+	
+}
+
+td 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+    height:10px;
+	
+}
+
+.verdana
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+
+.UserName 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	padding-left: 5px;
+	text-align:left;
+	background-image:url(../images/bg-grad-name.gif);
+}
+
+.Toolbar 
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+.HeaderLinks 
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+.PageHeader
+{
+	font-size: 14px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-weight:bold;
+	color: #0E6733;
+	background-image:url(../images/senate-grad-blue.gif);
+	text-align:center;
+	vertical-align:middle;
+}
+.BillHeader
+{
+	font-size: 14px; 
+	font-family: Verdana, Arial, Helvetica, sans-seriface; 
+	/*font-family: monospace;*/
+	color: #000000;
+	text-align:left;
+	vertical-align:left;
+}
+
+
+.LinkBar
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	background-image:url(../images/bg-yellow.gif);
+	font-weight:bold;
+}
+
+.homeBackground
+{
+	background-image:url(../images/main-image-1024.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.mainTableHeight1024x768
+{
+	height:550px;
+}
+
+.mainTableHeight800x600
+{
+	height:382px;
+}
+
+.MenuItem 
+{
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0E6733;
+	padding-left: 10px;
+	background-color:#FFFFFF;
+	background-image:url(../images/senate-left-but.gif);
+	background-repeat:no-repeat;
+	height: 23px;
+}
+
+.SubMenuItem 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	background-color:#D2EADC;
+	color: #467997;
+/*	border-style:solid;*/
+	text-align:left;
+	padding-left:5px;
+	vertical-align:text-top;
+	height: 20px;
+}
+
+.SubMenuItemSelected
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight:normal;
+	background-color:#FFFFE6;
+	color: #0BD179;
+	text-align:left;
+	/*padding-left:10px;
+	/*background-image:url(../images/sub_menu.jpg);*/
+	height: 20px;
+}
+
+.reportContents
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-style:italic;
+	line-height:2;
+}
+
+a.MenuItemSelected:hover
+{
+	font-family: , Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #01582B;
+	/*padding-left: 1px;*/
+	background-image:url(../images/main_menu_selected.jpg);
+	background-repeat:repeat-x;
+	height: 21px;
+}
+
+a.MenuItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0E6733;
+	padding-left: 10px;
+	background-image:url(../images/senate-left-but.gif);
+	background-repeat:no-repeat;
+}
+
+a.SubMenuItem 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:normal;
+	background-color:#D2EADC;
+	color: #467997;
+/*	border-style:solid;*/
+	text-align:left;
+	padding-left:5px;
+	vertical-align:text-top;
+	height: 20px;
+}
+
+
+a
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 9pt; 
+    color: #336699; 
+	text-decoration:none;
+}
+
+a:hover
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 9pt; 
+    color: #336699; 
+}
+
+
+.TabLinks 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 9pt; 
+    color: #336699; 
+}
+
+.TableHeader 
+{
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+  	background-color:#AECADC;
+	text-align:center;
+}
+
+.TableHeaderUrdu
+{
+ 	font-family: Nafees Web Naskh;
+	font-size: 18px;
+	font-weight:bold;
+  	background-color:#AECADC;
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;	
+	margin: 3px;
+}
+
+h3
+{
+	font-weight:bold;
+	text-align:center;
+	margin: 3px;
+	height: 40px;
+	/*background-image:url(../images/senate-grad-blue.gif);
+	background-repeat:repeat-x;*/
+}
+
+.UrduHeadings
+{
+	font-family: Nafees Web Naskh;
+	font-weight:bold;
+	font-size: 24pt;
+	text-align:center;
+	margin: 3px;
+	height: 40px;
+	/*background-image:url(../images/senate-grad-blue.gif);
+	background-repeat:repeat-x;*/
+}
+
+.TableRowOdd 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+  	background-color:#D7E5E8;
+}
+
+.TableRowEven 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+  	background-color:#E6EADD;
+}
+
+
+.ReportTableHeader 
+{
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+  	background-color:#AECADC;
+	text-align:center;
+}
+.ReportTableRowOdd 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+  	background-color:#D7E5E8;
+}
+
+.ReportTableRowEven 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+  	background-color:#E6EADD;
+}
+
+
+.TableRowOddUrdu
+{
+	font-family: Nafees Web Naskh;
+	font-size: 14px;
+  	background-color:#D7E5E8;
+}
+
+.TableRowEvenUrdu
+{
+	font-family: Nafees Web Naskh;
+	font-size: 14px;
+  	background-color:#E6EADD;
+}
+
+
+.TableRowMouseOver
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	cursor:hand;
+  	background-color:#A6DDEB;
+}
+
+.Footer
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	/*background-color:#8CBAD4;
+	color:#FFFFFF;*/
+}
+
+.LeftBgColor
+{
+	width: 180px;
+	vertical-align:top;
+	background-image: url(../images/senate-bg-page-left.gif);
+}
+
+.InputButton 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+  	background-color:#467977;
+	color:#FFFFFF;
+	border: 1px solid #366885;
+	height: 22px;
+}
+
+.InputButtonUrdu
+{
+	font-family: "Nafees Web Naskh";
+	font-size: 14px;
+  	background-color:#467977;
+	color:#FFFFFF;
+	border: 1px solid #366885;
+	height: 22px;
+}
+
+.InputRadioButton 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	/*background-color:#467977;*/
+	color:#000000;
+}
+
+.InputCheckBox
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	/*background-color:#467977;*/
+	color:#000000;
+}
+
+.InputBrowse
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	background-color:#467977;
+	color:#FFFFFF;
+	border-style:ridge;
+	height:22px;
+}
+
+.InputPictureBrowse
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	background-color:#467977;
+	color:#000000;
+	border-style:ridge;
+	height:22px;
+	width:20px;
+	text-align:center;
+}
+
+.InputText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+}
+
+.InputTextUrdu
+{
+	font-family: "Nafees Web Naskh";
+	font-size: 14px;
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+	text-align:right;
+}
+
+.InputTextMandatory
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	background-color:#FFFFE6;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+}
+
+.InputComboList
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+}
+
+.Labels
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #467977;
+	font-weight:bold;
+	text-align:right;
+}
+
+.LabelsLeftAlign
+{
+	font-family:Verdana;
+	
+	font-size: 11px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.LabelsCenterAlign
+{
+	font-family:Verdana;
+	
+	font-size: 14px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.LabelsUrdu
+{
+	font-weight:bold;
+	font-family:"Nafees Web Naskh";
+	font-size:15px;
+	text-align:left;
+}
+
+.LabelsLeftAlignUrdu
+{
+	font-family: "Nafees Web Naskh";
+	color: #467977;
+	font-size: 15px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.LabelsCenterAlignUrdu
+{
+	font-family: "Nafees Web Naskh";
+	color: #467977;
+	font-size: 15px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.UrduText
+{
+	font-family:"Nafees Web Naskh";
+	font-size: 14px;
+	text-align:right;
+}
+
+.UrduTextNastaleeq
+{
+	font-family:"Nafees Nastaleeq";
+	font-size: 16px;
+	text-align:right;
+}
+
+.InputComboListUrdu
+{
+	font-family: "Nafees Web Naskh";
+	font-size: 14px;
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+	text-align:right;
+}
+
+
+.inselectedTab 
+{      
+/*	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#707070;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#707070;
+*/	
+	padding-left:3px;
+	/*background-color:#8CB9D4;*/
+	font-family:Verdana;
+	font-size: 11px;
+	color:#FFFFFF;
+	font-weight:normal;
+	background-image:url(../images/senate-bg-tabs.gif);
+	background-repeat:no-repeat;
+	height:31px;
+	
+}
+.selectedTab 
+{
+/*	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#707070;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#707070;
+*/	
+	padding-left:3px;
+	/*background-color:#E3DCA6;*/
+	font-family:Verdana;
+	font-size: 11px;
+	color:#3F6982;
+	font-weight:normal;	
+	background-image:url(../images/senate-bg-tabs-selected.gif);
+	background-repeat:no-repeat;
+	height:31px;
+}
+
+.show
+{
+	display:table;
+}
+
+.hide
+{
+	display:none;
+}
+
+.AJAXLayer
+{
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	visibility:hidden; 
+	position:absolute; 
+	right:5px; 
+	top:70px; 
+	width:97px; 
+	height:19px; 
+	z-index:1; 
+	background-color: #FF0000;  
+	border: 1px none #000000;
+}
+
+.LanguageLayer
+{
+	position:absolute; 
+	right:5px; 
+	top:58px; 	
+}
+
+.Mandatory
+{
+	/*color:#FF0000;*/
+	font-size:14px;
+	font-weight:bold;
+}
+
+.SimpleSearchList
+{
+	position:absolute; 
+	border-width:1px; 
+	border-style:solid; 
+	color:#467977;
+	background-color: #eef4f1;
+	height:300px; 
+	width:300px; 
+	overflow:auto;
+}

@@ -1,0 +1,294 @@
+﻿using Entities;
+using QuestionBIZ;
+using ResolutionBIZ;
+using ResolutionEntities;
+using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI.WebControls;
+
+namespace QuestionManagement
+{
+    public partial class TranslatedResolutionDetails : System.Web.UI.Page
+    {
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                BindCombos();
+                BindFields();
+
+            }
+        }
+        protected void BindCombos()
+        {
+            List<ResolutionTypesEnt> resolutiontypes = new ResolutionBiz().GetResolutionTypes();
+            foreach (ResolutionTypesEnt row in resolutiontypes)
+            {
+                ListItem li = new ListItem();
+                li.Text = row.Description.ToString();
+                li.Value = row.ResTypesId.ToString();
+                ResolutionTypeDDL.Items.Add(li);
+            }
+            List<ResolutionStatusesEnt> motionstatus = new ResolutionBiz().GetResolutionStatuses();
+            foreach (ResolutionStatusesEnt row in motionstatus)
+            {
+                ListItem li = new ListItem();
+                li.Text = row.Description.ToString();
+                li.Value = row.ResolutionStatusesId.ToString();
+                ResolutionStatusDDL.Items.Add(li);
+            }
+            //List<AssemblySessions> ASessions = new AdministrationBiz().GetAssemblySessions();
+            //foreach (AssemblySessions row in ASessions)
+            //{
+            //    ListItem li = new ListItem();
+            //    li.Text = row.SessionNumber.ToString();
+            //    li.Value = row.AssemblySessionsId.ToString();
+            //    SessionDDL.Items.Add(li);
+            //}
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            ResolutionEnt resolution = new ResolutionEnt();
+            resolution.ResolutionsId = Convert.ToInt32(ResolutionIDTxt.Text);
+            resolution.AssemblySessionsId = Convert.ToInt32(HidSessionNumber.Value);
+            // resolution.AssemblySessionsId = Convert.ToInt32(SessionDDL.SelectedItem.Value);
+            resolution.NoticeDiaryNo = Convert.ToInt32(NoticeDiaryNoTxt.Text);
+            resolution.NoticeDiaryDate = Convert.ToDateTime(NoticeDiaryDateTxt.Text);
+            string str = NoticeDiaryDateTxt.Text + " " + NoticeDiaryTimeTxt.Text;  // assumed date and time are textboxes
+            DateTime dt = new DateTime();
+            DateTime.TryParse(str, out (dt)); // returns datetime in dt if it is valid
+            resolution.NoticeDiaryTime = dt;
+
+            // resolution.NoticeDiaryTime = Convert.ToDateTime(NoticeDiaryTimeTxt.Text);
+            resolution.ResolutionDiaryNo = Convert.ToInt32(ResolutionDiaryNoTxt.Text);
+            resolution.ResolutionNumber = Convert.ToInt32(ResolutionNoTxt.Text);
+            resolution.Description = Convert.ToString(ResolutionTxt.Value);
+            resolution.ResTypesId = Convert.ToInt32(ResolutionTypeDDL.SelectedItem.Value);
+            int PrevResolutionStatusId = Convert.ToInt32(HidResolutionStatusId.Value);
+            int NewResolutionStatusId = Convert.ToInt32(ResolutionStatusDDL.SelectedItem.Value);
+            resolution.ResolutionStatusId = NewResolutionStatusId;
+            ResolutionStatusHistory resolutionStatusHistory = new ResolutionStatusHistory();
+            resolutionStatusHistory.ResolutionId = resolution.ResolutionsId;
+            resolutionStatusHistory.ResolutionStatusId = resolution.ResolutionStatusId;
+            resolutionStatusHistory.AssemblySessionId = resolution.AssemblySessionsId;
+            resolutionStatusHistory.StatusDate = resolution.ResolutionStatusDate;
+            if (PrevResolutionStatusId != NewResolutionStatusId)
+                new ResolutionBiz().UpdateResolutionStatus(resolutionStatusHistory);
+            if (!String.IsNullOrEmpty(HouseMovingDateTxt.Text))
+                resolution.MovedDate = Convert.ToDateTime(HouseMovingDateTxt.Text);
+            if (!String.IsNullOrEmpty(DiscussionDateTxt.Text))
+                resolution.DiscussedDate = Convert.ToDateTime(DiscussionDateTxt.Text);
+            if (!String.IsNullOrEmpty(PassingDateTxt.Text))
+                resolution.PassedDate = Convert.ToDateTime(PassingDateTxt.Text);
+            resolution.IsUrdu = UrduCB.Checked == true ? 1 : 0;
+            new ResolutionBiz().UpdateResolution(resolution);
+
+            Response.Redirect("~/ResolutionDetail.aspx?ResolutionId=" + resolution.ResolutionsId);
+
+        }
+        protected void MoveResolutionBtn_Click(object sender, EventArgs e)
+        {
+            ResolutionEnt resolution = new ResolutionEnt();
+            resolution.ResolutionsId = Convert.ToInt32(ResolutionIDTxt.Text);
+            resolution.AssemblySessionsId = Convert.ToInt32(MoveAssemblySessionDDL.SelectedItem.Value);
+            resolution.NoticeDiaryNo = Convert.ToInt32(MoveNoticeDiaryTxt.Text);
+            resolution.NoticeDiaryDate = Convert.ToDateTime(MoveNoticeDateTxt.Text);
+            // DateTime noticedate = Convert.ToDateTime(NoticeDiaryDateTxt.Text);
+            //String datetime = MoveNoticeDateTxt.Text + " " + MoveNoticeDiaryTimeTxt.Text;
+            string str = MoveNoticeDateTxt.Text + " " + MoveNoticeDiaryTimeTxt.Text;  // assumed date and time are textboxes
+            DateTime dt = new DateTime();
+            DateTime.TryParse(str, out (dt)); // returns datetime in dt if it is valid
+            resolution.NoticeDiaryTime = dt;
+            //resolution.NoticeDiaryTime= Convert.ToDateTime(MoveNoticeDiaryTimeTxt.Text);
+            resolution.ResolutionDiaryNo = Convert.ToInt32(MoveResDiaryNoTxt.Text);
+            resolution.ResolutionNumber = Convert.ToInt32(ResolutionNoTxt.Text);
+            resolution.Description = Convert.ToString(ResolutionTxt.Value);
+            resolution.ResTypesId = Convert.ToInt32(ResolutionTypeDDL.SelectedItem.Value);
+            resolution.ResolutionStatusId = Convert.ToInt32(ResolutionStatusDDL.SelectedItem.Value);
+
+            if (!String.IsNullOrEmpty(HouseMovingDateTxt.Text))
+                resolution.MovedDate = Convert.ToDateTime(HouseMovingDateTxt.Text);
+            if (!String.IsNullOrEmpty(DiscussionDateTxt.Text))
+                resolution.DiscussedDate = Convert.ToDateTime(DiscussionDateTxt.Text);
+            if (!String.IsNullOrEmpty(PassingDateTxt.Text))
+                resolution.PassedDate = Convert.ToDateTime(PassingDateTxt.Text);
+            new ResolutionBiz().MoveResolution(resolution);
+            Response.Redirect("~/ResolutionDetail.aspx?ResolutionId=" + resolution.ResolutionsId);
+
+        }
+        protected void PrintBtn_Click(object sender, EventArgs e)
+        {
+            // int id=InsertQuestion();
+            // Response.Redirect("~/PrintQuestion.aspx?questionsId=" + id);
+
+        }
+
+        protected void AddMover_Click(object sender, EventArgs e)
+        {
+            int found = 0;
+            int moverid = Convert.ToInt32(HidMemberId.Value);
+            int ResolutionId = Convert.ToInt32(Request.QueryString["ResolutionId"]);
+            if (!String.IsNullOrEmpty(HidMemberId.Value))
+            {
+
+                foreach (ListItem listItem in MoversLB.Items)
+                {
+                    if (Convert.ToInt32(listItem.Value) == moverid)
+                        found = 1;
+                }
+            }
+            if (found == 0)
+            {
+                string movername = new QuestionBiz().GetMemberNameById(moverid);
+                ListItem Temp = new ListItem();
+                Temp.Value = Convert.ToString(moverid);
+                Temp.Text = Convert.ToString(movername);
+                MoversLB.Items.Add(Temp);
+                HidMemberId.Value = "";
+                MemberNameTxt.Text = "";
+                err.Text = "";
+                ResolutionSubmittersEnt motionmover = new ResolutionSubmittersEnt();
+                motionmover.ResolutionsId = ResolutionId;
+                motionmover.SystemUsersId = moverid;
+                new ResolutionBiz().InsertResolutionSubmitters(motionmover);
+
+            }
+            else
+                err.Text = "Mover already exist";
+
+        }
+        protected void DeleteMover_Click(object sender, EventArgs e)
+        {
+            List<ListItem> itemsToRemove = new List<ListItem>();
+            int ResolutionId = Convert.ToInt32(Request.QueryString["ResolutionId"]);
+            foreach (ListItem temp in MoversLB.Items)
+            {
+                if (temp.Selected)
+                {
+                    itemsToRemove.Add(temp);
+                }
+            }
+
+            foreach (ListItem listItem in itemsToRemove)
+            {
+                new ResolutionBiz().DeleteResolutionMover(ResolutionId, Convert.ToInt32(listItem.Value));
+                MoversLB.Items.Remove(listItem);
+            }
+
+        }
+        protected void BindFields()
+        {
+            ResolutionEnt res = new ResolutionEnt();
+            int ResolutionId = Convert.ToInt32(Request.QueryString["ResolutionId"]);
+            res = new ResolutionBiz().GetResolution(ResolutionId);
+            ResolutionIDTxt.Text = Convert.ToString(res.ResolutionsId);
+            HidSessionNumber.Value = Convert.ToString(res.AssemblySessionsId);
+            SessionTxt.Text = Convert.ToString(res.SessionNumber);
+            // SessionDDL.SelectedValue = Convert.ToString(res.SessionNumber);
+            NoticeDiaryNoTxt.Text = Convert.ToString(res.NoticeDiaryNo);
+            MoveNoticeDiaryTxt.Text = Convert.ToString(res.NoticeDiaryNo);
+            NoticeDiaryDateTxt.Text = res.NoticeDiaryDate.ToShortDateString();
+            NoticeDiaryTimeTxt.Text = res.NoticeDiaryTime.ToShortTimeString();
+            MoveNoticeDiaryTimeTxt.Text = res.NoticeDiaryTime.ToShortTimeString();
+            MoveNoticeDateTxt.Text = res.NoticeDiaryDate.ToShortDateString();
+            ResolutionDiaryNoTxt.Text = res.ResolutionDiaryNo.ToString();
+            MoveResDiaryNoTxt.Text = res.ResolutionDiaryNo.ToString();
+            ResolutionNoTxt.Text = res.ResolutionNumber.ToString();
+            ResolutionTypeDDL.SelectedValue = res.ResTypesId.ToString();
+            ResolutionStatusDDL.SelectedValue = res.ResolutionStatusId.ToString();
+            HidResolutionStatusId.Value = res.ResolutionStatusId.ToString();
+            HouseMovingDateTxt.Text = (res.MovedDate < Convert.ToDateTime("01/01/1900")) ? "" : res.MovedDate.ToShortDateString();
+            DiscussionDateTxt.Text = (res.DiscussedDate < Convert.ToDateTime("01/01/1900")) ? "" : res.DiscussedDate.ToShortDateString();
+            PassingDateTxt.Text = (res.PassedDate < Convert.ToDateTime("01/01/1900")) ? "" : res.PassedDate.ToShortDateString();
+            ResolutionTxt.Value = res.Description.ToString();
+            HyperLink1.NavigateUrl = res.ResolutionFile;
+            UrduText.Value = res.UrduText;
+            if (res.IsUrdu == 1)
+                UrduCB.Checked = true;
+            BindMoveSessionDDL(res.AssemblySessionsId);
+            PrintHL.NavigateUrl = "~/PrintResolution.aspx?ResolutionId=" + ResolutionId;
+            if (res.Submitters != null)
+            {
+                foreach (ResolutionSubmittersEnt movers in res.Submitters)
+                {
+                    ListItem li = new ListItem();
+                    li.Text = movers.MoverName.ToString();
+                    li.Value = movers.SystemUsersId.ToString();
+                    MoversLB.Items.Add(li);
+                }
+            }
+
+        }
+        protected void TranslateBtn_Click(object sender, EventArgs e)
+        {
+            int userid = 0;
+            if (Request.Cookies["userInfo"] != null)
+            {
+                //HttpCookie userInfo = new HttpCookie("userInfo");
+                HttpCookie userInfo = Request.Cookies["userInfo"];
+                userid = Convert.ToInt32(userInfo["userid"]);
+            }
+            int ResolutionId = Convert.ToInt32(Request.QueryString["ResolutionId"]);
+            if (!string.IsNullOrEmpty(UrduText.Value))
+            {
+
+                new QuestionBiz().SendForTranslation(ResolutionId, userid);
+                UrduLbl.Visible = false;
+                Response.Redirect("~/ResolutionDetail.aspx?ResolutionId=" + ResolutionId);
+            }
+            else
+            {
+                UrduLbl.Text = "No text found for translation";
+                UrduLbl.Visible = true;
+            }
+        }
+        public void BindMoveSessionDDL(int SessionNumberId)
+        {
+            List<AssemblySessions> AsSessions = new AdministrationBiz().GetAssemblySessions();
+            foreach (AssemblySessions row in AsSessions)
+            {
+                ListItem li = new ListItem();
+                li.Text = row.SessionNumber.ToString();
+                li.Value = row.AssemblySessionsId.ToString();
+                //if (Convert.ToInt32(li.Value) > SessionNumberId)
+                //{
+                MoveAssemblySessionDDL.Items.Add(li);
+                //}
+
+            }
+
+        }
+
+        protected void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            int userid = 0;
+            if (Request.Cookies["userInfo"] != null)
+            {
+                //HttpCookie userInfo = new HttpCookie("userInfo");
+                HttpCookie userInfo = Request.Cookies["userInfo"];
+                userid = Convert.ToInt32(userInfo["userid"]);
+            }
+            int ResolutionId = Convert.ToInt32(ResolutionIDTxt.Text);
+            new ResolutionBiz().DeleteResolution(ResolutionId, userid);
+            Response.Redirect("SearchResolution.aspx");
+        }
+        protected void ApprovedBtn_Click(object sender, EventArgs e)
+        {
+            int userid = 0;
+            if (Request.Cookies["userInfo"] != null)
+            {
+                //HttpCookie userInfo = new HttpCookie("userInfo");
+                HttpCookie userInfo = Request.Cookies["userInfo"];
+                userid = Convert.ToInt32(userInfo["userid"]);
+            }
+            int ResolutionId = Convert.ToInt32(Request.QueryString["ResolutionId"]);
+            new ResolutionBiz().ApproveTranslation(ResolutionId, userid);
+            Response.Redirect("~/ResolutionDetail.aspx?ResolutionId=" + ResolutionId);
+
+        }
+    }
+}

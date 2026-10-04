@@ -1,0 +1,177 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Management.master.cs" Inherits="EstablishmentASP.Management" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="./Styles/MainStyles.css" rel="stylesheet" />
+    <script src="./Jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./Scripts/bootstrap.min.js?v=337b" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="./Styles/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+    <link href="./Styles/modern.css" rel="stylesheet" />
+
+    <%-- <link href="Styles/new.css" rel="stylesheet" />--%>
+    <style type="text/css">
+        #header {
+            background-color: #333; /* Black background color */
+            position: fixed; /* Make it stick/fixed */
+            top: 0; /* Stay on top */
+            width: 100%; /* Full width */
+            transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        }
+        li a {
+            color: #fff;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body class="app-shell">
+    <form role="form" data-toggle="validator" runat="server" id="form1">
+
+        <div class="container-flued">
+
+            <div class="row">
+                <div class="col-md-12 navbar-fixed-top" style="background-color: #fff; height: 100px;">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <asp:Image ID="logoImage" runat="server" ImageUrl="~/images/senate-logo.png" AlternateText="Senate Logo" CssClass="app-emblem" Style="margin: 8px 0 0 20px; height: 84px; box-shadow: 0 2px 8px rgba(0,0,0,.2); border: 1px solid #e3e8ef;" />
+                        </div>
+                        <div class="col-md-8" style="text-align: center">
+                            <h3 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; color: #086623">SENATE OF PAKISTAN</h3>
+                            <h4 style="font-weight: bold; font-family: Tahoma">HUMAN RESOURCE MANAGEMENT SYSTEM</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar" style="background-color: #086623; margin-top: 5px;">
+
+                                <div class="container-fluid" style="background-color: #086623">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href='<%= ResolveUrl("~/Home.aspx") %>' style="color: #fff; font-family: Arial; font-size: 25px;">HRMS</a>
+                                    </div>
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                             <a href="../ManagementPages/SearchEmployee.aspx">Search Employee
+                                            </a>
+                                        </li>
+                                    </ul>
+                                       <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Reports
+                                             <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                  <li><a href="../Reports/Rpt_17_Deputation.aspx">Employees on Deputation/Contract etc</a></li>
+                                                <li><a href="../Reports/Rpt_8_Extensionaspx.aspx">Contract, Deputation, Adhoc Extension</a></li>
+                                                  <li><a href="../Reports/SuperanuationReport.aspx">Superannuation Report</a></li>
+                                               <li><a href="../Reports/Rpt_5_Designation.aspx">Designation on specific Date </a></li>
+                                                <li><a href="../Reports/Rpt_3_Probation.aspx">Employees on Probation</a></li>
+                                                <li><a href="../Reports/Rpt_Employees_On_Leave.aspx">Employees on Leave</a></li>
+                                                 <li><a href="../Reports/Rpt_LeaveEnchashment.aspx">Leave Encashment New</a></li>
+                                                <li><a href="../Reports/LeaveEncashmentList.aspx">Leave Encashment</a></li>
+                                                <li><a href="../Reports/Rpt_EmployeesTraining.aspx">Employee Trainings</a></li>
+                                                <li><a href="../Reports/Rpt_Current_Posting.aspx">Current Postings</a></li>  
+                                                 <li><a href="../Reports/Rpt_EmployeesBranch.aspx">Employees Branch</a></li>  
+                                                <%--<li><a href="ContactDetails.aspx">Employees Contact Details</a></li>--%>
+                                                 <li><a href="../Reports/Rpt_13_Lien.aspx">Employees On Lien</a></li>   
+                                                  <li><a href="../Reports/Rpt_21_OtherCharges.aspx">Other Charges</a></li>  
+                                                <li><a href="../Reports/Rpt_14_OtherDuties.aspx">Other Duties</a></li>                                                 
+                                                 <li><a href="../Reports/Rpt_25_Promotion.aspx">Promotion</a></li>                                             
+                                                <li><a href="../Reports/Rpt_NOC_Issued.aspx">NOC</a></li>    
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                   <%-- <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Employee
+        <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../NewEmployee.aspx">New Employee</a></li>
+                                                <li><a href="../EmpPersonalNumbers.aspx">Personal Numbers</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+
+                                   <%-- <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Manage
+        <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../ManageDataEntry.aspx">Data Entry</a></li>
+                                                <li><a href="../EmpPosts.aspx">Posts</a></li>
+                                                <li><a href="../BranchesInfo.aspx">Branches</a></li>
+                                                <li><a href="#">Countries</a></li>
+                                                <li><a href="#">Provinces</a></li>
+                                                <li><a href="#">Districts</a></li>
+                                                <li><a href="#">Cities</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+
+
+
+
+                                 <%--   <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Reports
+        <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">--%>
+                                               <%-- <li><a href="#">Employees Details</a></li>--%>
+                                             <%--   <li><a href="../Reports/SuperanuationReport.aspx">Superannuation Report</a></li>
+                                                <li><a href="../Reports/Rpt_8_Extensionaspx.aspx">Contract, Deputation, Adhoc Extension</a></li>
+                                                <li><a href="../Reports/Rpt_5_Designation.aspx">Designation on specific Date </a></li>
+                                                <li><a href="../Reports/Rpt_3_Probation.aspx">Employees on Probation</a></li>
+                                                <li><a href="../Reports/Rpt_Employees_On_Leave.aspx">Employees on Leave</a></li>
+                                                <li><a href="../Reports/LeaveEncashmentList.aspx">Leave Encashment</a></li>
+                                                <li><a href="../Reports/Rpt_EmployeesTraining.aspx">Employee Trainings</a></li>
+                                                <li><a href="ContactDetails.aspx">Employees Contact Details</a></li>
+                                                <li><a href="../Reports/Rpt_17_Deputation.aspx">Employees Working on Deputation</a></li>--%>
+                                              <%--  <li><a href="#">Appointment Made during Last 3 Years</a></li>
+                                                <li><a href="#">Age Report</a></li>
+                                                <li><a href="#">Job Experience Report</a></li>
+                                                <li><a href="../ReportSearch/PostsReport.aspx">Posts Report</a></li>--%>
+                                      <%--      </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Rules
+        <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Files/Rules/Leave Rules.pdf" target="_blank">Leave Rules</a></li>
+                                                <li><a href="../Files/Rules/Retirement-Re-Employment.pdf" target="_blank">Retirement and Re-Employment</a></li>
+                                                <li><a href="../Files/Rules/CONDUCT EFFICIENCY AND DISCIPLINE.pdf" target="_blank">Conduct Efficiency and Discipline</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>--%>
+
+                                    <ul class="nav navbar-nav navbar-right ">
+                                        <li>
+                                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="Logout_Click"><span class="glyphicon glyphicon-log-out"></span>Logout</asp:LinkButton></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="container-fluid" style="margin-top: 160px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

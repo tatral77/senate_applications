@@ -1,0 +1,463 @@
+﻿html, body {
+    margin: 0px 5px;
+    font-family: 'Times New Roman' !important;
+    font-size: 11pt !important;
+    color: black;
+}
+
+td 
+{
+    height:10px;
+	vertical-align: top;
+}
+
+.verdana
+{ 
+	font-size: 12pt;
+}
+
+.UserName 
+{
+	color: #666666;
+	padding-left: 5px;
+	text-align:left;
+	background-image:url(../images/bg-grad-name.gif);
+}
+
+.Toolbar 
+{
+	text-align: right;
+}
+
+.HeaderLinks 
+{
+	text-align: right;
+}
+
+.PageHeader
+{
+	font-size: 14px; 
+	font-weight:bold;
+	color: #0E6733;
+	background-image:url(../images/senate-grad-blue.gif);
+	text-align:center;
+	vertical-align:middle;
+}
+.BillHeader
+{
+	font-size: 14px; 
+	color: #000000;
+	text-align:left;
+	vertical-align:left;
+}
+
+
+.LinkBar
+{
+	background-image:url(../images/bg-yellow.gif);
+	font-weight:bold;
+}
+
+.homeBackground
+{
+	background-image:url(../images/main-image-1024.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.mainTableHeight1024x768
+{
+	height:550px;
+}
+
+.mainTableHeight800x600
+{
+	height:382px;
+}
+
+.MenuItem 
+{
+	font-style: normal;
+	font-weight: normal;
+	color: #0E6733;
+	padding-left: 10px;
+	background-color:#FFFFFF;
+	background-image:url(../images/senate-left-but.gif);
+	background-repeat:no-repeat;
+	height: 23px;
+}
+
+.SubMenuItem 
+{
+	font-weight:normal;
+	background-color:#D2EADC;
+	color: #467997;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:text-top;
+	height: 20px;
+}
+
+.SubMenuItemSelected
+{
+	font-weight:normal;
+	background-color:#FFFFE6;
+	color: #0BD179;
+	text-align:left;
+	height: 20px;
+}
+
+.reportContents
+{
+	font-size: 14pt;
+	font-style:italic;
+	line-height:2px;
+}
+
+a.MenuItemSelected:hover
+{
+	font-weight: bold;
+	color: #01582B;
+	background-image:url(../images/main_menu_selected.jpg);
+	background-repeat:repeat-x;
+	height: 21px;
+}
+
+a.MenuItem
+{
+	font-style: normal;
+	font-weight: normal;
+	color: #0E6733;
+	padding-left: 10px;
+	background-image:url(../images/senate-left-but.gif);
+	background-repeat:no-repeat;
+}
+
+a.SubMenuItem 
+{
+	font-weight:normal;
+	background-color:#D2EADC;
+	color: #467997;
+/*	border-style:solid;*/
+	text-align:left;
+	padding-left:5px;
+	vertical-align:text-top;
+	height: 20px;
+}
+
+.TabLinks 
+{
+    color: #336699; 
+}
+
+.TableHeader 
+{
+	font-weight:bold;
+  	background-color:#AECADC;
+	text-align:center;
+}
+
+.TableHeaderUrdu
+{
+ 	font-family: 'Nafees Web Naskh';
+	font-size: 18px;
+	font-weight:bold;
+  	background-color:#AECADC;
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color:#000000;	
+	margin: 3px;
+}
+
+h3
+{
+	font-weight:bold;
+	text-align:center;
+	margin: 3px;
+	height: 40px;
+}
+
+.UrduHeadings
+{
+	font-family: 'Nafees Web Naskh';
+	font-weight:bold;
+	font-size: 24pt;
+	text-align:center;
+	margin: 3px;
+	height: 40px;
+}
+
+.TableRowOdd 
+{
+  	background-color:#D7E5E8;
+}
+
+.TableRowEven 
+{
+  	background-color:#E6EADD;
+}
+
+
+.ReportTableHeader 
+{
+	font-weight:bold;
+  	background-color:#AECADC;
+	text-align:center;
+}
+.ReportTableRowOdd 
+{
+  	background-color:#D7E5E8;
+}
+
+.ReportTableRowEven 
+{
+  	background-color:#E6EADD;
+}
+
+
+.TableRowOddUrdu
+{
+	font-family: 'Nafees Web Naskh';
+	font-size: 14px;
+  	background-color:#D7E5E8;
+}
+
+.TableRowEvenUrdu
+{
+	font-family: 'Nafees Web Naskh';
+	font-size: 14px;
+  	background-color:#E6EADD;
+}
+
+
+.TableRowMouseOver
+{
+  	background-color:#A6DDEB;
+}
+
+.LeftBgColor
+{
+	width: 180px;
+	vertical-align:top;
+	background-image: url(../images/senate-bg-page-left.gif);
+}
+
+.InputButton 
+{
+  	background-color:#467977;
+	color:#FFFFFF;
+	border: 1px solid #366885;
+	height: 22px;
+}
+
+.InputButtonUrdu
+{
+	font-family: "Nafees Web Naskh";
+	font-size: 14px;
+  	background-color:#467977;
+	color:#FFFFFF;
+	border: 1px solid #366885;
+	height: 22px;
+}
+
+.InputRadioButton 
+{
+	color:#000000;
+}
+
+.InputCheckBox
+{
+	color:#000000;
+}
+
+.InputBrowse
+{
+  	background-color:#467977;
+	color:#FFFFFF;
+	border-style:ridge;
+	height:22px;
+}
+
+.InputPictureBrowse
+{
+  	background-color:#467977;
+	color:#000000;
+	border-style:ridge;
+	height:22px;
+	width:20px;
+	text-align:center;
+}
+
+.InputText
+{
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+}
+
+.InputTextUrdu
+{
+	font-family: "Nafees Web Naskh";
+	font-size: 14px;
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+	text-align:right;
+}
+
+.InputTextMandatory
+{
+  	background-color:#FFFFE6;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+}
+
+.InputComboList
+{
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+}
+
+.Labels
+{
+	color: #467977;
+	font-weight:bold;
+	text-align:right;
+}
+
+.LabelsLeftAlign
+{
+	font-weight:bold;
+	text-align:left;
+}
+
+.LabelsCenterAlign
+{
+	font-weight:bold;
+	text-align:center;
+}
+
+.LabelsUrdu
+{
+	font-weight:bold;
+	font-family:"Nafees Web Naskh";
+	font-size:15px;
+	text-align:left;
+}
+
+.LabelsLeftAlignUrdu
+{
+	font-family: "Nafees Web Naskh";
+	color: #467977;
+	font-size: 15px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.LabelsCenterAlignUrdu
+{
+	font-family: "Nafees Web Naskh";
+	color: #467977;
+	font-size: 15px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.UrduText
+{
+	font-family:"Nafees Web Naskh";
+	font-size: 14px;
+	text-align:right;
+}
+
+.UrduTextNastaleeq
+{
+	font-family:"Nafees Nastaleeq";
+	font-size: 16px;
+	text-align:right;
+}
+
+.InputComboListUrdu
+{
+	font-family: "Nafees Web Naskh";
+	font-size: 14px;
+  	background-color:#D2EADC;
+	color:#0E6733;
+	border: 1px solid #5D8AA1;
+	text-align:right;
+}
+
+
+.inselectedTab 
+{      
+	padding-left:3px;
+	color:#FFFFFF;
+	font-weight:normal;
+	background-image:url(../images/senate-bg-tabs.gif);
+	background-repeat:no-repeat;
+	height:31px;
+	
+}
+.selectedTab 
+{
+	padding-left:3px;
+	color:#3F6982;
+	font-weight:normal;	
+	background-image:url(../images/senate-bg-tabs-selected.gif);
+	background-repeat:no-repeat;
+	height:31px;
+}
+
+.show
+{
+	display:table;
+}
+
+.hide
+{
+	display:none;
+}
+
+.AJAXLayer
+{
+	color: #FFFFFF;
+	font-size: 10pt;
+	visibility:hidden; 
+	position:absolute; 
+	right:5px; 
+	top:70px; 
+	width:97px; 
+	height:19px; 
+	z-index:1; 
+	background-color: #FF0000;  
+	border: 1px none #000000;
+}
+
+.LanguageLayer
+{
+	position:absolute; 
+	right:5px; 
+	top:58px; 	
+}
+
+.Mandatory
+{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.SimpleSearchList
+{
+	position:absolute; 
+	border-width:1px; 
+	border-style:solid; 
+	color:#467977;
+	background-color: #eef4f1;
+	height:300px; 
+	width:300px; 
+	overflow:auto;
+}

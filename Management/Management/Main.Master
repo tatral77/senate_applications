@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Management.Main" %>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles/MainStyles.css" rel="stylesheet" />
+    <script src="./Jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="./Styles/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%-- <link href="Styles/new.css" rel="stylesheet" />--%>
+    <style type="text/css">
+        #header {
+            background-color: #333; /* Black background color */
+            position: fixed; /* Make it stick/fixed */
+            top: 0; /* Stay on top */
+            width: 100%; /* Full width */
+            transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        }
+        li a {
+            color: #fff;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form role="form" data-toggle="validator" runat="server" id="form1">
+
+        <div class="container-flued" id="title-sec">
+            <div class="row" >
+                <div class="col-md-12 navbar-fixed-top" id="top-navbar" style="background-color: #fff; height: 100px;">
+                    <div class="row" >
+                        <div class="col-md-2">
+                            <asp:Image ID="logoImage" runat="server" ImageUrl="~/images/logo.png" AlternateText="Senate Logo" Width="80px" Height="90px" Style="margin-top: 0px; margin-left: 20px" />
+                        </div>
+                        <div class="col-md-8" style="text-align: center">
+                            <h3 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; color: #086623">SENATE OF PAKISTAN</h3>
+                            <h4 style="font-weight: bold; font-family: Tahoma">CONTENT MANAGEMENT SYSTEM</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar" style="background-color: #3F602B; margin-top: 5px;">
+
+                                <div class="container-fluid" style="background-color: #337147">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#" style="color: #fff; font-family: Arial; font-size: 25px;">CMS</a>
+                                    </div>
+                                    <ul class="nav navbar-nav" id="mainsearch" runat="server">
+                                        <li class="dropdown">
+                                            <a href="../Applications.aspx">Applications
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    
+                                    <ul class="nav navbar-nav" id="newemployee" runat="server" >
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Manage Data
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../ManageCountries.aspx">Countries</a></li>
+                                                 <li><a href="../ManageParliamentaryTenures.aspx">Parliamentary Tenures</a></li>
+                                                    <li><a href="../ManageParliamentaryTerm.aspx">Parliamentary Term</a></li>
+                                                </ul>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="nav navbar-nav" id="manageentry" runat="server">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Menus
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../ManageMenus.aspx">Menus</a></li>
+                                                <li><a href="../ManageSubMenus.aspx">SubMenus</a></li>
+                                               
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right ">
+                                        <li>
+                                          <asp:LinkButton ID="LinkButton1" runat="server" OnClick="Logout_Click"><span class="glyphicon glyphicon-log-out"></span>Logout</asp:LinkButton></li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="container-fluid" id="content" style="margin-top: 160px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 768) {
+                $("#top-navbar").addClass("navbar-default");
+                $("#top-navbar").removeClass("navbar-fixed-top");
+            }
+        });
+    </script>
+</body>
+</html>
+

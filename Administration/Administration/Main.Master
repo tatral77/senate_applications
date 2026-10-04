@@ -1,0 +1,173 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Administration.Main" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+      <link href="Styles/MainStyles.css" rel="stylesheet" />
+    <script src="./Jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <%--    <link href="Custom/jquery-ui.css.css" rel="stylesheet" />
+    <script src="Custom/jquery-ui.min.js"></script>
+    <script src="Custom/jquery.min.js"></script>--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+        #header {
+            background-color: #333; /* Black background color */
+            position: fixed; /* Make it stick/fixed */
+            top: 0; /* Stay on top */
+            width: 100%; /* Full width */
+            transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        }
+
+        li a {
+            color: #fff;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form role="form" data-toggle="validator" runat="server" id="form2">
+        <div class="container-flued" id="title-sec">
+            <div class="row">
+                 <asp:Label  runat="server" id="EmployeeRequisitions"> </asp:Label>
+                  <asp:Label  runat="server" id="thresholdlevel"> </asp:Label>
+                <div class="col-md-12 navbar-fixed-top" id="top-navbar" style="background-color: #fff; height: 100px;">
+                    <div class="row">
+                       <div class="col-md-12">
+                            <asp:Image ID="logoImage" CssClass="img-responsive" runat="server" ImageUrl="~/images/banner.png" AlternateText="Senate Logo" Width="100%" Style="margin-top: 0px;" />
+                        </div>
+                    </div>
+                   <%-- <div class="row">
+                        <div class="col-md-2">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/logo.png" AlternateText="Senate Logo" Width="80px" Height="90px" Style="margin-top: 0px; margin-left: 20px" />
+                        </div>
+                        <div class="col-md-8" style="text-align: center">
+                            <h3 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; color:#086623">SENATE OF PAKISTAN</h3>
+                            <h4 style="font-weight: bold; font-family: Tahoma">ADMINISTRATION BRANCH</h4>
+                        </div>
+                    </div>--%>
+                    <div class="row">
+                          <div class="col-md-12">
+                            <nav class="navbar" style="background-color:#385474; margin-top: 5px;">
+                                <div class="container-fluid" style="background-color:#385474">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#" style="color: #fff; font-family: Arial; font-size: 25px;">ADMIN</a>
+                                    </div>
+                                     <ul class="nav navbar-nav navbar-right ">
+                                         <li><asp:LinkButton ID="LinkButton1" runat="server" OnClick="Logout_Click"><span class="glyphicon glyphicon-log-out"></span>Logout</asp:LinkButton></li>
+                                    </ul>
+                                <div id="MenusDiv" runat="server">
+                                <%--    <ul class="nav navbar-nav" id="mainsearch" runat="server">
+                                        <li class="dropdown">
+                                            <a href="../SearchItem.aspx">Inventory</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav" id="newemployee" runat="server">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Manage
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="ManageCategories.aspx">Categories</a>
+                                                </li>
+                                                <li>
+                                                    <a href="ManageVendors.aspx">Vendors</a>
+                                                </li>--%>
+                                                <%-- <li>
+                                                    <a href="ManageBrands.aspx">Brands</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Vendors.aspx">Vendor</a>
+                                                </li>
+                                                <li>
+                                                    <a href="ManageModels.aspx">Models</a>
+                                                </li>--%>
+                                          <%--  </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav" id="Ul1" runat="server">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Issuance
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="BranchRequests.aspx">Branch Request</a>
+                                                </li>
+                                                <li>
+                                                    <a href="EmployeeRequests.aspx">Employee Request</a>
+                                                </li>--%>
+                                                <%--   <li>
+                                                    <a href="NewRequest.aspx">Requests</a>
+                                                </li>--%>
+                                                <%-- <li>
+                                                    <a href="ManageBrands.aspx">Brands</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Vendors.aspx">Vendor</a>
+                                                </li>
+                                                <li>
+                                                    <a href="ManageModels.aspx">Models</a>
+                                                </li>--%>
+                                           <%-- </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav" id="manageentry" runat="server">
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle img-rounded" data-toggle="dropdown" href="#">Manage Purchases
+                                            <span class="caret"></span></a>
+                                            <ul class="dropdown-menu ">
+                                                <li>
+                                                    <a href="../ManagePurchases.aspx">New Purchases</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right ">
+                                        <li><a href="../ThresholdItems.aspx">Threshold Items <span runat="server" id="motionbadge" class="badge" style="background-color: red"><%=GetThresholdItems()%></span></a></li>
+                                    </ul>--%>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="container" style="margin-top:14%;width:80%!important">
+            <div class="row">
+                <div class="col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+     <script type="text/javascript">
+         //jQuery.noConflict();
+         //jQuery(document).ready(function ($) {
+         //    var invitee = $.ajax({
+         //        type: "GET",
+         //        url: "~/WebService.asmx/GetThresholdLevel",
+         //        async: false
+         //    }).responseText;
+         //    $('#motionbadge').html(invitee.);
+         //});
+         $(document).ready(function () {
+             var secret = document.getElementById("thresholdlevel").innerText;
+             document.getElementById("motionbadge").innerText=secret;
+               
+         });
+         $(document).ready(function () {
+             var secret = document.getElementById("EmployeeRequisitions").innerText;
+             document.getElementById("requestsbadge").innerText = secret;
+
+         });
+
+
+         </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+E:\Senate Code Improvement\MY\MyEntities\bin\Debug\MyEntities.dll
+E:\Senate Code Improvement\MY\MyEntities\bin\Debug\MyEntities.pdb
+E:\Senate Code Improvement\MY\MyEntities\obj\Debug\MyEntities.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\MY\MyEntities\obj\Debug\MyEntities.dll
+E:\Senate Code Improvement\MY\MyEntities\obj\Debug\MyEntities.pdb

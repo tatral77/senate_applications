@@ -1,0 +1,39 @@
+D:\Senate Projects\SenateSupport\SupportBIZ\bin\Debug\SupportBIZ.dll
+D:\Senate Projects\SenateSupport\SupportBIZ\bin\Debug\SupportBIZ.pdb
+D:\Senate Projects\SenateSupport\SupportBIZ\bin\Debug\SupportDAL.dll
+D:\Senate Projects\SenateSupport\SupportBIZ\bin\Debug\SupportEntities.dll
+D:\Senate Projects\SenateSupport\SupportBIZ\bin\Debug\SupportDAL.pdb
+D:\Senate Projects\SenateSupport\SupportBIZ\bin\Debug\SupportEntities.pdb
+D:\Senate Projects\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csprojAssemblyReference.cache
+D:\Senate Projects\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.CoreCompileInputs.cache
+D:\Senate Projects\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.CopyComplete
+D:\Senate Projects\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.dll
+D:\Senate Projects\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.pdb
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportBIZ.dll
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportBIZ.pdb
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportDAL.dll
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportEntities.dll
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\Shared.dll
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportDAL.pdb
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportEntities.pdb
+E:\Applications\SenateSupport\SupportBIZ\bin\Debug\Shared.pdb
+E:\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.AssemblyReference.cache
+E:\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.CopyComplete
+E:\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.dll
+E:\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportBIZ.dll
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportBIZ.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportDAL.dll
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportEntities.dll
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportDAL.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\SupportEntities.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.csproj.CopyComplete
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.dll
+\\172.16.15.9\Applications\SenateSupport\SupportBIZ\obj\Debug\SupportBIZ.pdb

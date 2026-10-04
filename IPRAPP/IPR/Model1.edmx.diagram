@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="93c38efe0e3c4a7898f8e738dbd68694" Name="Diagram1">
+        <EntityTypeShape EntityType="STUSER3Model.IPR_FRIENDSHIP_GROUP" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUSER3Model.MEMBER" Width="1.5" PointX="6.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUSER3Model.PARLIAMENTARY_TENURES" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUSER3Model.PARLIAMENTARY_TERMS" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="STUSER3Model.SYSTEM_USERS" Width="1.5" PointX="2.25" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="STUSER3Model.FK_IPR_FRIENDSHIP_GROUP_MEMBERS" ManuallyRouted="false" />
+        <AssociationConnector Association="STUSER3Model.FK_IPR_FRIENDSHIP_GROUP_PARLIAMENTARY_TERMS" ManuallyRouted="false" />
+        <AssociationConnector Association="STUSER3Model.FK_MEMBERS_SYSTEM_USERS" ManuallyRouted="false" />
+        <AssociationConnector Association="STUSER3Model.FK_PARLIAMENTARY_TERMS_PARLIAMENTARY_TENURES" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

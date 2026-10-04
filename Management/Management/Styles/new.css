@@ -1,0 +1,144 @@
+﻿/*body {
+    margin:10px;
+   background-color:#cbe5f8;
+}
+.small-control{
+    font-size:10pt;
+    height:30px;
+}
+.small-label{
+    font-size:8pt;
+    font-weight:bold;
+    color:#000;
+}
+.page-heading-small{
+
+    padding:3px;
+    margin:5px;
+
+}
+.hit
+{
+    background-color:yellow;
+    padding:2px;
+}
+th{
+    background-color:#05386B !important;
+    font-size:small;
+    text-align:center;
+    color:#fff;
+    valign:middle;
+    
+
+}
+.table-data
+{
+    font-size:12px;
+}
+.print-tab
+{
+     padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+}
+.page-title{
+
+    font-size:large;
+    font-family:Verdana;
+}
+.page-title-Medium{
+
+    font-size:small;
+    font-family:Verdana;
+}
+.control-lbl{
+    font-size:15px;
+    text-align:right;
+
+}
+.control-lbl-sm{
+    font-size:8pt;
+    font-weight:bold;
+    color:#000;
+
+}
+.top-buffer { margin-top:5px; }
+.control-txt{font-weight:normal;}
+
+
+table{
+    border:solid;
+    border-color:white;
+}
+.regularDiv {
+    border-radius: 25px;
+   border: 2px solid #0E4D92;
+    /*background: #73AD21;*/
+    padding: 10px;
+    margin-bottom:5px; 
+ 
+}*/
+
+nav ul li a
+{
+background-color:rgba(14,77,146,.11) !important;
+color:white !important;
+}
+nav a 
+{
+color:white !important;
+}
+nav a:hover
+{
+background-color:#5887FF !important;
+color:#000 !important;
+}
+nav a:active
+{
+    color:#000;
+
+}
+nav ul li a
+{
+background-color:#0E4D92 !important;
+color:#fff !important;
+}
+nav ul  
+{
+background-color:#0E4D92 !important;
+}
+
+.btn-custom
+{
+    background-color:#05386B !important;
+    color:#fff;
+}
+.btn-custom:hover
+{
+    background-color:#5887FF !important;
+    color:#fff;
+}
+
+.dropdown-menu
+{
+    background-color:#0E4D92 !important;
+}
+.siteheader{
+    background-color:rgba(14,77,146,.11);
+    color:#fff;
+    font-size:18pt;
+    text-align:center;
+    font-weight:bold;
+    margin-top:5px;
+    font-family:'Times New Roman';
+}
+@media only screen and (max-device-width : 480px) {
+    #navbar {
+        position: relative;
+    }
+}
+@media only screen and (max-device-width : 540px) {
+    #navbar {
+        position: fixed;
+    }
+}

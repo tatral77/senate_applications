@@ -1,0 +1,17 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Entities\bin\Debug\Entities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Entities\bin\Debug\Entities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Entities\obj\Debug\Entities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Entities\obj\Debug\Entities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Management\Entities\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Management\Entities\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Management\Entities\obj\Debug\Entities.dll
+\\172.16.15.9\Applications\Management\Entities\obj\Debug\Entities.pdb
+E:\Applications\Management\Entities\bin\Debug\Entities.dll
+E:\Applications\Management\Entities\bin\Debug\Entities.pdb
+E:\Applications\Management\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+E:\Applications\Management\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\Applications\Management\Entities\obj\Debug\Entities.dll
+E:\Applications\Management\Entities\obj\Debug\Entities.pdb
+\\172.16.15.9\Applications\Management\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Management\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache

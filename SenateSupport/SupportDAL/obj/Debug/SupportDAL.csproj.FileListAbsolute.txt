@@ -1,0 +1,35 @@
+D:\Senate Projects\SenateSupport\SupportDAL\bin\Debug\SupportDAL.dll
+D:\Senate Projects\SenateSupport\SupportDAL\bin\Debug\SupportDAL.pdb
+D:\Senate Projects\SenateSupport\SupportDAL\bin\Debug\SupportEntities.dll
+D:\Senate Projects\SenateSupport\SupportDAL\bin\Debug\SupportEntities.pdb
+D:\Senate Projects\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csprojAssemblyReference.cache
+D:\Senate Projects\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.CoreCompileInputs.cache
+D:\Senate Projects\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.CopyComplete
+D:\Senate Projects\SenateSupport\SupportDAL\obj\Debug\SupportDAL.dll
+D:\Senate Projects\SenateSupport\SupportDAL\obj\Debug\SupportDAL.pdb
+E:\Applications\SenateSupport\SupportDAL\bin\Debug\SupportDAL.dll
+E:\Applications\SenateSupport\SupportDAL\bin\Debug\SupportDAL.pdb
+E:\Applications\SenateSupport\SupportDAL\bin\Debug\Shared.dll
+E:\Applications\SenateSupport\SupportDAL\bin\Debug\SupportEntities.dll
+E:\Applications\SenateSupport\SupportDAL\bin\Debug\Shared.pdb
+E:\Applications\SenateSupport\SupportDAL\bin\Debug\SupportEntities.pdb
+E:\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.AssemblyReference.cache
+E:\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.CoreCompileInputs.cache
+E:\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.CopyComplete
+E:\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.dll
+E:\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\SupportDAL.dll
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\SupportDAL.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\Shared.dll
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\SupportEntities.dll
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\Shared.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\SupportEntities.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.csproj.CopyComplete
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.dll
+\\172.16.15.9\Applications\SenateSupport\SupportDAL\obj\Debug\SupportDAL.pdb

@@ -1,0 +1,8 @@
+E:\Applications\HRM\EstablishmentENT\bin\Debug\EstablishmentENT.dll
+E:\Applications\HRM\EstablishmentENT\bin\Debug\EstablishmentENT.pdb
+E:\Applications\HRM\EstablishmentENT\obj\Debug\EstablishmentENT.csproj.AssemblyReference.cache
+E:\Applications\HRM\EstablishmentENT\obj\Debug\EstablishmentENT.Properties.Resources.resources
+E:\Applications\HRM\EstablishmentENT\obj\Debug\EstablishmentENT.csproj.GenerateResource.cache
+E:\Applications\HRM\EstablishmentENT\obj\Debug\EstablishmentENT.csproj.CoreCompileInputs.cache
+E:\Applications\HRM\EstablishmentENT\obj\Debug\EstablishmentENT.dll
+E:\Applications\HRM\EstablishmentENT\obj\Debug\EstablishmentENT.pdb

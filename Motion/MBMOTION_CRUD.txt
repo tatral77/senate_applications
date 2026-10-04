@@ -1,0 +1,332 @@
+USE [STUSER3]
+GO
+/****** Object:  StoredProcedure [dbo].[MB_MOTION_CRUD]    Script Date: 20-07-2022 2:59:18 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[MB_MOTION_CRUD]
+
+                          ----Motions----
+    @ID INT=NULL    OUTPUT
+   ,@MotionsId INT=NULL
+   ,@VersionNo INT=NULL
+   ,@FileNo VARCHAR(50)=NULL
+   ,@VersionDate DATE=NULL
+   ,@ParliamentaryYear VARCHAR(04)=NULL
+   ,@CurrentRole INT=NULL
+   ,@MotionType INT=NULL
+   ,@SubmissionDate DATE=NULL
+   ,@SubmissionType VARCHAR(10)=NULL
+   ,@Subject VARCHAR(4000)=NULL
+   ,@NoticeDiaryNo VARCHAR(20)=NULL
+   ,@NoticeDiaryDate DATE=NULL
+   ,@NoticeDiaryTime DATETIME=NULL
+   ,@MotionDiaryNo VARCHAR(20)=NULL
+   ,@MotionDiaryDate DATE=NULL
+   ,@MotionDiaryTime Time=NULL
+   ,@SessionNumber INT=NULL
+   ,@SessionSittingsId INT=NULL
+   ,@TranslationType INT=NULL
+   ,@MotionStatus INT=NULL
+   ,@ReviewedBy INT=NULL
+   ,@VersionNumber INT=NULL
+   ,@Remarks VARCHAR(4000)=NULL
+   ,@FileId VARCHAR(20)=NULL
+   ,@IsActive INT=NULL
+   ,@IsLatestVer INT=NULL
+   ,@UpdatedBy INT=NULL
+   ,@Decision VARCHAR(4000)=NULL
+   ,@SubbmissionApprovalDate DATE=NULL
+   ,@SubbmissionDate DATE=NULL
+   ,@OrderOfDayDate DATE=NULL
+   ,@Action VARCHAR(200)
+   ,@PresentHouseDate DATE=NULL
+   ,@RefferedSCDate DATE=NULL
+   ,@MovingHouseDate DATE=NULL
+   ,@IsAccepted INT=NULL 
+   ,@YesVotes INT=NULL
+   ,@NoVotes INT=NULL 
+   ,@NotVoted INT=NULL
+   ,@AbsentVotes INT=NULL
+   ,@ChairRuling VARCHAR(500)=NULL
+   ,@MotionIdentifier INT=NULL
+   ,@SubmittedBy INT=NULL
+   ,@DiscussionDate DATE=NULL
+   ,@TimeTaken INT=NULL
+   ,@CmtReportDate DATE=NULL
+   ,@CmtRptDiscDate DATE=NULL
+   ,@RullingReserveDate DATE=NULL
+   ,@Descr VARCHAR(MAX)=NULL
+   ,@Description VARCHAR(MAX)=NULL
+   ,@IsSentToTranslation INT=NULL
+   ,@UrduText VARCHAR(MAX)=NULL
+   ,@IsSellBallot INT=NULL
+   ,@IsAdmitted INT=NULL
+   ,@PrevSessionId INT=NULL
+   ,@RowId INT=NULL
+   ,@MemberMinistriesId INT=NULL
+   ,@WeekId INT=NULL
+   ,@FromSession INT=NULL
+   ,@ToSession INT=NULL
+
+
+				----Motions Movers----
+
+,@MotionMoversId INT=NULL
+,@SystemUsersId INT=NULL
+,@MinistriesId INT=NULL
+
+
+				----Motion Types----
+,@MotionTypesId INT=NULL
+,@IsForMotions INT=NULL
+,@SortOrder INT=NULL
+
+				----Motions Statuses----
+
+,@MotionStatusesId INT=NULL
+
+                         ---------------------------MOTION MOVERS START---------------------------------
+	  AS
+BEGIN
+      SET NOCOUNT ON;
+	   IF @Action = 'GET_MOTION_MOVERS'
+	   BEGIN
+	 SELECT        SYSTEM_USERS.F_NAME, MB_MOTION_MOVERS.MOTION_MOVERS_ID, MB_MOTION_MOVERS.MOTIONS_ID, MB_MOTION_MOVERS.SYSTEM_USERS_ID, MB_MOTIONS.VERSION_NO
+FROM            SYSTEM_USERS INNER JOIN
+                         MB_MOTION_MOVERS ON SYSTEM_USERS.SYSTEM_USERS_ID = MB_MOTION_MOVERS.SYSTEM_USERS_ID INNER JOIN
+                         MB_MOTIONS ON MB_MOTION_MOVERS.MOTIONS_ID = MB_MOTIONS.MOTIONS_ID
+						 WHERE MB_MOTION_MOVERS.MOTIONS_ID=@MotionsId;
+	   END
+	    IF @Action = 'GET_MOTION_MOVER'
+	   BEGIN
+	   SELECT       SYSTEM_USERS.F_NAME, MB_MOTION_MOVERS.MOTION_MOVERS_ID, MB_MOTION_MOVERS.MOTIONS_ID, MB_MOTION_MOVERS.SYSTEM_USERS_ID, MB_MOTIONS.VERSION_NO
+FROM            SYSTEM_USERS INNER JOIN
+                         MB_MOTION_MOVERS ON SYSTEM_USERS.SYSTEM_USERS_ID = MB_MOTION_MOVERS.SYSTEM_USERS_ID INNER JOIN
+                         MB_MOTIONS ON MB_MOTION_MOVERS.MOTIONS_ID = MB_MOTIONS.MOTIONS_ID
+						 WHERE MB_MOTION_MOVERS.MOTIONS_ID=@MotionsId AND MOTION_MOVERS_ID=@MotionMoversId;
+	   END
+
+	   IF @Action = 'INSERT_MOTION_MOVER'
+	   BEGIN
+	   Insert into MB_MOTION_MOVERS( MOTIONS_ID, SYSTEM_USERS_ID)
+	   VALUES ( @MotionsId, @SystemUsersId)
+
+	   END
+	    IF @Action = 'DELETE_MOTION_MOVER'
+	   BEGIN
+		DELETE FROM MB_MOTION_MOVERS WHERE MOTIONS_ID= @MotionsId AND SYSTEM_USERS_ID=@SystemUsersId
+	   END
+
+	 --   IF @Action = 'UPDATE_MOTION_MOVER'
+	 --  BEGIN
+	 --  update MOTION_MOVERS set
+	 --  MOTIONS_ID=@MotionsId,
+	 --  SYSTEM_USERS_ID=@SystemUsersId
+	 --  where 
+	 --   MOTION_MOVERS_ID=@MotionMoversId
+		--END
+
+		---------------------------MOTION MOVERS END---------------------------------
+
+		---------------------------MOTION TYPES START---------------------------------
+
+	   IF @Action = 'GET_MOTION_TYPES'
+	   BEGIN
+	   SELECT        MOTION_TYPES_ID, DESCRIPTION, IS_ACTIVE, IS_FOR_MOTIONS, SORT_ORDER
+FROM            MOTION_TYPES WHERE IS_FOR_MOTIONS=1;
+	   END
+
+	   IF @Action = 'INSERT_MOTION_TYPE'
+	   BEGIN
+	   Insert into MOTION_TYPES(MOTION_TYPES_ID, DESCRIPTION, IS_ACTIVE, IS_FOR_MOTIONS, SORT_ORDER)
+	   VALUES (@MotionTypesId, @Description, @IsActive, @IsForMotions, @SortOrder)
+
+	   END
+
+	    IF @Action = 'UPDATE_MOTION_TYPE'
+	   BEGIN
+	   update MOTION_TYPES set
+	   DESCRIPTION=@Description,
+	   IS_ACTIVE=@IsActive,
+	   IS_FOR_MOTIONS=@IsForMotions,
+	   SORT_ORDER=@SortOrder
+	   where 
+	    MOTION_TYPES_ID=@MotionTypesId
+		END
+
+		---------------------------MOTION TYPES END---------------------------------
+
+		---------------------------MOTION STATUSES START---------------------------------
+
+	   IF @Action = 'GET_MOTION_STATUSES'
+	   BEGIN
+	   SELECT        MOTION_STATUSES_ID, DESCRIPTION, IS_ACTIVE
+		FROM            MOTION_STATUSES
+	   END
+
+	   IF @Action = 'INSERT_MOTION_STATUS'
+	   BEGIN
+	   Insert into MOTION_STATUSES(MOTION_STATUSES_ID, DESCRIPTION, IS_ACTIVE)
+	   VALUES (@MotionStatusesId, @Description, @IsActive)
+
+	   END
+
+	    IF @Action = 'UPDATE_MOTION_STATUS'
+	   BEGIN
+	   update MOTION_STATUSES set
+	   DESCRIPTION=@Description,
+	   IS_ACTIVE=@IsActive
+	   where 
+	    MOTION_STATUSES_ID=@MotionStatusesId
+		END
+
+		---------------------------MOTION STATUSES END---------------------------------
+
+
+		
+		---------------------------MOTION START---------------------------------
+		 IF @Action = 'GET_MB_MOTION_PK'
+	   BEGIN
+	   SELECT MAX(MOTIONS_ID) AS MOTIONS_ID FROM MB_MOTIONS;
+	   END
+
+	IF @Action = 'GET_MB_MOTIONS'
+			BEGIN
+		SELECT        MB_MOTIONS.MOTIONS_ID, MB_MOTIONS.FILE_NO, MB_MOTIONS.MB_WEEK_ID, MB_MOTIONS.NOTICE_DIARY_NO, MB_MOTIONS.NOTICE_DIARY_DATE, MB_MOTIONS.NOTICE_DIARY_TIME, 
+                         MB_MOTIONS.SESSION_NUMBER, MB_MOTIONS.REFFERED_SC_DATE, MB_MOTIONS.MOVING_HOUSE_DATE, MB_MOTIONS.DISCUSSION_DATE, MB_MOTIONS.DESCRIPTION AS MOTION_TEXT,SUBJECT, 
+                         ASSEMBLY_SESSIONS.SESSION_NUMBER AS SESSION_DESC, MOTION_TYPES.DESCRIPTION AS MOTION_TYPE, MOTION_STATUSES.DESCRIPTION AS MOTION_STATUS, 
+                         MB_MOTIONS.MOTION_TYPE AS MOTION_TYPE_ID, MB_MOTIONS.MOTION_DIARY_NO, MB_MOTIONS.MOTION_DIARY_DATE, MB_MOTIONS.MOTION_DIARY_TIME, MB_MOTIONS.MOTION_STATUS AS MOTION_STATUS_ID, 
+                         MB_MOTIONS.ADMISSION_DATE, MB_MOTIONS.PRESENT_HOUSE_DATE, MB_WEEKS.MB_WEEK
+FROM            MB_MOTIONS INNER JOIN
+                         MOTION_STATUSES ON MB_MOTIONS.MOTION_STATUS = MOTION_STATUSES.MOTION_STATUSES_ID INNER JOIN
+                         MOTION_TYPES ON MB_MOTIONS.MOTION_TYPE = MOTION_TYPES.MOTION_TYPES_ID INNER JOIN
+                         ASSEMBLY_SESSIONS ON MB_MOTIONS.SESSION_NUMBER = ASSEMBLY_SESSIONS.ASSEMBLY_SESSIONS_ID INNER JOIN
+                         MB_WEEKS ON MB_MOTIONS.MB_WEEK_ID = MB_WEEKS.MB_WEEKS_ID
+			WHERE	     MB_MOTIONS.SESSION_NUMBER=@SessionNumber AND PROCESSED=1
+	   END
+	 
+
+	     IF @Action = 'GET_MB_MOTION'
+			BEGIN
+			SELECT        MB_MOTIONS.MOTIONS_ID, MB_MOTIONS.FILE_NO, MB_MOTIONS.MB_WEEK_ID, MB_MOTIONS.NOTICE_DIARY_NO, MB_MOTIONS.NOTICE_DIARY_DATE, MB_MOTIONS.NOTICE_DIARY_TIME, 
+                         MB_MOTIONS.SESSION_NUMBER, MB_MOTIONS.REFFERED_SC_DATE, MB_MOTIONS.MOVING_HOUSE_DATE, MB_MOTIONS.DISCUSSION_DATE, MB_MOTIONS.DESCRIPTION AS MOTION_TEXT,SUBJECT, 
+                         ASSEMBLY_SESSIONS.SESSION_NUMBER AS SESSION_DESC, MOTION_TYPES.DESCRIPTION AS MOTION_TYPE, MOTION_STATUSES.DESCRIPTION AS MOTION_STATUS, 
+                         MB_MOTIONS.MOTION_TYPE AS MOTION_TYPE_ID, MB_MOTIONS.MOTION_DIARY_NO, MB_MOTIONS.MOTION_DIARY_DATE, MB_MOTIONS.MOTION_DIARY_TIME, MB_MOTIONS.MOTION_STATUS AS MOTION_STATUS_ID, 
+                         MB_MOTIONS.ADMISSION_DATE, MB_MOTIONS.PRESENT_HOUSE_DATE, MB_WEEKS.MB_WEEK
+FROM            MB_MOTIONS INNER JOIN
+                         MOTION_STATUSES ON MB_MOTIONS.MOTION_STATUS = MOTION_STATUSES.MOTION_STATUSES_ID INNER JOIN
+                         MOTION_TYPES ON MB_MOTIONS.MOTION_TYPE = MOTION_TYPES.MOTION_TYPES_ID INNER JOIN
+                         ASSEMBLY_SESSIONS ON MB_MOTIONS.SESSION_NUMBER = ASSEMBLY_SESSIONS.ASSEMBLY_SESSIONS_ID INNER JOIN
+                         MB_WEEKS ON MB_MOTIONS.MB_WEEK_ID = MB_WEEKS.MB_WEEKS_ID
+WHERE        (MB_MOTIONS.MOTIONS_ID = @MotionsId);
+END
+
+	   IF @Action = 'INSERT_MB_MOTION'
+			BEGIN
+			Insert into MB_MOTIONS(MOTIONS_ID,FILE_NO, NOTICE_DIARY_NO, NOTICE_DIARY_DATE,NOTICE_DIARY_TIME, SESSION_NUMBER,MOTION_DIARY_NO,MOTION_TYPE,MOTION_STATUS,MB_WEEK_ID,IS_ACTIVE,SUBJECT,PROCESSED )
+			VALUES ( @MotionsId,@FileNo,@NoticeDiaryNo, @NoticeDiaryDate,@NoticeDiaryTime ,@SessionNumber,@MotionDiaryNo,@MotionType,@MotionStatusesId,@WeekId,1,@Subject,1) 
+		
+	   END
+
+	   IF @Action = 'UPDATE_MB_MOTION'
+			BEGIN
+			update MB_MOTIONS set
+			FILE_NO=@FileNo,
+			MB_WEEK_ID=@WeekId,
+		   NOTICE_DIARY_NO=@NoticeDiaryNo,
+		   NOTICE_DIARY_DATE=@NoticeDiaryDate,
+		   NOTICE_DIARY_TIME=@NoticeDiaryTime,
+		   MOTION_DIARY_NO=@MotionDiaryNo,
+		   MOTION_STATUS=@MotionStatusesId,
+		   MOTION_TYPE=@MotionTypesId,
+		   SESSION_NUMBER=@SessionNumber,
+		   REFFERED_SC_DATE=@RefferedSCDate,
+		   MOVING_HOUSE_DATE=@MovingHouseDate,
+		   DISCUSSION_DATE=@DiscussionDate,
+		   SUBJECT=@Subject,
+		   PROCESSED=1
+		    where 
+			MOTIONS_ID=@MotionsId
+
+		END
+		IF @Action = 'DELETE_MB_MOTION'
+			BEGIN
+			Delete from MB_MOTION_MOVERS where MB_MOTION_MOVERS.MOTIONS_ID=@MotionsId;
+			Delete from MB_MOTION_MINISTRIES WHERE MB_MOTION_MINISTRIES.MOTION_ID=@MotionsId;
+			Delete from MB_MOTIONS where MOTIONS_ID=@MotionsId;
+		END
+	
+
+		---------------------------MOTION STATUSES END---------------------------------
+
+			---------------------------MOTION MINISTRIES START---------------------------------
+
+--	   IF @Action = 'GET_MB_MOTION_MINISTRIES'
+--	   BEGIN
+--	  SELECT        DESCRIPTION, MEMBER__MINISTRIES_ID, IS_ACTIVE
+--FROM            MB_MOTION_MINISTRIES
+--	   END
+
+--	   IF @Action = 'INSERT_MB_MOTION_MINISTRIES'
+--	   BEGIN
+--	   Insert into MB_MOTION_MINISTRIES(MEMBER__MINISTRIES_ID, DESCRIPTION, IS_ACTIVE)
+--	   VALUES (@MemberMinistriesId, @Description, @IsActive)
+
+--	   END
+
+--	    IF @Action = 'UPDATE_MB_MOTION_MINISTRIES'
+--	   BEGIN
+--	   update MB_MOTION_MINISTRIES set
+--	   DESCRIPTION=@Description,
+--	   IS_ACTIVE=@IsActive
+--	   where 
+--	    MEMBER__MINISTRIES_ID=@MemberMinistriesId
+--		END
+
+		---------------------------MOTION MINISTRIES END---------------------------------
+		  IF @Action = 'GET_MOTION_WEEKS'
+	   BEGIN
+	   SELECT        MB_WEEKS_ID, MB_WEEK
+		FROM            MB_WEEKS
+	   END
+	   IF @Action = 'GET_MOTION_WEEK'
+	   BEGIN
+	   SELECT        MB_WEEKS_ID, MB_WEEK
+		FROM            MB_WEEKS WHERE MB_WEEKS_ID=@WeekId;
+	   END
+
+		END
+
+
+		 IF @Action = 'INSERT_MOTION_MINISTRY'
+	   BEGIN
+	   Insert into MB_MOTION_MINISTRIES( MOTION_ID, MINISTRY_ID)
+	   VALUES ( @MotionsId, @MinistriesId)
+
+	   END
+	    IF @Action = 'DELETE_MOTION_MINISTRY'
+	   BEGIN
+		DELETE FROM MB_MOTION_MINISTRIES WHERE MOTION_ID= @MotionsId AND MINISTRY_ID=@MinistriesId
+	   END
+
+   IF @Action = 'GET_MOTION_MINISTRIES'
+	   BEGIN
+
+	   SELECT        MB_MOTION_MINISTRIES.MOTION_MINISTRIES_ID, MB_MOTION_MINISTRIES.MOTION_ID, MB_MOTION_MINISTRIES.MINISTRY_ID, DIVISIONS.DESCRIPTION
+	  FROM            MB_MOTION_MINISTRIES INNER JOIN
+                         DIVISIONS ON MB_MOTION_MINISTRIES.MINISTRY_ID = DIVISIONS.DIVISIONS_ID WHERE MOTION_ID=@MotionsId
+END
+IF @Action = 'STATUS_NO_OF_MOTIONS'
+BEGIN
+SELECT        MB_MOTIONS.MOTION_STATUS, ASSEMBLY_SESSIONS.SESSION_NUMBER, MOTION_STATUSES.DESCRIPTION, MOTION_STATUSES.MOTION_STATUSES_ID
+FROM            MB_MOTIONS INNER JOIN
+                         ASSEMBLY_SESSIONS ON MB_MOTIONS.SESSION_NUMBER = ASSEMBLY_SESSIONS.ASSEMBLY_SESSIONS_ID INNER JOIN
+                         MOTION_STATUSES ON MB_MOTIONS.MOTION_STATUS =MOTION_STATUSES.MOTION_STATUSES_ID
+WHERE     ((MB_MOTIONS.SESSION_NUMBER >= @FromSession) AND (MB_MOTIONS.SESSION_NUMBER <= @ToSession)  AND (MB_MOTIONS.MOTION_TYPE = @MotionTypesId))     
+			AND MB_MOTIONS.MOTION_STATUS IN
+     (SELECT DISTINCT MOTION_STATUS FROM MB_MOTIONS WHERE (MB_MOTIONS.SESSION_NUMBER >= @FromSession) AND (MB_MOTIONS.SESSION_NUMBER <= @ToSession))
+        ORDER BY MOTION_STATUSES.DESCRIPTION
+
+END

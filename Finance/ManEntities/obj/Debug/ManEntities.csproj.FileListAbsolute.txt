@@ -1,0 +1,47 @@
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\bin\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\bin\Debug\ManEntities.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\obj\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\obj\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Administration\ManEntities\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManEntities\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Administration\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\ManEntities\obj\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManEntities\obj\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Budget\ManEntities\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Budget\ManEntities\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Budget\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\ManEntities\obj\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Budget\ManEntities\obj\Debug\ManEntities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManEntities\bin\Debug\ManEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManEntities\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManEntities\obj\Debug\ManEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManEntities\obj\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManEntities\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManEntities\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\ManEntities\obj\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManEntities\obj\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Finance\ManEntities\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Finance\ManEntities\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Finance\ManEntities\obj\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Finance\ManEntities\obj\Debug\ManEntities.pdb
+\\172.18.1.12\Applications\Finance\ManEntities\bin\Debug\ManEntities.dll
+\\172.18.1.12\Applications\Finance\ManEntities\bin\Debug\ManEntities.pdb
+\\172.18.1.12\Applications\Finance\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+\\172.18.1.12\Applications\Finance\ManEntities\obj\Debug\ManEntities.dll
+\\172.18.1.12\Applications\Finance\ManEntities\obj\Debug\ManEntities.pdb
+C:\Apps-06-09-18\Finance\ManEntities\bin\Debug\ManEntities.dll
+C:\Apps-06-09-18\Finance\ManEntities\bin\Debug\ManEntities.pdb
+C:\Apps-06-09-18\Finance\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\ManEntities\obj\Debug\ManEntities.dll
+C:\Apps-06-09-18\Finance\ManEntities\obj\Debug\ManEntities.pdb
+E:\Applications\Finance\ManEntities\bin\Debug\ManEntities.dll
+E:\Applications\Finance\ManEntities\bin\Debug\ManEntities.pdb
+E:\Applications\Finance\ManEntities\obj\Debug\ManEntities.csproj.AssemblyReference.cache
+E:\Applications\Finance\ManEntities\obj\Debug\ManEntities.csproj.CoreCompileInputs.cache
+E:\Applications\Finance\ManEntities\obj\Debug\ManEntities.dll
+E:\Applications\Finance\ManEntities\obj\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Finance\ManEntities\obj\Debug\ManEntities.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Finance\ManEntities\obj\Debug\ManEntities.csproj.CoreCompileInputs.cache

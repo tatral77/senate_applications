@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BD1764B-2418-405E-8149-30F3FA197820}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MY</RootNamespace>
+    <AssemblyName>MY</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="MigraDoc.DocumentObjectModel-gdi">
+      <HintPath>..\..\HRM\packages\PDFsharp-MigraDoc-GDI.1.50.5147\lib\net20\MigraDoc.DocumentObjectModel-gdi.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering-gdi">
+      <HintPath>..\..\HRM\packages\PDFsharp-MigraDoc-GDI.1.50.5147\lib\net20\MigraDoc.Rendering-gdi.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp-gdi">
+      <HintPath>..\..\HRM\packages\PDFsharp-MigraDoc-GDI.1.50.5147\lib\net20\PdfSharp-gdi.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminRequisition.aspx" />
+    <Content Include="Styles\modern.css" />
+    <Content Include="Scripts\attachbox.js" />
+    <Content Include="SenateScan\SenateScan.exe" />
+    <Content Include="SenateScan\SenateScan.ini" />
+    <Content Include="SenateScan\install.bat" />
+    <Content Include="SenateScan\uninstall.bat" />
+    <Content Include="SenateScan\README.txt" />
+    <Content Include="SenateScan\SenateScan.zip" />
+    <Content Include="Scripts\mobilecards.js" />
+    <Content Include="images\emblem.png" />
+    <Content Include="Images\senate-logo.png" />
+    <Content Include="Assets\css\bootstrap.css" />
+    <Content Include="Assets\css\font-awesome.css" />
+    <Content Include="Assets\fontawesome-free\css\all.css" />
+    <Content Include="Assets\fontawesome-free\css\all.min.css" />
+    <Content Include="Assets\fontawesome-free\css\brands.css" />
+    <Content Include="Assets\fontawesome-free\css\brands.min.css" />
+    <Content Include="Assets\fontawesome-free\css\fontawesome.css" />
+    <Content Include="Assets\fontawesome-free\css\fontawesome.min.css" />
+    <Content Include="Assets\fontawesome-free\css\regular.css" />
+    <Content Include="Assets\fontawesome-free\css\regular.min.css" />
+    <Content Include="Assets\fontawesome-free\css\solid.css" />
+    <Content Include="Assets\fontawesome-free\css\solid.min.css" />
+    <Content Include="Assets\fontawesome-free\css\svg-with-js.css" />
+    <Content Include="Assets\fontawesome-free\css\svg-with-js.min.css" />
+    <Content Include="Assets\fontawesome-free\css\v4-shims.css" />
+    <Content Include="Assets\fontawesome-free\css\v4-shims.min.css" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-brands-400.svg" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-regular-400.svg" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-solid-900.svg" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\images\bill.png" />
+    <Content Include="Assets\images\bill2.png" />
+    <Content Include="Assets\images\Budget.png" />
+    <Content Include="Assets\images\committees.png" />
+    <Content Include="Assets\images\envelop.png" />
+    <Content Include="Assets\images\favicon.ico" />
+    <Content Include="Assets\images\Finance.png" />
+    <Content Include="Assets\images\hdr-img.jpg" />
+    <Content Include="Assets\images\HR.jpg" />
+    <Content Include="Assets\images\HRM.png" />
+    <Content Include="Assets\images\IPR.png" />
+    <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\motion.png" />
+    <Content Include="Assets\images\My.png" />
+    <Content Include="Assets\images\Question.png" />
+    <Content Include="Assets\images\Service.png" />
+    <Content Include="Assets\images\translation.png" />
+    <Content Include="Assets\js\bootstrap.js" />
+    <Content Include="Assets\js\jquery.js" />
+    <Content Include="Corrections.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="CustomScripts\JQuery-ui-1.13.2.js" />
+    <Content Include="CustomScripts\jquery-ui.css.css" />
+    <Content Include="CustomScripts\jquery-ui.min.js" />
+    <Content Include="CustomScripts\jquery.min.js" />
+    <Content Include="EmploymentDetails.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GeneratedBarcodeImage\13202340.png" />
+    <Content Include="GeneratedBarcodeImage\13202341.png" />
+    <Content Include="GeneratedBarcodeImage\132202314.png" />
+    <Content Include="GeneratedBarcodeImage\152202315.png" />
+    <Content Include="GeneratedBarcodeImage\152202316.png" />
+    <Content Include="GeneratedBarcodeImage\162202317.png" />
+    <Content Include="GeneratedBarcodeImage\162202318.png" />
+    <Content Include="GeneratedBarcodeImage\162202319.png" />
+    <Content Include="GeneratedBarcodeImage\162202320.png" />
+    <Content Include="GeneratedBarcodeImage\172202320.png" />
+    <Content Include="GeneratedBarcodeImage\172202321.png" />
+    <Content Include="GeneratedBarcodeImage\172202322.png" />
+    <Content Include="GeneratedBarcodeImage\172202323.png" />
+    <Content Include="GeneratedBarcodeImage\202202324.png" />
+    <Content Include="GeneratedBarcodeImage\202202325.png" />
+    <Content Include="GeneratedBarcodeImage\212202326.png" />
+    <Content Include="GeneratedBarcodeImage\212202327.png" />
+    <Content Include="GeneratedBarcodeImage\232202328.png" />
+    <Content Include="GeneratedBarcodeImage\232202329.png" />
+    <Content Include="GeneratedBarcodeImage\232202330.png" />
+    <Content Include="GeneratedBarcodeImage\232202331.png" />
+    <Content Include="GeneratedBarcodeImage\232202332.png" />
+    <Content Include="GeneratedBarcodeImage\242202333.png" />
+    <Content Include="GeneratedBarcodeImage\242202334.png" />
+    <Content Include="GeneratedBarcodeImage\242202335.png" />
+    <Content Include="GeneratedBarcodeImage\282202336.png" />
+    <Content Include="GeneratedBarcodeImage\282202337.png" />
+    <Content Include="GeneratedBarcodeImage\282202338.png" />
+    <Content Include="GeneratedBarcodeImage\282202339.png" />
+    <Content Include="GeneratedBarcodeImage\5820224.png" />
+    <Content Include="GeneratedBarcodeImage\5820225.png" />
+    <Content Include="GeneratedBarcodeImage\72202310.png" />
+    <Content Include="GeneratedBarcodeImage\82202311.png" />
+    <Content Include="GeneratedBarcodeImage\82202312.png" />
+    <Content Include="GeneratedBarcodeImage\92202313.png" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\banner.png" />
+    <Content Include="images\blueslate_background.gif" />
+    <Content Include="images\blueslate_backgroundOVER.gif" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\close.jpg" />
+    <Content Include="images\closebtn.jpg" />
+    <Content Include="images\delete.png" />
+    <Content Include="images\details.png" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\insert.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\lookup.gif" />
+    <Content Include="images\p1.jpg" />
+    <Content Include="images\save.png" />
+    <Content Include="images\select.png" />
+    <Content Include="images\Vforvijay_0025_blueslate_backgroundOVER.gif" />
+    <Content Include="Jquery\jquery-1.10.2.js" />
+    <Content Include="Leaves.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="ManageVisitorPasses.aspx" />
+    <Content Include="NewVisitorpPass.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Main.Master" />
+    <Content Include="PrintPass.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="scripts\AdminLte.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\JQuery-ui-1.13.2.js" />
+    <Content Include="scripts\jquery.mask.min.js" />
+    <Content Include="Styles\AdminLte.css" />
+    <Content Include="Styles\jquery-ui-1.13.2.css" />
+    <Content Include="VisitorsDetail.aspx" />
+    <Content Include="vms.asmx" />
+    <Content Include="WebService1.asmx" />
+    <Content Include="PdfExport.ashx" />
+    <Content Include="Scripts\hrmprint.js" />
+    <Content Include="MainMaster.Master" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-brands-400.eot" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-brands-400.woff" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-regular-400.eot" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-regular-400.woff" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-solid-900.eot" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-solid-900.woff" />
+    <Content Include="Assets\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <Content Include="Assets\fonts\Anorexia.ttf" />
+    <Content Include="Assets\fonts\Diavlo_LIGHT_II_37.otf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="images\uploads\Thumbs.db" />
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="Styles\Bootstrap.min.noicons" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="scripts\jquery-1.9.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Styles\fontawsome.css" />
+    <Content Include="Styles\jquery-ui-1.10.4.custom.css" />
+    <Content Include="Styles\Login.css" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Styles\MainStyles.css" />
+    <Content Include="Styles\menu.css" />
+    <Content Include="Styles\new.css" />
+    <Content Include="Styles\Pages.css" />
+    <Content Include="Styles\Printing.css" />
+    <Content Include="Styles\SearchList.css" />
+    <Content Include="summernote\summernote-bs4.css" />
+    <Content Include="summernote\summernote-bs4.js" />
+    <Content Include="summernote\summernote-bs4.min.js" />
+    <Content Include="summernote\summernote-lite.css" />
+    <Content Include="summernote\summernote-lite.js" />
+    <Content Include="summernote\summernote.css" />
+    <Content Include="summernote\summernote.js" />
+    <Content Include="summernote\summernote.min.js" />
+    <Content Include="Test.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminRequisition.aspx.cs">
+      <DependentUpon>AdminRequisition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRequisition.aspx.designer.cs">
+      <DependentUpon>AdminRequisition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Corrections.aspx.cs">
+      <DependentUpon>Corrections.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corrections.aspx.designer.cs">
+      <DependentUpon>Corrections.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmploymentDetails.aspx.cs">
+      <DependentUpon>EmploymentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmploymentDetails.aspx.designer.cs">
+      <DependentUpon>EmploymentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeavePdf2.cs" />
+    <Compile Include="ReportPdf2.cs" />
+    <Compile Include="PdfExport.ashx.cs">
+      <DependentUpon>PdfExport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Leaves.aspx.cs">
+      <DependentUpon>Leaves.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leaves.aspx.designer.cs">
+      <DependentUpon>Leaves.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ManageVisitorPasses.aspx.cs">
+      <DependentUpon>ManageVisitorPasses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageVisitorPasses.aspx.designer.cs">
+      <DependentUpon>ManageVisitorPasses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewVisitorpPass.aspx.cs">
+      <DependentUpon>NewVisitorpPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewVisitorpPass.aspx.designer.cs">
+      <DependentUpon>NewVisitorpPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPass.aspx.cs">
+      <DependentUpon>PrintPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintPass.aspx.designer.cs">
+      <DependentUpon>PrintPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorsDetail.aspx.cs">
+      <DependentUpon>VisitorsDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisitorsDetail.aspx.designer.cs">
+      <DependentUpon>VisitorsDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vms.asmx.cs">
+      <DependentUpon>vms.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="images\categories\" />
+    <Folder Include="Models\" />
+    <Folder Include="summernote\font\" />
+    <Folder Include="summernote\lang\" />
+    <Folder Include="summernote\plugin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HRM\EstablishmentBIZ\EstablishmentBIZ.csproj">
+      <Project>{3375746d-1ba7-4f9c-919c-8294d950e884}</Project>
+      <Name>EstablishmentBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\HRM\EstablishmentENT\EstablishmentENT.csproj">
+      <Project>{64999848-900f-4cc2-9060-6196cc0a599e}</Project>
+      <Name>EstablishmentENT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManBIZ\ManBIZ.csproj">
+      <Project>{d32209f4-d9c9-419d-a762-677ada56828b}</Project>
+      <Name>ManBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManEntities\ManEntities.csproj">
+      <Project>{cfafab5c-c10a-4216-8bb6-64c7df657a1c}</Project>
+      <Name>ManEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyBIZ\MyBIZ.csproj">
+      <Project>{c210464e-ec63-4fb3-8a6f-d177534aebc5}</Project>
+      <Name>MyBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyEntities\MyEntities.csproj">
+      <Project>{a468f7bc-4e56-4ff6-868a-cb95dc9d9c59}</Project>
+      <Name>MyEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{0f5cd6c0-d8e5-47fc-895b-0fbcec3307ae}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51626</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51626/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

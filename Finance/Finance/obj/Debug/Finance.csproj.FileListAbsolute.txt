@@ -1,0 +1,404 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ApplicationInsights.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\csc.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\vbc.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Finance.dll.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Finance.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Finance.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.Web.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.Web.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\obj\Debug\Finance.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\obj\Debug\Finance.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\BUDBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ManBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ManEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ManDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\BUDBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ManBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ManEntities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\bin\ManDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ApplicationInsights.config
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\csc.exe
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\vbc.exe
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Finance.dll.config
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Finance.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Finance.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\BUDBIZ.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ManBIZ.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ManEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.Web.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\BUDDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ManDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\BUDBIZ.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ManBIZ.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ManEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.Web.xml
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\BUDDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\ManDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\Finance\obj\Debug\Finance.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\obj\Debug\Finance.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\FinBiz.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\FinEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\FinDal.dll
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\FinBiz.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\FinEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\Finance\bin\FinDal.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\ApplicationInsights.config
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\csc.exe
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\vbc.exe
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+\\172.16.15.9\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+\\172.16.15.9\Applications\Finance\Finance\bin\Finance.dll.config
+\\172.16.15.9\Applications\Finance\Finance\bin\Finance.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Finance.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\BUDBIZ.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\BUDENTITIES.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\FinBiz.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\FinEntities.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\ManBIZ.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\ManEntities.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.Web.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\BUDDAL.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\FinDal.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\ManDAL.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\BUDBIZ.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\FinBiz.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\FinEntities.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\ManBIZ.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\ManEntities.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.Web.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\BUDDAL.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\FinDal.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\ManDAL.pdb
+\\172.16.15.9\Applications\Finance\Finance\obj\Debug\Finance.dll
+\\172.16.15.9\Applications\Finance\Finance\obj\Debug\Finance.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\ApplicationInsights.config
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\csc.exe
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\vbc.exe
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+\\172.18.1.12\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+\\172.18.1.12\Applications\Finance\Finance\bin\Finance.dll.config
+\\172.18.1.12\Applications\Finance\Finance\bin\Finance.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Finance.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\BUDBIZ.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\BUDENTITIES.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\FinBiz.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\FinEntities.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\ManBIZ.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\ManEntities.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.Web.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\BUDDAL.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\FinDal.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\ManDAL.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\BUDBIZ.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\BUDENTITIES.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\FinBiz.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\FinEntities.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\ManBIZ.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\ManEntities.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.Web.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\BUDDAL.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\FinDal.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\ManDAL.pdb
+\\172.18.1.12\Applications\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
+\\172.18.1.12\Applications\Finance\Finance\obj\Debug\Finance.dll
+\\172.18.1.12\Applications\Finance\Finance\obj\Debug\Finance.pdb
+\\172.18.1.12\Applications\Finance\Finance\bin\itextsharp.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\itextsharp.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Syncfusion.Compression.Base.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Syncfusion.Pdf.Base.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Microsoft.mshtml.dll
+\\172.18.1.12\Applications\Finance\Finance\bin\Syncfusion.Compression.Base.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.xml
+\\172.18.1.12\Applications\Finance\Finance\bin\Syncfusion.Pdf.Base.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\itextsharp.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Syncfusion.Compression.Base.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Syncfusion.Pdf.Base.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\Microsoft.mshtml.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\itextsharp.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Syncfusion.Compression.Base.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.xml
+\\172.16.15.9\Applications\Finance\Finance\bin\Syncfusion.Pdf.Base.xml
+C:\Apps-06-09-18\Finance\Finance\bin\ApplicationInsights.config
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\csc.exe
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\vbc.exe
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+C:\Apps-06-09-18\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+C:\Apps-06-09-18\Finance\Finance\bin\Finance.dll.config
+C:\Apps-06-09-18\Finance\Finance\bin\Finance.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Finance.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\BUDBIZ.dll
+C:\Apps-06-09-18\Finance\Finance\bin\BUDENTITIES.dll
+C:\Apps-06-09-18\Finance\Finance\bin\FinBiz.dll
+C:\Apps-06-09-18\Finance\Finance\bin\FinEntities.dll
+C:\Apps-06-09-18\Finance\Finance\bin\itextsharp.dll
+C:\Apps-06-09-18\Finance\Finance\bin\ManBIZ.dll
+C:\Apps-06-09-18\Finance\Finance\bin\ManEntities.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.Web.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Syncfusion.Compression.Base.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Syncfusion.Pdf.Base.dll
+C:\Apps-06-09-18\Finance\Finance\bin\BUDDAL.dll
+C:\Apps-06-09-18\Finance\Finance\bin\FinDal.dll
+C:\Apps-06-09-18\Finance\Finance\bin\ManDAL.dll
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.mshtml.dll
+C:\Apps-06-09-18\Finance\Finance\bin\BUDBIZ.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\BUDENTITIES.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\FinBiz.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\FinEntities.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\ManBIZ.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\ManEntities.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\itextsharp.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.Web.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Syncfusion.Compression.Base.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.xml
+C:\Apps-06-09-18\Finance\Finance\bin\Syncfusion.Pdf.Base.xml
+C:\Apps-06-09-18\Finance\Finance\bin\BUDDAL.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\FinDal.pdb
+C:\Apps-06-09-18\Finance\Finance\bin\ManDAL.pdb
+C:\Apps-06-09-18\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\Finance\obj\Debug\Finance.dll
+C:\Apps-06-09-18\Finance\Finance\obj\Debug\Finance.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\ApplicationInsights.config
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\csc.exe
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\vbc.exe
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masood\Desktop\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masood\Desktop\Finance\Finance\bin\Finance.dll.config
+C:\Users\Masood\Desktop\Finance\Finance\bin\Finance.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Finance.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\BUDBIZ.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\FinBiz.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\FinEntities.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\itextsharp.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\ManBIZ.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\ManEntities.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.Web.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Syncfusion.Compression.Base.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Syncfusion.Pdf.Base.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\BUDDAL.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\FinDal.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\ManDAL.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.mshtml.dll
+C:\Users\Masood\Desktop\Finance\Finance\bin\BUDBIZ.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\FinBiz.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\FinEntities.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\ManBIZ.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\ManEntities.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\itextsharp.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.Web.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Syncfusion.Compression.Base.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\Syncfusion.Pdf.Base.xml
+C:\Users\Masood\Desktop\Finance\Finance\bin\BUDDAL.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\FinDal.pdb
+C:\Users\Masood\Desktop\Finance\Finance\bin\ManDAL.pdb
+C:\Users\Masood\Desktop\Finance\Finance\obj\Debug\Finance.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Finance\Finance\obj\Debug\Finance.dll
+C:\Users\Masood\Desktop\Finance\Finance\obj\Debug\Finance.pdb
+E:\Applications\Finance\Finance\bin\ApplicationInsights.config
+E:\Applications\Finance\Finance\bin\roslyn\csc.exe
+E:\Applications\Finance\Finance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Applications\Finance\Finance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Applications\Finance\Finance\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Applications\Finance\Finance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Applications\Finance\Finance\bin\roslyn\System.Collections.Immutable.dll
+E:\Applications\Finance\Finance\bin\roslyn\System.Reflection.Metadata.dll
+E:\Applications\Finance\Finance\bin\roslyn\vbc.exe
+E:\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe
+E:\Applications\Finance\Finance\bin\roslyn\VBCSCompiler.exe.config
+E:\Applications\Finance\Finance\bin\Finance.dll.config
+E:\Applications\Finance\Finance\bin\Finance.dll
+E:\Applications\Finance\Finance\bin\Finance.pdb
+E:\Applications\Finance\Finance\bin\BUDBIZ.dll
+E:\Applications\Finance\Finance\bin\BUDENTITIES.dll
+E:\Applications\Finance\Finance\bin\FinBiz.dll
+E:\Applications\Finance\Finance\bin\FinEntities.dll
+E:\Applications\Finance\Finance\bin\itextsharp.dll
+E:\Applications\Finance\Finance\bin\ManBIZ.dll
+E:\Applications\Finance\Finance\bin\ManEntities.dll
+E:\Applications\Finance\Finance\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.dll
+E:\Applications\Finance\Finance\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Applications\Finance\Finance\bin\Microsoft.AI.Web.dll
+E:\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.dll
+E:\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.dll
+E:\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Applications\Finance\Finance\bin\Syncfusion.Compression.Base.dll
+E:\Applications\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.dll
+E:\Applications\Finance\Finance\bin\Syncfusion.Pdf.Base.dll
+E:\Applications\Finance\Finance\bin\BUDDAL.dll
+E:\Applications\Finance\Finance\bin\FinDal.dll
+E:\Applications\Finance\Finance\bin\ManDAL.dll
+E:\Applications\Finance\Finance\bin\Microsoft.mshtml.dll
+E:\Applications\Finance\Finance\bin\Newtonsoft.Json.dll
+E:\Applications\Finance\Finance\bin\System.Buffers.dll
+E:\Applications\Finance\Finance\bin\BUDBIZ.pdb
+E:\Applications\Finance\Finance\bin\BUDENTITIES.pdb
+E:\Applications\Finance\Finance\bin\FinBiz.pdb
+E:\Applications\Finance\Finance\bin\FinEntities.pdb
+E:\Applications\Finance\Finance\bin\ManBIZ.pdb
+E:\Applications\Finance\Finance\bin\ManEntities.pdb
+E:\Applications\Finance\Finance\bin\itextsharp.xml
+E:\Applications\Finance\Finance\bin\Microsoft.AI.DependencyCollector.xml
+E:\Applications\Finance\Finance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Applications\Finance\Finance\bin\Microsoft.AI.Web.xml
+E:\Applications\Finance\Finance\bin\Microsoft.AI.WindowsServer.xml
+E:\Applications\Finance\Finance\bin\Microsoft.ApplicationInsights.xml
+E:\Applications\Finance\Finance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Applications\Finance\Finance\bin\Syncfusion.Compression.Base.xml
+E:\Applications\Finance\Finance\bin\Syncfusion.HtmlConverter.Base.xml
+E:\Applications\Finance\Finance\bin\Syncfusion.Pdf.Base.xml
+E:\Applications\Finance\Finance\bin\BUDDAL.pdb
+E:\Applications\Finance\Finance\bin\FinDal.pdb
+E:\Applications\Finance\Finance\bin\ManDAL.pdb
+E:\Applications\Finance\Finance\obj\Debug\Finance.csproj.AssemblyReference.cache
+E:\Applications\Finance\Finance\obj\Debug\Finance.csproj.CoreCompileInputs.cache
+E:\Applications\Finance\Finance\obj\Debug\Finance.csproj.CopyComplete
+E:\Applications\Finance\Finance\obj\Debug\Finance.dll
+E:\Applications\Finance\Finance\obj\Debug\Finance.pdb
+\\172.16.15.9\Applications\Finance\Finance\bin\Newtonsoft.Json.dll
+\\172.16.15.9\Applications\Finance\Finance\bin\System.Buffers.dll
+\\172.16.15.9\Applications\Finance\Finance\obj\Debug\Finance.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Finance\Finance\obj\Debug\Finance.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Finance\Finance\obj\Debug\Finance.csproj.CopyComplete

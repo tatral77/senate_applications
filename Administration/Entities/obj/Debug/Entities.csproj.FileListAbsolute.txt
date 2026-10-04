@@ -1,0 +1,33 @@
+C:\Users\automation\Desktop\Administration\Entities\bin\Debug\Entities.dll
+C:\Users\automation\Desktop\Administration\Entities\bin\Debug\Entities.pdb
+C:\Users\automation\Desktop\Administration\Entities\obj\Debug\Entities.dll
+C:\Users\automation\Desktop\Administration\Entities\obj\Debug\Entities.pdb
+C:\Users\automation\Desktop\Administration\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\Applications\Administration\Entities\bin\Debug\Entities.dll
+D:\Applications\Administration\Entities\bin\Debug\Entities.pdb
+D:\Applications\Administration\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\Applications\Administration\Entities\obj\Debug\Entities.dll
+D:\Applications\Administration\Entities\obj\Debug\Entities.pdb
+C:\Users\Masood\Desktop\Administration\Entities\bin\Debug\Entities.dll
+C:\Users\Masood\Desktop\Administration\Entities\bin\Debug\Entities.pdb
+C:\Users\Masood\Desktop\Administration\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\Entities\obj\Debug\Entities.dll
+C:\Users\Masood\Desktop\Administration\Entities\obj\Debug\Entities.pdb
+E:\Applications\Administration\Entities\bin\Debug\Entities.dll
+E:\Applications\Administration\Entities\bin\Debug\Entities.pdb
+E:\Applications\Administration\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\Applications\Administration\Entities\obj\Debug\Entities.dll
+E:\Applications\Administration\Entities\obj\Debug\Entities.pdb
+E:\Applications\Administration\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\Entities\obj\Debug\Entities.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\Entities\obj\Debug\Entities.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\Entities\bin\Debug\Entities.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\Entities\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Administration\Entities\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Administration\Entities\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Administration\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Administration\Entities\obj\Debug\Entities.dll
+\\172.16.15.9\Applications\Administration\Entities\obj\Debug\Entities.pdb
+\\172.16.15.9\Applications\Administration\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache

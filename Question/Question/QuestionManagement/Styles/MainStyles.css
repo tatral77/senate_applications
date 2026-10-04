@@ -1,0 +1,50 @@
+﻿body {
+}
+th{
+    background-color:lightgrey;
+    font-size:small;
+
+}
+.table-data
+{
+    font-size:12px;
+}
+.page-title{
+
+    font-size:large;
+    font-family:Verdana;
+}
+.page-title-Medium{
+
+    font-size:small;
+    font-family:Verdana;
+}
+.control-lbl{
+    font-size:15px;
+    text-align:right;
+
+}
+.control-lbl-sm{
+    font-size:13px;
+    text-align:right;
+
+}
+.top-buffer { margin-top:5px; }
+.control-txt{font-weight:normal;}
+
+th{
+   vertical-align:central;
+   
+
+}
+table{
+    border:solid;
+    border-color:white;
+}
+.regularDiv {
+    border-radius: 25px;
+   border: 2px solid #808080;
+    /*background: #73AD21;*/
+    padding: 20px; 
+ 
+}

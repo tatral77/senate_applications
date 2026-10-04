@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MY.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>PMS</title>
+    <link href="Styles/MainStyles.css" rel="stylesheet" />
+    <script src="./Jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./Scripts/bootstrap.min.js?v=337b" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="./Styles/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+    <link href="./Styles/modern.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#072b57" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body class="app-shell">
+    <form role="form" data-toggle="validator" runat="server" id="form1">
+
+        <div class="app-header" id="title-sec">
+            <div class="app-header-inner">
+                <asp:Image ID="logoImage" runat="server" ImageUrl="~/images/senate-logo.png" AlternateText="Senate Logo" CssClass="app-emblem" />
+                <div class="app-titles">
+                    <div class="app-org">SENATE OF PAKISTAN</div>
+                    <div class="app-sys">Personal Management System</div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar app-navbar" id="top-navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Profile.aspx">PMS</a>
+                </div>
+                <div class="collapse navbar-collapse" id="app-nav">
+                    <ul class="nav navbar-nav" id="mainMenu">
+                        <li><a href="Profile.aspx">Personal Information</a></li>
+                        <li><a href="EmploymentDetails.aspx">Employment Details</a></li>
+                        <li><a href="Leaves.aspx">Leaves</a></li>
+                        <li><a href="Corrections.aspx">Corrections</a></li>
+                        <li><a href="AdminRequisition.aspx">My Requisitions (Admin)</a></li>
+                        <li><a href="ManageVisitorPasses.aspx">Visitor Passes</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="app-user"><span class="navbar-text"><asp:Label ID="Label3" runat="server" /></span></li>
+                        <li>
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="Logout_Click"><span class="glyphicon glyphicon-log-out"></span>Logout</asp:LinkButton></li>
+                    </ul>
+                    <div id="MenusDiv" runat="server">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="app-content" id="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <script src='<%= ResolveUrl("~/Scripts/mobilecards.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveUrl("~/Scripts/attachbox.js")+"?v=20260928a" %>' type="text/javascript"></script>
+    <script src='<%= ResolveUrl("~/Scripts/senatescan.js")+"?v=20260928a" %>' data-download='<%= ResolveUrl("~/SenateScan/SenateScan.zip") %>' type="text/javascript"></script>
+    <script type="text/javascript">
+        // mark the menu item of the page being viewed
+        (function () {
+            var here = location.pathname.split('/').pop().toLowerCase();
+            var links = document.querySelectorAll('#mainMenu a');
+            for (var i = 0; i < links.length; i++) {
+                var target = links[i].getAttribute('href').split('?')[0].toLowerCase();
+                var sub = { 'newvisitorppass.aspx': 'managevisitorpasses.aspx', 'visitorpasses.aspx': 'managevisitorpasses.aspx', 'visitorsdetail.aspx': 'managevisitorpasses.aspx', 'manageRequisitionItems.aspx': 'adminrequisition.aspx' }[here] || here;
+                if (target === sub) { links[i].parentNode.className = 'active'; }
+            }
+        })();
+    </script>
+</body>
+</html>

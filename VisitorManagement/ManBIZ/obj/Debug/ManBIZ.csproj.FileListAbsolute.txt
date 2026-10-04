@@ -1,0 +1,94 @@
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManBIZ.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManBIZ.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManDAL.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManDAL.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManEntities.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\obj\Debug\ManBIZ.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\HRM\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\HRM\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\HRM\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\HRM\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\HRM\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\HRM\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\HRM\ManBIZ\obj\Debug\ManBIZ.csprojAssemblyReference.cache
+C:\Users\Masood\Desktop\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+C:\Users\Masood\Desktop\HRM\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\HRM\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\HRM\ManBIZ\bin\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\HRM\ManBIZ\bin\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\HRM\ManBIZ\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\HRM\ManBIZ\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\HRM\ManBIZ\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\HRM\ManBIZ\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+\\172.16.15.9\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Applications\HRM\ManBIZ\bin\Debug\ManBIZ.dll
+E:\Applications\HRM\ManBIZ\bin\Debug\ManBIZ.pdb
+E:\Applications\HRM\ManBIZ\bin\Debug\ManDAL.dll
+E:\Applications\HRM\ManBIZ\bin\Debug\ManEntities.dll
+E:\Applications\HRM\ManBIZ\bin\Debug\ManDAL.pdb
+E:\Applications\HRM\ManBIZ\bin\Debug\ManEntities.pdb
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.dll
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Administrator.SENATE\source\repos\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.pdb
+E:\Applications\VisitorManagement_old\ManBIZ\bin\Debug\ManBIZ.dll
+E:\Applications\VisitorManagement_old\ManBIZ\bin\Debug\ManBIZ.pdb
+E:\Applications\VisitorManagement_old\ManBIZ\bin\Debug\ManDAL.dll
+E:\Applications\VisitorManagement_old\ManBIZ\bin\Debug\ManEntities.dll
+E:\Applications\VisitorManagement_old\ManBIZ\bin\Debug\ManDAL.pdb
+E:\Applications\VisitorManagement_old\ManBIZ\bin\Debug\ManEntities.pdb
+E:\Applications\VisitorManagement_old\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Applications\VisitorManagement_old\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\VisitorManagement_old\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+E:\Applications\VisitorManagement_old\ManBIZ\obj\Debug\ManBIZ.dll
+E:\Applications\VisitorManagement_old\ManBIZ\obj\Debug\ManBIZ.pdb
+E:\Applications\VisitorManagement\ManBIZ\bin\Debug\ManBIZ.dll
+E:\Applications\VisitorManagement\ManBIZ\bin\Debug\ManBIZ.pdb
+E:\Applications\VisitorManagement\ManBIZ\bin\Debug\ManDAL.dll
+E:\Applications\VisitorManagement\ManBIZ\bin\Debug\ManEntities.dll
+E:\Applications\VisitorManagement\ManBIZ\bin\Debug\ManDAL.pdb
+E:\Applications\VisitorManagement\ManBIZ\bin\Debug\ManEntities.pdb
+E:\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+E:\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.dll
+E:\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\bin\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\bin\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\VisitorManagement\ManBIZ\obj\Debug\ManBIZ.pdb

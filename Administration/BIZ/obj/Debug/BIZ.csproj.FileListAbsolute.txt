@@ -1,0 +1,78 @@
+C:\Users\automation\Desktop\Administration\BIZ\bin\Debug\BIZ.dll
+C:\Users\automation\Desktop\Administration\BIZ\bin\Debug\BIZ.pdb
+C:\Users\automation\Desktop\Administration\BIZ\bin\Debug\DAL.dll
+C:\Users\automation\Desktop\Administration\BIZ\bin\Debug\Entities.dll
+C:\Users\automation\Desktop\Administration\BIZ\bin\Debug\DAL.pdb
+C:\Users\automation\Desktop\Administration\BIZ\bin\Debug\Entities.pdb
+C:\Users\automation\Desktop\Administration\BIZ\obj\Debug\BIZ.csprojResolveAssemblyReference.cache
+C:\Users\automation\Desktop\Administration\BIZ\obj\Debug\BIZ.dll
+C:\Users\automation\Desktop\Administration\BIZ\obj\Debug\BIZ.pdb
+D:\Applications\Administration\BIZ\bin\Debug\BIZ.dll
+D:\Applications\Administration\BIZ\bin\Debug\BIZ.pdb
+D:\Applications\Administration\BIZ\bin\Debug\DAL.dll
+D:\Applications\Administration\BIZ\bin\Debug\Entities.dll
+D:\Applications\Administration\BIZ\bin\Debug\DAL.pdb
+D:\Applications\Administration\BIZ\bin\Debug\Entities.pdb
+D:\Applications\Administration\BIZ\obj\Debug\BIZ.csprojResolveAssemblyReference.cache
+D:\Applications\Administration\BIZ\obj\Debug\BIZ.dll
+D:\Applications\Administration\BIZ\obj\Debug\BIZ.pdb
+C:\Users\Masood\Desktop\Administration\BIZ\bin\Debug\BIZ.dll
+C:\Users\Masood\Desktop\Administration\BIZ\bin\Debug\BIZ.pdb
+C:\Users\Masood\Desktop\Administration\BIZ\bin\Debug\DAL.dll
+C:\Users\Masood\Desktop\Administration\BIZ\bin\Debug\Entities.dll
+C:\Users\Masood\Desktop\Administration\BIZ\bin\Debug\DAL.pdb
+C:\Users\Masood\Desktop\Administration\BIZ\bin\Debug\Entities.pdb
+C:\Users\Masood\Desktop\Administration\BIZ\obj\Debug\BIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\BIZ\obj\Debug\BIZ.dll
+C:\Users\Masood\Desktop\Administration\BIZ\obj\Debug\BIZ.pdb
+E:\Applications\Administration\BIZ\bin\Debug\BIZ.dll
+E:\Applications\Administration\BIZ\bin\Debug\BIZ.pdb
+E:\Applications\Administration\BIZ\bin\Debug\DAL.dll
+E:\Applications\Administration\BIZ\bin\Debug\Entities.dll
+E:\Applications\Administration\BIZ\bin\Debug\BUDENTITIES.dll
+E:\Applications\Administration\BIZ\bin\Debug\BUDBIZ.dll
+E:\Applications\Administration\BIZ\bin\Debug\BUDDAL.dll
+E:\Applications\Administration\BIZ\bin\Debug\DAL.pdb
+E:\Applications\Administration\BIZ\bin\Debug\Entities.pdb
+E:\Applications\Administration\BIZ\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Administration\BIZ\bin\Debug\BUDBIZ.pdb
+E:\Applications\Administration\BIZ\bin\Debug\BUDDAL.pdb
+E:\Applications\Administration\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+E:\Applications\Administration\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+E:\Applications\Administration\BIZ\obj\Debug\BIZ.csproj.CopyComplete
+E:\Applications\Administration\BIZ\obj\Debug\BIZ.dll
+E:\Applications\Administration\BIZ\obj\Debug\BIZ.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BIZ.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BIZ.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\DAL.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\Entities.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BUDENTITIES.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BUDBIZ.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BUDDAL.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\DAL.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\Entities.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BUDBIZ.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\bin\Debug\BUDDAL.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\obj\Debug\BIZ.csproj.CopyComplete
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\obj\Debug\BIZ.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\BIZ\obj\Debug\BIZ.pdb
+\\172.16.15.9\Applications\Administration\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Administration\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BIZ.dll
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BIZ.pdb
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\DAL.dll
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\DAL.pdb
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\Administration\BIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Administration\BIZ\obj\Debug\BIZ.csproj.CopyComplete
+\\172.16.15.9\Applications\Administration\BIZ\obj\Debug\BIZ.dll
+\\172.16.15.9\Applications\Administration\BIZ\obj\Debug\BIZ.pdb

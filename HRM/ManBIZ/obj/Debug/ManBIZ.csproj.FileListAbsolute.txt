@@ -1,0 +1,11 @@
+E:\Applications\HRM\ManBIZ\bin\Debug\ManBIZ.dll
+E:\Applications\HRM\ManBIZ\bin\Debug\ManBIZ.pdb
+E:\Applications\HRM\ManBIZ\bin\Debug\ManDAL.dll
+E:\Applications\HRM\ManBIZ\bin\Debug\ManEntities.dll
+E:\Applications\HRM\ManBIZ\bin\Debug\ManDAL.pdb
+E:\Applications\HRM\ManBIZ\bin\Debug\ManEntities.pdb
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.dll
+E:\Applications\HRM\ManBIZ\obj\Debug\ManBIZ.pdb

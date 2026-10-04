@@ -1,0 +1,66 @@
+C:\Users\automation\Desktop\Administration\DAL\bin\Debug\DAL.dll
+C:\Users\automation\Desktop\Administration\DAL\bin\Debug\DAL.pdb
+C:\Users\automation\Desktop\Administration\DAL\bin\Debug\Entities.dll
+C:\Users\automation\Desktop\Administration\DAL\bin\Debug\Entities.pdb
+C:\Users\automation\Desktop\Administration\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\automation\Desktop\Administration\DAL\obj\Debug\DAL.dll
+C:\Users\automation\Desktop\Administration\DAL\obj\Debug\DAL.pdb
+D:\Applications\Administration\DAL\bin\Debug\DAL.dll
+D:\Applications\Administration\DAL\bin\Debug\DAL.pdb
+D:\Applications\Administration\DAL\bin\Debug\Entities.dll
+D:\Applications\Administration\DAL\bin\Debug\Entities.pdb
+D:\Applications\Administration\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Applications\Administration\DAL\obj\Debug\DAL.dll
+D:\Applications\Administration\DAL\obj\Debug\DAL.pdb
+C:\Users\Masood\Desktop\Administration\DAL\bin\Debug\DAL.dll
+C:\Users\Masood\Desktop\Administration\DAL\bin\Debug\DAL.pdb
+C:\Users\Masood\Desktop\Administration\DAL\bin\Debug\Entities.dll
+C:\Users\Masood\Desktop\Administration\DAL\bin\Debug\Entities.pdb
+C:\Users\Masood\Desktop\Administration\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\DAL\obj\Debug\DAL.dll
+C:\Users\Masood\Desktop\Administration\DAL\obj\Debug\DAL.pdb
+E:\Applications\Administration\DAL\bin\Debug\DAL.dll
+E:\Applications\Administration\DAL\bin\Debug\DAL.pdb
+E:\Applications\Administration\DAL\bin\Debug\BUDBIZ.dll
+E:\Applications\Administration\DAL\bin\Debug\BUDENTITIES.dll
+E:\Applications\Administration\DAL\bin\Debug\Entities.dll
+E:\Applications\Administration\DAL\bin\Debug\BUDDAL.dll
+E:\Applications\Administration\DAL\bin\Debug\Entities.pdb
+E:\Applications\Administration\DAL\bin\Debug\BUDBIZ.pdb
+E:\Applications\Administration\DAL\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Administration\DAL\bin\Debug\BUDDAL.pdb
+E:\Applications\Administration\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Applications\Administration\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Applications\Administration\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Applications\Administration\DAL\obj\Debug\DAL.dll
+E:\Applications\Administration\DAL\obj\Debug\DAL.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\DAL.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\DAL.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\BUDBIZ.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\BUDENTITIES.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\Entities.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\BUDDAL.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\Entities.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\BUDBIZ.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\bin\Debug\BUDDAL.pdb
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\obj\Debug\DAL.dll
+E:\Applications\Working Area From Husnain\Working Area From Husnain\Administration\DAL\obj\Debug\DAL.pdb
+\\172.16.15.9\Applications\Administration\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Administration\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\DAL.dll
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\DAL.pdb
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Administration\DAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Administration\DAL\obj\Debug\DAL.csproj.CopyComplete
+\\172.16.15.9\Applications\Administration\DAL\obj\Debug\DAL.dll
+\\172.16.15.9\Applications\Administration\DAL\obj\Debug\DAL.pdb

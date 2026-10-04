@@ -1,0 +1,48 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+D:\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+D:\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+D:\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\obj\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\AutomationBranch\BUDDAL\obj\Debug\BUDDAL.pdb
+E:\Applications\Administration\BUDDAL\bin\Debug\BUDDAL.dll
+E:\Applications\Administration\BUDDAL\bin\Debug\BUDDAL.pdb
+E:\Applications\Administration\BUDDAL\bin\Debug\BUDENTITIES.dll
+E:\Applications\Administration\BUDDAL\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.csproj.AssemblyReference.cache
+E:\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.csproj.CoreCompileInputs.cache
+E:\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.csproj.CopyComplete
+E:\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.dll
+E:\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Administration\BUDDAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Administration\BUDDAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Administration\BUDDAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Administration\BUDDAL\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Administration\BUDDAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Administration\BUDDAL\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Administration\BUDDAL\obj\Debug\BUDDAL.csproj.CopyComplete

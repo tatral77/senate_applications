@@ -1,0 +1,35 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\bin\Debug\BIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\bin\Debug\BIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\bin\Debug\DAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\bin\Debug\Entities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\bin\Debug\DAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\bin\Debug\Entities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\obj\Debug\BIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\obj\Debug\BIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\BIZ\obj\Debug\BIZ.pdb
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\BIZ.dll
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\BIZ.pdb
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\DAL.dll
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\DAL.pdb
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Management\BIZ\obj\Debug\BIZ.dll
+\\172.16.15.9\Applications\Management\BIZ\obj\Debug\BIZ.pdb
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\DataEntities.dll
+\\172.16.15.9\Applications\Management\BIZ\bin\Debug\DataEntities.pdb
+E:\Applications\Management\BIZ\bin\Debug\BIZ.dll
+E:\Applications\Management\BIZ\bin\Debug\BIZ.pdb
+E:\Applications\Management\BIZ\bin\Debug\DAL.dll
+E:\Applications\Management\BIZ\bin\Debug\DataEntities.dll
+E:\Applications\Management\BIZ\bin\Debug\Entities.dll
+E:\Applications\Management\BIZ\bin\Debug\DAL.pdb
+E:\Applications\Management\BIZ\bin\Debug\DataEntities.pdb
+E:\Applications\Management\BIZ\bin\Debug\Entities.pdb
+E:\Applications\Management\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+E:\Applications\Management\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+E:\Applications\Management\BIZ\obj\Debug\BIZ.csproj.CopyComplete
+E:\Applications\Management\BIZ\obj\Debug\BIZ.dll
+E:\Applications\Management\BIZ\obj\Debug\BIZ.pdb
+\\172.16.15.9\Applications\Management\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Management\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Management\BIZ\obj\Debug\BIZ.csproj.CopyComplete

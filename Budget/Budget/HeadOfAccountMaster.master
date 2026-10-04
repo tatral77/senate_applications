@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="HeadOfAccountMaster.master.cs" Inherits="Budget.HeadOfAccountMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <%--<link href="Styles/Pages.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/SearchList.css" rel="stylesheet" type="text/css" />--%>
+        <link href="Styles/MainStyles.css" rel="stylesheet" />
+        <script src="Custom/jquery-ui.min.js"></script>
+        <link href="Custom/jquery-ui.css.css" rel="stylesheet" />
+        <style>
+            .ui-autocomplete {
+                position: relative;
+                cursor: default;
+                z-index: 2000 !important;
+            }
+        </style>
+        <script src="Scripts/jquery.mask.js"></script>
+    </asp:Content>
+    <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <style type="text/css">
+            lis {
+                background-color: #00688B;
+            }
+
+            li a {
+                color: #fff;
+            }
+
+            .navbar-fixed-left {
+                position: fixed;
+                border-radius: 0;
+                height: 100%;
+                width: 12%;
+            }
+
+                .navbar-fixed-left .navbar-nav > li {
+                    float: none; /* Cancel default li float: left */
+                }
+
+                .navbar-fixed-left + .container {
+                }
+
+                /* On using dropdown menu (To right shift popuped) */
+                .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+                    margin-top: -50px;
+                }
+        </style>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+
+                    <ul class="nav nav-pills nav-stacked navbar-fixed-left">
+                        <li class="dropdown  active">
+                            <asp:HyperLink ID="HOADetails" runat="server" Style="background-color: #2E6444">Details</asp:HyperLink>
+                        </li>
+                        <li class="active">
+                            <asp:HyperLink ID="BranchBills" runat="server" Style="background-color: #2E6444">Branch</asp:HyperLink></li>
+                        <li class="dropdown  active">
+                            <asp:HyperLink ID="EmployeeBills" runat="server" Style="background-color: #2E6444">Employee</asp:HyperLink>
+                        </li>
+                    </ul>
+                    </div>
+                        
+                <div class="col-md-10">
+                    <asp:ContentPlaceHolder ID="EmpMenues" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+        </div>
+    </asp:Content>

@@ -1,0 +1,54 @@
+es. The command you ran granted the IIS application pool read/execute (RX) access:
+
+icacls "E:\Applications\Senate_Applications\Noticecontents" /grant "IIS AppPool\Notice:(OI)(CI)(RX)" /T
+
+That's why the application can read existing files but cannot create/upload new files.
+
+For uploads, the IIS application pool needs Modify (M) permission on the directory where uploaded files are stored.
+Recommended fix
+
+If Noticecontents is specifically an upload/storage directory, run an elevated Command Prompt:
+
+icacls "E:\Applications\Senate_Applications\Noticecontents" /grant "IIS AppPool\Notice:(OI)(CI)(M)" /T
+
+M includes the permissions needed to create, modify, and delete files.
+
+You can then verify:
+
+icacls "E:\Applications\Senate_Applications\Noticecontents"
+
+You should see something similar to:
+
+IIS AppPool\Notice:(OI)(CI)(M)
+
+Better approach if only one folder receives uploads
+
+I would not give Modify permission to the entire application directory if Noticecontents contains application files such as web.config.
+
+For example, if your structure is:
+
+Noticecontents
++-- web.config
++-- index.html
++-- Documents
++-- Images
++-- Uploads
+
+I'd recommend:
+
+icacls "E:\Applications\Senate_Applications\Noticecontents\Uploads" /grant "IIS AppPool\Notice:(OI)(CI)(M)" /T
+
+while keeping only read permission on the rest of the application.
+
+This is safer because the web application can write only to the directory intended for uploads.
+If the application uploads directly into Noticecontents
+
+Then your current setup can be changed from RX to M:
+
+icacls "E:\Applications\Senate_Applications\Noticecontents" /grant "IIS AppPool\Notice:(OI)(CI)(M)" /T
+
+You don't need to remove the previous RX entry; granting M gives the identity the additional permissions it needs.
+
+Also make sure you're running Command Prompt as Administrator.
+
+If you tell me what the actual upload path is—for example Noticecontents\Uploads, Noticecontents\Documents, etc.—I can give you the exact permission command without granting write access to the whole virtual directory.

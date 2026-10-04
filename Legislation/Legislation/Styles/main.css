@@ -1,0 +1,86 @@
+﻿body
+{
+    
+}
+.SenateDiv
+{
+    font-size: xx-large;
+}
+.AppDiv
+{
+    font-size: large;
+}
+#header
+{
+    background-color: #6699FF;
+    width: 1020px;
+    height: 80px;
+}
+
+#maindiv
+{
+    background-color: #CCCCCC;
+    width: 1020px;
+   
+}
+#content
+{
+    background-color: #FFFFFF;
+    width: 1020px;
+    float: left;
+}
+#links
+{
+    background-color: #006699;
+    width: 1020px;
+    float: left;
+    text-align: right;
+}
+.topSec
+{
+    border-bottom: 5px solid #6699FF;
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 990px;
+    padding: 10px;
+    height: 66px;
+    border: 5px solid #788BAB;
+}
+.logoSec
+{
+    width: 80px;
+    height: 70px;
+    float: left;
+    background-color: #FFFFFF;
+}
+.titleSec
+{
+    width: 839px;
+    float: left;
+    height: 38px;
+    padding-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+}
+.itemRow
+{
+    border: thin solid #000000;
+    background-color: #D7D7D7;
+    color: #666666;
+    font-family: verdana;
+    font-size: 12px;
+    height: 85px;
+}
+
+.alternateRow
+{
+    border: thin solid #000000;
+    background-color: #E1E1E1;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 12px;
+    height: 85px;
+    font-weight: bolder;
+}
+

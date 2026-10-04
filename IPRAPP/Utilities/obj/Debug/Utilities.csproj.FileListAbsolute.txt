@@ -1,0 +1,45 @@
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\Utilities.dll
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\Utilities.pdb
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\IPRBIZ.dll
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\IPRENITITIES.dll
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\BUDENTITIES.dll
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\IPRDAL.dll
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\IPRBIZ.pdb
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\IPRENITITIES.pdb
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\BUDENTITIES.pdb
+D:\Senate Projects\IPRAPP\Utilities\bin\Debug\IPRDAL.pdb
+D:\Senate Projects\IPRAPP\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+D:\Senate Projects\IPRAPP\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+D:\Senate Projects\IPRAPP\Utilities\obj\Debug\Utilities.csproj.CopyComplete
+D:\Senate Projects\IPRAPP\Utilities\obj\Debug\Utilities.dll
+D:\Senate Projects\IPRAPP\Utilities\obj\Debug\Utilities.pdb
+E:\Applications\IPRAPP\Utilities\bin\Debug\Utilities.dll
+E:\Applications\IPRAPP\Utilities\bin\Debug\Utilities.pdb
+E:\Applications\IPRAPP\Utilities\bin\Debug\IPRBIZ.dll
+E:\Applications\IPRAPP\Utilities\bin\Debug\IPRENITITIES.dll
+E:\Applications\IPRAPP\Utilities\bin\Debug\BUDENTITIES.dll
+E:\Applications\IPRAPP\Utilities\bin\Debug\IPRDAL.dll
+E:\Applications\IPRAPP\Utilities\bin\Debug\IPRBIZ.pdb
+E:\Applications\IPRAPP\Utilities\bin\Debug\IPRENITITIES.pdb
+E:\Applications\IPRAPP\Utilities\bin\Debug\BUDENTITIES.pdb
+E:\Applications\IPRAPP\Utilities\bin\Debug\IPRDAL.pdb
+E:\Applications\IPRAPP\Utilities\obj\Debug\Utilities.csproj.AssemblyReference.cache
+E:\Applications\IPRAPP\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+E:\Applications\IPRAPP\Utilities\obj\Debug\Utilities.csproj.CopyComplete
+E:\Applications\IPRAPP\Utilities\obj\Debug\Utilities.dll
+E:\Applications\IPRAPP\Utilities\obj\Debug\Utilities.pdb
+\\172.16.15.9\Applications\IPRAPP\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\Utilities.dll
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\Utilities.pdb
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\IPRBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\IPRENITITIES.dll
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\IPRDAL.dll
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\IPRBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\IPRENITITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\Utilities\bin\Debug\IPRDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\Utilities\obj\Debug\Utilities.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\IPRAPP\Utilities\obj\Debug\Utilities.csproj.CopyComplete
+\\172.16.15.9\Applications\IPRAPP\Utilities\obj\Debug\Utilities.dll
+\\172.16.15.9\Applications\IPRAPP\Utilities\obj\Debug\Utilities.pdb

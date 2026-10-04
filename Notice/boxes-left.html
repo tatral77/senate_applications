@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seating Plan</title>
+    <style>
+        div:nth-child(1) { top: 90px; }
+        div:nth-child(2) { top: 80px; }
+        div:nth-child(3) { top: 70px; }
+        div:nth-child(4) { top: 60px; }
+        div:nth-child(5) { top: 50px; }
+        div:nth-child(6) { top: 40px; }
+        div:nth-child(7) { top: 30px; }
+        div:nth-child(8) { top: 20px; }
+        div:nth-child(9) { top: 10px; }
+
+           div:nth-of-type(odd) {
+     background-color: #CD5C5C;
+	
+}
+
+
+div:nth-of-type(even) {
+    background: #A0522D;
+}  
+
+        .row {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .bdr{border: 1px solid #000; border-radius:10px; font-size: 12px;min-height: 50px;}
+
+        .col {
+            position: relative;
+            min-width: 50px;
+            padding-right: 25px;
+            padding-left: 25px;
+            float: left;
+            margin-right: 5px;
+            text-align: center;
+            transform: rotate(-5deg);
+        }
+        .row2-height{
+            min-height: 30px;
+            margin-top: 3px;
+            background-color: #fff !important;
+            font-weight: bold;
+        }
+
+        /*div::before{
+     margin-right:0;
+    content: "Test - "; 
+    }*/
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div id="1" class="col bdr">First</div>
+        <div id="2" class="col bdr">Second</div>
+        <div id="3" class="col bdr">Third</div>
+        <div id="4" class="col bdr">Fourth</div>
+        <div id="5" class="col bdr">Fifth</div>
+        <div id="6" class="col bdr">Sixth</div>
+        <div id="7" class="col bdr">Seventh</div>
+        <div id="8" class="col bdr">Eighth</div>
+        <div id="9" class="col bdr">Ninth</div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+        <div class="row2-height col">1</div>
+        <div class="row2-height col">2</div>
+        <div class="row2-height col">3</div>
+        <div class="row2-height col">4</div>
+        <div class="row2-height col">5</div>
+        <div class="row2-height col">6</div>
+        <div class="row2-height col">7</div>
+        <div class="row2-height col">8</div>
+        <div class="row2-height col">9</div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row">
+            <div class="col bdr">First</div>
+            <div class="col bdr">Second</div>
+            <div class="col bdr">Third</div>
+            <div class="col bdr">Fourth</div>
+            <div class="col bdr">Fifth</div>
+            <div class="col bdr">Sixth</div>
+            <div class="col bdr">Seventh</div>
+            <div class="col bdr">Eighth</div>
+            <div class="col bdr">Ninth</div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+                <div class="row2-height col">1</div>
+                <div class="row2-height col">2</div>
+                <div class="row2-height col">3</div>
+                <div class="row2-height col">4</div>
+                <div class="row2-height col">5</div>
+                <div class="row2-height col">6</div>
+                <div class="row2-height col">7</div>
+                <div class="row2-height col">8</div>
+                <div class="row2-height col">9</div>
+            </div>
+                    <div class="clearfix"></div>
+            <div class="row">
+                    <div class="col bdr">First</div>
+                    <div class="col bdr">Second</div>
+                    <div class="col bdr">Third</div>
+                    <div class="col bdr">Fourth</div>
+                    <div class="col bdr">Fifth</div>
+                    <div class="col bdr">Sixth</div>
+                    <div class="col bdr">Seventh</div>
+                    <div class="col bdr">Eighth</div>
+                    <div class="col bdr">Ninth</div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                        <div class="row2-height col">1</div>
+                        <div class="row2-height col">2</div>
+                        <div class="row2-height col">3</div>
+                        <div class="row2-height col">4</div>
+                        <div class="row2-height col">5</div>
+                        <div class="row2-height col">6</div>
+                        <div class="row2-height col">7</div>
+                        <div class="row2-height col">8</div>
+                        <div class="row2-height col">9</div>
+                    </div>
+                                    <div class="clearfix"></div>
+                    <div class="row">
+                            <div class="col bdr">First</div>
+                            <div class="col bdr">Second</div>
+                            <div class="col bdr">Third</div>
+                            <div class="col bdr">Fourth</div>
+                            <div class="col bdr">Fifth</div>
+                            <div class="col bdr">Sixth</div>
+                            <div class="col bdr">Seventh</div>
+                            <div class="col bdr">Eighth</div>
+                            <div class="col bdr">Ninth</div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="row">
+                                <div class="row2-height col">1</div>
+                                <div class="row2-height col">2</div>
+                                <div class="row2-height col">3</div>
+                                <div class="row2-height col">4</div>
+                                <div class="row2-height col">5</div>
+                                <div class="row2-height col">6</div>
+                                <div class="row2-height col">7</div>
+                                <div class="row2-height col">8</div>
+                                <div class="row2-height col">9</div>
+                            </div>
+                                                    <div class="clearfix"></div>
+                            <div class="row">
+                                    <div class="col bdr">First</div>
+                                    <div class="col bdr">Second</div>
+                                    <div class="col bdr">Third</div>
+                                    <div class="col bdr">Fourth</div>
+                                    <div class="col bdr">Fifth</div>
+                                    <div class="col bdr">Sixth</div>
+                                    <div class="col bdr">Seventh</div>
+                                    <div class="col bdr">Eighth</div>
+                                    <div class="col bdr">Ninth</div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                        <div class="row2-height col">1</div>
+                                        <div class="row2-height col">2</div>
+                                        <div class="row2-height col">3</div>
+                                        <div class="row2-height col">4</div>
+                                        <div class="row2-height col">5</div>
+                                        <div class="row2-height col">6</div>
+                                        <div class="row2-height col">7</div>
+                                        <div class="row2-height col">8</div>
+                                        <div class="row2-height col">9</div>
+                                    </div>
+                                                                    <div class="clearfix"></div>
+                                    <div class="row">
+                                            <div class="col bdr">First</div>
+                                            <div class="col bdr">Second</div>
+                                            <div class="col bdr">Third</div>
+                                            <div class="col bdr">Fourth</div>
+                                            <div class="col bdr">Fifth</div>
+                                            <div class="col bdr">Sixth</div>
+                                            <div class="col bdr">Seventh</div>
+                                            <div class="col bdr">Eighth</div>
+                                            <div class="col bdr">Ninth</div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="row">
+                                                <div class="row2-height col">1</div>
+                                                <div class="row2-height col">2</div>
+                                                <div class="row2-height col">3</div>
+                                                <div class="row2-height col">4</div>
+                                                <div class="row2-height col">5</div>
+                                                <div class="row2-height col">6</div>
+                                                <div class="row2-height col">7</div>
+                                                <div class="row2-height col">8</div>
+                                                <div class="row2-height col">9</div>
+                                            </div>
+                                                                                    <div class="clearfix"></div>
+                                                                                     
+</body>
+
+</html>

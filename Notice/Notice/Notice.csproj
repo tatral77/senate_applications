@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B114388-355D-4412-997E-640FF388B8E3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Notice</RootNamespace>
+    <AssemblyName>Notice</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\bootstrap.css" />
+    <Content Include="Assets\css\font-awesome.css" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\images\bill.png" />
+    <Content Include="Assets\images\bill2.png" />
+    <Content Include="Assets\images\Budget.png" />
+    <Content Include="Assets\images\committees.png" />
+    <Content Include="Assets\images\envelop.png" />
+    <Content Include="Assets\images\favicon.ico" />
+    <Content Include="Assets\images\Finance.png" />
+    <Content Include="Assets\images\hdr-img.jpg" />
+    <Content Include="Assets\images\HR.jpg" />
+    <Content Include="Assets\images\HRM.png" />
+    <Content Include="Assets\images\IPR.png" />
+    <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\motion.png" />
+    <Content Include="Assets\images\My.png" />
+    <Content Include="Assets\images\Question.png" />
+    <Content Include="Assets\images\Service.png" />
+    <Content Include="Assets\images\translation.png" />
+    <Content Include="Assets\js\bootstrap.js" />
+    <Content Include="Assets\js\jquery.js" />
+    <Content Include="BillDetails.aspx" />
+    <Content Include="BlankSeatingPlanPrint.aspx" />
+    <Content Include="CustomScripts\JQuery-ui-1.13.2.js" />
+    <Content Include="Home.aspx" />
+    <Content Include="Javascript\jquery-confirm.min.js" />
+    <Content Include="Javascript\SeatingPlan.js" />
+    <Content Include="JQueryAlert\jquery.alert2.css" />
+    <Content Include="JQueryAlert\jquery.alert2.min.js" />
+    <Content Include="LeaveApplication.aspx" />
+    <Content Include="ManageSeatingPlan.aspx" />
+    <Content Include="ManageSessionDays.aspx" />
+    <Content Include="ManageSittingPlan.aspx" />
+    <Content Include="MBMotionDetails.aspx" />
+    <Content Include="MemberLeaveRequest.aspx" />
+    <Content Include="MembersAttendance.aspx" />
+    <Content Include="MotionDetail.aspx" />
+    <Content Include="NewBill.aspx" />
+    <Content Include="NewMBMotion.aspx" />
+    <Content Include="NoticeSummary.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="PrintQuestion.aspx" />
+    <Content Include="PrintSeatingPlan.aspx" />
+    <Content Include="PrintSeatingPlanEng.aspx" />
+    <Content Include="QuestionDetails.aspx" />
+    <Content Include="ResolutionDetail.aspx" />
+    <Content Include="Scan.aspx" />
+    <Content Include="SenateScan\SenateScan.exe" />
+    <Content Include="SenateScan\SenateScan.ini" />
+    <Content Include="SenateScan\install.bat" />
+    <Content Include="SenateScan\uninstall.bat" />
+    <Content Include="SenateScan\README.txt" />
+    <Content Include="SenateScan\SenateScan.zip" />
+    <Content Include="Scripts\attachbox.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.eot" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.ttf" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.woff" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.woff2" />
+    <Content Include="Scripts\SeatingPlan.js" />
+    <Content Include="Scripts\senatescan.js" />
+    <Content Include="SearchBills.aspx" />
+    <Content Include="SeatingPlanList.aspx" />
+    <Content Include="SentBills.aspx" />
+    <Content Include="SentResolutions.aspx" />
+    <Content Include="Styles\jquery-confirm.min.css" />
+    <Content Include="Summernote\font\summernote.eot" />
+    <Content Include="Summernote\font\summernote.ttf" />
+    <Content Include="Summernote\font\summernote.woff" />
+    <Content Include="Assets\fonts\Anorexia.ttf" />
+    <Content Include="Assets\fonts\Diavlo_LIGHT_II_37.otf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <Content Include="WebForm1.aspx" />
+    <Content Include="fonts\JameelNooriNastaleeqRegular.ttf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="CustomScripts\jquery-ui.css.css" />
+    <Content Include="CustomScripts\jquery-ui.min.js" />
+    <Content Include="CustomScripts\jquery.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\senate.jpg" />
+    <Content Include="Main.Master" />
+    <Content Include="SearchQuestion.aspx" />
+    <Content Include="SeatingPlan-LT.aspx" />
+    <Content Include="SeatingPlan-RT.aspx" />
+    <Content Include="SeatingPlan.aspx" />
+    <Content Include="SeatingPlanLeftEn.aspx" />
+    <Content Include="SeatingPlanRightEn.aspx" />
+    <Content Include="SentMBMotions.aspx" />
+    <Content Include="SentMotions.aspx" />
+    <Content Include="service.asmx" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="NewMotion.aspx" />
+    <Content Include="NewQuestion.aspx" />
+    <Content Include="NewResolution.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="SearchMotion.aspx" />
+    <Content Include="SentQuestion.aspx" />
+    <Content Include="SearchResolution.aspx" />
+    <Content Include="Styles\fontStyle.css" />
+    <Content Include="Styles\index.css" />
+    <Content Include="Styles\jquery-ui-1.10.4.custom.css" />
+    <Content Include="Styles\Login.css" />
+    <Content Include="Styles\Login2.css" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Styles\MainStyles.css" />
+    <Content Include="Styles\modern.css" />
+    <Content Include="Scripts\mobilecards.js" />
+    <Content Include="Scripts\qmsdates.js" />
+    <Content Include="Scripts\qmsmembers.js" />
+    <Content Include="Scripts\qmschips.js" />
+    <Content Include="Scripts\searchpanel.js" />
+    <Content Include="Images\emblem.png" />
+    <Content Include="Images\senate-logo.png" />
+    <Content Include="Styles\menu.css" />
+    <Content Include="Styles\new.css" />
+    <Content Include="Styles\notonastaliqurdudraft.css" />
+    <Content Include="Styles\NSole.css" />
+    <Content Include="Styles\Pages.css" />
+    <Content Include="Styles\Printing.css" />
+    <Content Include="Styles\SearchList.css" />
+    <Content Include="Styles\SeatingPlan.css" />
+    <Content Include="Summernote\lang\summernote-ar-AR.js" />
+    <Content Include="Summernote\lang\summernote-bg-BG.js" />
+    <Content Include="Summernote\lang\summernote-ca-ES.js" />
+    <Content Include="Summernote\lang\summernote-cs-CZ.js" />
+    <Content Include="Summernote\lang\summernote-da-DK.js" />
+    <Content Include="Summernote\lang\summernote-de-DE.js" />
+    <Content Include="Summernote\lang\summernote-el-GR.js" />
+    <Content Include="Summernote\lang\summernote-es-ES.js" />
+    <Content Include="Summernote\lang\summernote-es-EU.js" />
+    <Content Include="Summernote\lang\summernote-fa-IR.js" />
+    <Content Include="Summernote\lang\summernote-fi-FI.js" />
+    <Content Include="Summernote\lang\summernote-fr-FR.js" />
+    <Content Include="Summernote\lang\summernote-gl-ES.js" />
+    <Content Include="Summernote\lang\summernote-he-IL.js" />
+    <Content Include="Summernote\lang\summernote-hr-HR.js" />
+    <Content Include="Summernote\lang\summernote-hu-HU.js" />
+    <Content Include="Summernote\lang\summernote-id-ID.js" />
+    <Content Include="Summernote\lang\summernote-it-IT.js" />
+    <Content Include="Summernote\lang\summernote-ja-JP.js" />
+    <Content Include="Summernote\lang\summernote-ko-KR.js" />
+    <Content Include="Summernote\lang\summernote-lt-LT.js" />
+    <Content Include="Summernote\lang\summernote-lt-LV.js" />
+    <Content Include="Summernote\lang\summernote-mn-MN.js" />
+    <Content Include="Summernote\lang\summernote-nb-NO.js" />
+    <Content Include="Summernote\lang\summernote-nl-NL.js" />
+    <Content Include="Summernote\lang\summernote-pl-PL.js" />
+    <Content Include="Summernote\lang\summernote-pt-BR.js" />
+    <Content Include="Summernote\lang\summernote-pt-PT.js" />
+    <Content Include="Summernote\lang\summernote-ro-RO.js" />
+    <Content Include="Summernote\lang\summernote-ru-RU.js" />
+    <Content Include="Summernote\lang\summernote-sk-SK.js" />
+    <Content Include="Summernote\lang\summernote-sl-SI.js" />
+    <Content Include="Summernote\lang\summernote-sr-RS-Latin.js" />
+    <Content Include="Summernote\lang\summernote-sr-RS.js" />
+    <Content Include="Summernote\lang\summernote-sv-SE.js" />
+    <Content Include="Summernote\lang\summernote-ta-IN.js" />
+    <Content Include="Summernote\lang\summernote-th-TH.js" />
+    <Content Include="Summernote\lang\summernote-tr-TR.js" />
+    <Content Include="Summernote\lang\summernote-uk-UA.js" />
+    <Content Include="Summernote\lang\summernote-vi-VN.js" />
+    <Content Include="Summernote\lang\summernote-zh-CN.js" />
+    <Content Include="Summernote\lang\summernote-zh-TW.js" />
+    <Content Include="Summernote\plugin\databasic\summernote-ext-databasic.css" />
+    <Content Include="Summernote\plugin\databasic\summernote-ext-databasic.js" />
+    <Content Include="Summernote\plugin\hello\summernote-ext-hello.js" />
+    <Content Include="Summernote\plugin\rtl.js" />
+    <Content Include="Summernote\plugin\specialchars\summernote-ext-specialchars.js" />
+    <Content Include="Summernote\summernote-bs4.css" />
+    <Content Include="Summernote\summernote-bs4.js" />
+    <Content Include="Summernote\summernote-bs4.min.js" />
+    <Content Include="Summernote\summernote-lite.css" />
+    <Content Include="Summernote\summernote-lite.js" />
+    <Content Include="Summernote\summernote.css" />
+    <Content Include="Summernote\summernote.js" />
+    <Content Include="Summernote\summernote.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillDetails.aspx.cs">
+      <DependentUpon>BillDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BillDetails.aspx.designer.cs">
+      <DependentUpon>BillDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlankSeatingPlanPrint.aspx.cs">
+      <DependentUpon>BlankSeatingPlanPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlankSeatingPlanPrint.aspx.designer.cs">
+      <DependentUpon>BlankSeatingPlanPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveApplication.aspx.cs">
+      <DependentUpon>LeaveApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeaveApplication.aspx.designer.cs">
+      <DependentUpon>LeaveApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\FormInput.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSeatingPlan.aspx.cs">
+      <DependentUpon>ManageSeatingPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSeatingPlan.aspx.designer.cs">
+      <DependentUpon>ManageSeatingPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSessionDays.aspx.cs">
+      <DependentUpon>ManageSessionDays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSessionDays.aspx.designer.cs">
+      <DependentUpon>ManageSessionDays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSittingPlan.aspx.cs">
+      <DependentUpon>ManageSittingPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSittingPlan.aspx.designer.cs">
+      <DependentUpon>ManageSittingPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MBMotionDetails.aspx.cs">
+      <DependentUpon>MBMotionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MBMotionDetails.aspx.designer.cs">
+      <DependentUpon>MBMotionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberLeaveRequest.aspx.cs">
+      <DependentUpon>MemberLeaveRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberLeaveRequest.aspx.designer.cs">
+      <DependentUpon>MemberLeaveRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MembersAttendance.aspx.cs">
+      <DependentUpon>MembersAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MembersAttendance.aspx.designer.cs">
+      <DependentUpon>MembersAttendance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MotionDetail.aspx.cs">
+      <DependentUpon>MotionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MotionDetail.aspx.designer.cs">
+      <DependentUpon>MotionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewBill.aspx.cs">
+      <DependentUpon>NewBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewBill.aspx.designer.cs">
+      <DependentUpon>NewBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewMBMotion.aspx.cs">
+      <DependentUpon>NewMBMotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewMBMotion.aspx.designer.cs">
+      <DependentUpon>NewMBMotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewMotion.aspx.cs">
+      <DependentUpon>NewMotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewMotion.aspx.designer.cs">
+      <DependentUpon>NewMotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewQuestion.aspx.cs">
+      <DependentUpon>NewQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewQuestion.aspx.designer.cs">
+      <DependentUpon>NewQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewResolution.aspx.cs">
+      <DependentUpon>NewResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewResolution.aspx.designer.cs">
+      <DependentUpon>NewResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeSummary.aspx.cs">
+      <DependentUpon>NoticeSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeSummary.aspx.designer.cs">
+      <DependentUpon>NoticeSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintQuestion.aspx.cs">
+      <DependentUpon>PrintQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintQuestion.aspx.designer.cs">
+      <DependentUpon>PrintQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSeatingPlan.aspx.cs">
+      <DependentUpon>PrintSeatingPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintSeatingPlan.aspx.designer.cs">
+      <DependentUpon>PrintSeatingPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSeatingPlanEng.aspx.cs">
+      <DependentUpon>PrintSeatingPlanEng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintSeatingPlanEng.aspx.designer.cs">
+      <DependentUpon>PrintSeatingPlanEng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionDetails.aspx.cs">
+      <DependentUpon>QuestionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionDetails.aspx.designer.cs">
+      <DependentUpon>QuestionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResolutionDetail.aspx.cs">
+      <DependentUpon>ResolutionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResolutionDetail.aspx.designer.cs">
+      <DependentUpon>ResolutionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scan.aspx.cs">
+      <DependentUpon>Scan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scan.aspx.designer.cs">
+      <DependentUpon>Scan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBills.aspx.cs">
+      <DependentUpon>SearchBills.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchBills.aspx.designer.cs">
+      <DependentUpon>SearchBills.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMotion.aspx.cs">
+      <DependentUpon>SearchMotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchMotion.aspx.designer.cs">
+      <DependentUpon>SearchMotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchQuestion.aspx.cs">
+      <DependentUpon>SearchQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchQuestion.aspx.designer.cs">
+      <DependentUpon>SearchQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeatingPlan-LT.aspx.cs">
+      <DependentUpon>SeatingPlan-LT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatingPlan-LT.aspx.designer.cs">
+      <DependentUpon>SeatingPlan-LT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeatingPlan-RT.aspx.cs">
+      <DependentUpon>SeatingPlan-RT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatingPlan-RT.aspx.designer.cs">
+      <DependentUpon>SeatingPlan-RT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeatingPlan.aspx.cs">
+      <DependentUpon>SeatingPlan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatingPlan.aspx.designer.cs">
+      <DependentUpon>SeatingPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeatingPlanLeftEn.aspx.cs">
+      <DependentUpon>SeatingPlanLeftEn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatingPlanLeftEn.aspx.designer.cs">
+      <DependentUpon>SeatingPlanLeftEn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeatingPlanList.aspx.cs">
+      <DependentUpon>SeatingPlanList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatingPlanList.aspx.designer.cs">
+      <DependentUpon>SeatingPlanList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SeatingPlanRightEn.aspx.cs">
+      <DependentUpon>SeatingPlanRightEn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatingPlanRightEn.aspx.designer.cs">
+      <DependentUpon>SeatingPlanRightEn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentBills.aspx.cs">
+      <DependentUpon>SentBills.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentBills.aspx.designer.cs">
+      <DependentUpon>SentBills.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentMBMotions.aspx.cs">
+      <DependentUpon>SentMBMotions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentMBMotions.aspx.designer.cs">
+      <DependentUpon>SentMBMotions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentMotions.aspx.cs">
+      <DependentUpon>SentMotions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentMotions.aspx.designer.cs">
+      <DependentUpon>SentMotions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentQuestion.aspx.cs">
+      <DependentUpon>SentQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentQuestion.aspx.designer.cs">
+      <DependentUpon>SentQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResolution.aspx.cs">
+      <DependentUpon>SearchResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResolution.aspx.designer.cs">
+      <DependentUpon>SearchResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentResolutions.aspx.cs">
+      <DependentUpon>SentResolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentResolutions.aspx.designer.cs">
+      <DependentUpon>SentResolutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="service.asmx.cs">
+      <DependentUpon>service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utilities\Utils.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="contents\Bills\" />
+    <Folder Include="contents\motion\" />
+    <Folder Include="contents\resolution\" />
+    <Folder Include="contents\temp\" />
+    <Folder Include="Models\" />
+    <Folder Include="Summernote\plugin\New folder\" />
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BIZ\BIZ.csproj">
+      <Project>{230fb968-c6fa-4acd-86d7-bcd36344867e}</Project>
+      <Name>BIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{5f0647a1-4b1c-4801-99c0-836afcaffa7b}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManBIZ\ManBIZ.csproj">
+      <Project>{d32209f4-d9c9-419d-a762-677ada56828b}</Project>
+      <Name>ManBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManEntities\ManEntities.csproj">
+      <Project>{cfafab5c-c10a-4216-8bb6-64c7df657a1c}</Project>
+      <Name>ManEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51584</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51584/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

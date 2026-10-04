@@ -1,0 +1,117 @@
+E:\Applications\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+E:\Applications\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+E:\Applications\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+E:\Applications\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+E:\Applications\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+E:\Applications\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+E:\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+E:\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+E:\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+E:\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+\\172.16.15.9\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+\\172.16.15.9\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+\\172.16.15.9\Applications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+\\172.16.15.9\Applications\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+D:\Legislation\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+D:\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+D:\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+D:\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+D:\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+D:\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+\\172.16.15.9\Applications\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+C:\Users\masood.akhtar\Desktop\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+E:\Applications\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+E:\Applications\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+E:\TestAppsHosting\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+E:\TestAppsHosting\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+E:\TestAppsHosting\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+E:\TestAppsHosting\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+E:\TestAppsHosting\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+E:\TestAppsHosting\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+\\172.18.1.12\TestSenateApplications\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+C:\Users\Masood\Desktop\OD\Legislation\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\LegisBIZ.dll
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\LegisBIZ.pdb
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.dll
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\LegisDAL.dll
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\LegisEntities.dll
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\CommitteesEntities.pdb
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\LegisDAL.pdb
+E:\Senate Code Improvement\Legislation\LegisBIZ\bin\Debug\LegisEntities.pdb
+E:\Senate Code Improvement\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.AssemblyReference.cache
+E:\Senate Code Improvement\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\Legislation\LegisBIZ\obj\Debug\LegisBIZ.csproj.CopyComplete
+E:\Senate Code Improvement\Legislation\LegisBIZ\obj\Debug\LegisBIZ.dll
+E:\Senate Code Improvement\Legislation\LegisBIZ\obj\Debug\LegisBIZ.pdb

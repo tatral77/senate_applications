@@ -1,0 +1,20 @@
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\bin\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\bin\Debug\ManEntities.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\obj\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManEntities\obj\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Administration\ManEntities\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManEntities\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Administration\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\ManEntities\obj\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManEntities\obj\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Budget\ManEntities\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Budget\ManEntities\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Budget\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\ManEntities\obj\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Budget\ManEntities\obj\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\AutomationBranch\ManEntities\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\AutomationBranch\ManEntities\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\AutomationBranch\ManEntities\obj\Debug\ManEntities.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\AutomationBranch\ManEntities\obj\Debug\ManEntities.dll
+\\172.16.15.9\Applications\AutomationBranch\ManEntities\obj\Debug\ManEntities.pdb

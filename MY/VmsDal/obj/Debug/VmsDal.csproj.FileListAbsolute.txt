@@ -1,0 +1,13 @@
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\VmsDal.dll
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\VmsDal.pdb
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\ManDAL.dll
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\MyEntities.dll
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\ManEntities.dll
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\ManDAL.pdb
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\MyEntities.pdb
+E:\Senate Code Improvement\MY\VmsDal\bin\Debug\ManEntities.pdb
+E:\Senate Code Improvement\MY\VmsDal\obj\Debug\VmsDal.csproj.AssemblyReference.cache
+E:\Senate Code Improvement\MY\VmsDal\obj\Debug\VmsDal.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\MY\VmsDal\obj\Debug\VmsDal.csproj.CopyComplete
+E:\Senate Code Improvement\MY\VmsDal\obj\Debug\VmsDal.dll
+E:\Senate Code Improvement\MY\VmsDal\obj\Debug\VmsDal.pdb

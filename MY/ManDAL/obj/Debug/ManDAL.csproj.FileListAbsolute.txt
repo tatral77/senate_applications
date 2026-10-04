@@ -1,0 +1,9 @@
+E:\Senate Code Improvement\MY\ManDAL\bin\Debug\ManDAL.dll
+E:\Senate Code Improvement\MY\ManDAL\bin\Debug\ManDAL.pdb
+E:\Senate Code Improvement\MY\ManDAL\bin\Debug\ManEntities.dll
+E:\Senate Code Improvement\MY\ManDAL\bin\Debug\ManEntities.pdb
+E:\Senate Code Improvement\MY\ManDAL\obj\Debug\ManDAL.csproj.AssemblyReference.cache
+E:\Senate Code Improvement\MY\ManDAL\obj\Debug\ManDAL.csproj.CoreCompileInputs.cache
+E:\Senate Code Improvement\MY\ManDAL\obj\Debug\ManDAL.csproj.CopyComplete
+E:\Senate Code Improvement\MY\ManDAL\obj\Debug\ManDAL.dll
+E:\Senate Code Improvement\MY\ManDAL\obj\Debug\ManDAL.pdb

@@ -1,0 +1,11 @@
+E:\Applications\HRM\EstablishmentDAL\bin\Debug\EstablishmentDAL.dll
+E:\Applications\HRM\EstablishmentDAL\bin\Debug\EstablishmentDAL.pdb
+E:\Applications\HRM\EstablishmentDAL\bin\Debug\EstablishmentENT.dll
+E:\Applications\HRM\EstablishmentDAL\bin\Debug\Utilities.dll
+E:\Applications\HRM\EstablishmentDAL\bin\Debug\EstablishmentENT.pdb
+E:\Applications\HRM\EstablishmentDAL\bin\Debug\Utilities.pdb
+E:\Applications\HRM\EstablishmentDAL\obj\Debug\EstablishmentDAL.csproj.AssemblyReference.cache
+E:\Applications\HRM\EstablishmentDAL\obj\Debug\EstablishmentDAL.csproj.CoreCompileInputs.cache
+E:\Applications\HRM\EstablishmentDAL\obj\Debug\EstablishmentDAL.csproj.CopyComplete
+E:\Applications\HRM\EstablishmentDAL\obj\Debug\EstablishmentDAL.dll
+E:\Applications\HRM\EstablishmentDAL\obj\Debug\EstablishmentDAL.pdb

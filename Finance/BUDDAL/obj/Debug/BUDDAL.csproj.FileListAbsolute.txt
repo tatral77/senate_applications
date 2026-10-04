@@ -1,0 +1,81 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+D:\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+D:\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+D:\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+D:\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+D:\BUDGET\Budget\BUDDAL\bin\Debug\BUDDAL.dll
+D:\BUDGET\Budget\BUDDAL\bin\Debug\BUDDAL.pdb
+D:\BUDGET\Budget\BUDDAL\bin\Debug\BUDENTITIES.dll
+D:\BUDGET\Budget\BUDDAL\bin\Debug\BUDENTITIES.pdb
+D:\BUDGET\Budget\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+D:\BUDGET\Budget\BUDDAL\obj\Debug\BUDDAL.dll
+D:\BUDGET\Budget\BUDDAL\obj\Debug\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.18.1.12\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+\\172.18.1.12\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+\\172.18.1.12\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+\\172.18.1.12\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+\\172.18.1.12\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+\\172.18.1.12\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.18.1.12\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+C:\Apps-06-09-18\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+C:\Apps-06-09-18\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+C:\Apps-06-09-18\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+C:\Apps-06-09-18\Finance\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+C:\Apps-06-09-18\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Finance\BUDDAL\obj\Debug\BUDDAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+E:\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.dll
+E:\Applications\Finance\BUDDAL\bin\Debug\BUDDAL.pdb
+E:\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.dll
+E:\Applications\Finance\BUDDAL\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csproj.AssemblyReference.cache
+E:\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csproj.CoreCompileInputs.cache
+E:\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csproj.CopyComplete
+E:\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.dll
+E:\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Finance\BUDDAL\obj\Debug\BUDDAL.csproj.CopyComplete

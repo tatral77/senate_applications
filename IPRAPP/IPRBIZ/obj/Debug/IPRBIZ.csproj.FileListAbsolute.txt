@@ -1,0 +1,78 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\obj\Debug\IPRBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\bin\Debug\IPRBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\bin\Debug\IPRBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\bin\Debug\IPRDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\bin\Debug\IPRENITITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\bin\Debug\IPRDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\bin\Debug\IPRENITITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\obj\Debug\IPRBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPRBIZ\obj\Debug\IPRBIZ.pdb
+D:\Applications\IPR\IPRBIZ\bin\Debug\IPRBIZ.dll
+D:\Applications\IPR\IPRBIZ\bin\Debug\IPRBIZ.pdb
+D:\Applications\IPR\IPRBIZ\bin\Debug\IPRDAL.dll
+D:\Applications\IPR\IPRBIZ\bin\Debug\IPRENITITIES.dll
+D:\Applications\IPR\IPRBIZ\bin\Debug\IPRDAL.pdb
+D:\Applications\IPR\IPRBIZ\bin\Debug\IPRENITITIES.pdb
+D:\Applications\IPR\IPRBIZ\obj\Debug\IPRBIZ.csprojResolveAssemblyReference.cache
+D:\Applications\IPR\IPRBIZ\obj\Debug\IPRBIZ.dll
+D:\Applications\IPR\IPRBIZ\obj\Debug\IPRBIZ.pdb
+D:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.dll
+D:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.pdb
+D:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.dll
+D:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.dll
+D:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.pdb
+D:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.pdb
+D:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csprojResolveAssemblyReference.cache
+D:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.dll
+D:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\BUDBIZ.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\BUDENTITIES.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\BUDDAL.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\BUDBIZ.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\BUDENTITIES.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\bin\Debug\BUDDAL.pdb
+D:\Senate Projects\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csprojAssemblyReference.cache
+D:\Senate Projects\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.CoreCompileInputs.cache
+D:\Senate Projects\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.CopyComplete
+D:\Senate Projects\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.dll
+D:\Senate Projects\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.pdb
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.dll
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.pdb
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDBIZ.dll
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDENTITIES.dll
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.dll
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.dll
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDDAL.dll
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDBIZ.pdb
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDENTITIES.pdb
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.pdb
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.pdb
+E:\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDDAL.pdb
+E:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.AssemblyReference.cache
+E:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.CopyComplete
+E:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.dll
+E:\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\IPRENITITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPRBIZ\obj\Debug\IPRBIZ.csproj.CopyComplete

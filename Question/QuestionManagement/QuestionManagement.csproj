@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BE27C13-9D04-405B-8477-BE4B32082409}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuestionManagement</RootNamespace>
+    <AssemblyName>QuestionManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET">
+      <HintPath>CKEditor\bin\Release\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="MigraDoc.DocumentObjectModel-gdi">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.50.5147\lib\net20\MigraDoc.DocumentObjectModel-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering-gdi">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.50.5147\lib\net20\MigraDoc.Rendering-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp-gdi">
+      <HintPath>..\packages\PDFsharp-MigraDoc-GDI.1.50.5147\lib\net20\PdfSharp-gdi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\bootstrap.css" />
+    <Content Include="Assets\css\font-awesome.css" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\images\bill.png" />
+    <Content Include="Assets\images\bill2.png" />
+    <Content Include="Assets\images\Budget.png" />
+    <Content Include="Assets\images\committees.png" />
+    <Content Include="Assets\images\envelop.png" />
+    <Content Include="Assets\images\favicon.ico" />
+    <Content Include="Assets\images\Finance.png" />
+    <Content Include="Assets\images\hdr-img.jpg" />
+    <Content Include="Assets\images\HR.jpg" />
+    <Content Include="Assets\images\HRM.png" />
+    <Content Include="Assets\images\IPR.png" />
+    <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\motion.png" />
+    <Content Include="Assets\images\My.png" />
+    <Content Include="Assets\images\Question.png" />
+    <Content Include="Assets\images\Service.png" />
+    <Content Include="Assets\images\translation.png" />
+    <Content Include="Assets\js\bootstrap.js" />
+    <Content Include="Assets\js\jquery.js" />
+    <Content Include="ChangeQuestionsStatus.aspx" />
+    <Content Include="CompareQuestion.aspx" />
+    <Content Include="Content\bootstrap-combined.no-icons.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="CustomScripts\multiselect.js" />
+    <Content Include="DeletedResolutions.aspx" />
+    <Content Include="DuplicateQuestions.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="DueQuestions.aspx" />
+    <Content Include="ManQuestionDetails.aspx" />
+    <Content Include="ManSearchQuestion.aspx" />
+    <Content Include="MotionAnnualReport.aspx" />
+    <Content Include="MotionsSummary.aspx" />
+    <Content Include="NoticeQuestionDetails.aspx" />
+    <Content Include="NoticeResolutionDetail.aspx" />
+    <Content Include="NoticeResolutions.aspx" />
+    <Content Include="NoticeSummary.aspx" />
+    <Content Include="PrintImagesList.aspx" />
+    <Content Include="PrintOriginalQuestion.aspx" />
+    <Content Include="PrintQuestionSO.aspx" />
+    <Content Include="PrintOriginalResolution.aspx" />
+    <Content Include="PrintUrduQuestion.aspx" />
+    <Content Include="QuestionAnnualReport.aspx" />
+    <Content Include="QuestionDetailsRest.aspx" />
+    <Content Include="QuestionDocuments.aspx" />
+    <Content Include="QuestionLegisSummary.aspx" />
+    <Content Include="RevivedQuestions.aspx" />
+    <Content Include="Rpt-MemberWiseResolutions.aspx" />
+    <Content Include="Rpt_CoallitionWiseQuestionsSummary.aspx" />
+    <Content Include="Rpt_GroupMinistryMeberSummary.aspx" />
+    <Content Include="Rpt_GroupsTotalSummary.aspx" />
+    <Content Include="ResolutionAnnualReport.aspx" />
+    <Content Include="ResolutionSummary.aspx" />
+    <Content Include="Rpt_DefferedQuestions.aspx" />
+    <Content Include="Rpt_GroupQuestions.aspx" />
+    <Content Include="Rpt_MemberWiseQuestions.aspx" />
+    <Content Include="Rpt_ReceivedQuestionsResolutions.aspx" />
+    <Content Include="Rpt_StatusWisePercentage.aspx" />
+    <Content Include="Rpt_StatusWiseQuestions.aspx" />
+    <Content Include="SenateScan\SenateScan.exe" />
+    <Content Include="SenateScan\SenateScan.ini" />
+    <Content Include="SenateScan\install.bat" />
+    <Content Include="SenateScan\uninstall.bat" />
+    <Content Include="SenateScan\README.txt" />
+    <Content Include="SenateScan\SenateScan.zip" />
+    <Content Include="Scripts\attachbox.js" />
+    <Content Include="Scripts\senatescan.js" />
+    <Content Include="Scripts\AdminLte.js" />
+    <Content Include="Scripts\bootstrap-timepicker.min.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="CustomScripts\jquery-ui.css.css" />
+    <Content Include="CustomScripts\jquery-ui.min.js" />
+    <Content Include="CustomScripts\jquery.min.js" />
+    <Content Include="editor\ckeditor.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GroupsDiary.aspx" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\senate.jpg" />
+    <Content Include="Jquery\jquery-1.10.2.js" />
+    <Content Include="ListByMovement.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="ManageAssemblies.aspx" />
+    <Content Include="ManageAssemblySessions.aspx" />
+    <Content Include="ManageDivisions.aspx" />
+    <Content Include="ManageGroups.aspx" />
+    <Content Include="ManageListNumbers.aspx" />
+    <Content Include="ManageParliamentaryTenures.aspx" />
+    <Content Include="ManageParliamentaryTerms.aspx" />
+    <Content Include="ManageParliamentaryYears.aspx" />
+    <Content Include="ManageQuestionCategories.aspx" />
+    <Content Include="ManageQuestionStatuses.aspx" />
+    <Content Include="ManageSessionSittings.aspx" />
+    <Content Include="ManageSittingTypes.aspx" />
+    <Content Include="MotionDetail.aspx" />
+    <Content Include="MotionList.aspx" />
+    <Content Include="NewMotion.aspx" />
+    <Content Include="NewMember.aspx" />
+    <Content Include="NewQuestion.aspx" />
+    <Content Include="NewQuestion1.aspx" />
+    <Content Include="NewResolution.aspx" />
+    <Content Include="NoticeMotions.aspx" />
+    <Content Include="NoticeQuestions.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Main.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\Bootstrap.responsive.css" />
+    <Content Include="PrintList.aspx" />
+    <Content Include="PrintMotion.aspx" />
+    <Content Include="PrintMotionList.aspx" />
+    <Content Include="PrintQuestion.aspx" />
+    <Content Include="PrintResolution.aspx" />
+    <Content Include="PrintResolutionList.aspx" />
+    <Content Include="PrintSuplimentaryList.aspx" />
+    <Content Include="Processing.aspx" />
+    <Content Include="QuestionDetails.aspx" />
+    <Content Include="QuestionsList.aspx" />
+    <Content Include="QuestionsSummary.aspx" />
+    <Content Include="quill\quill.bubble.css" />
+    <Content Include="quill\quill.core.css" />
+    <Content Include="quill\quill.core.js" />
+    <Content Include="quill\quill.js" />
+    <Content Include="quill\quill.min.js" />
+    <Content Include="quill\quill.snow.css" />
+    <Content Include="ResolutionBIZ.csproj" />
+    <Content Include="ResolutionDetail.aspx" />
+    <Content Include="ResolutionList.aspx" />
+    <Content Include="RotaList.aspx" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\bootstrap-wysiwyg.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="editor\ckeditor.js.map" />
+    <Content Include="editor\LICENSE.md" />
+    <Content Include="editor\README.md" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="quill\quill.min.js.map" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.eot" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.woff2" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.woff" />
+    <Content Include="fonts\NotoNastaliqUrduDraft.ttf" />
+    <Content Include="Assets\fonts\Anorexia.ttf" />
+    <Content Include="Assets\fonts\Diavlo_LIGHT_II_37.otf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\JQuery-hotkeys.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\jquery.mask.js" />
+    <Content Include="Scripts\JqueryMask.js" />
+    <Content Include="Scripts\Prettify.js" />
+    <Content Include="Scripts\Shortcut.js" />
+    <Content Include="SearchFiles\jquery-ui.css" />
+    <Content Include="SearchFiles\jquery-ui.min.js" />
+    <Content Include="SearchFiles\jquery.min.js" />
+    <Content Include="SearchMotion.aspx" />
+    <Content Include="DeletedQuestions.aspx" />
+    <Content Include="SearchResolution.aspx" />
+    <Content Include="SessionsRotaList.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="Styles\AdminLte.css" />
+    <Content Include="Styles\bootstrap-timepicker.min.css" />
+    <Content Include="Styles\index.css" />
+    <Content Include="Styles\Login2.css" />
+    <Content Include="Styles\new.css" />
+    <Content Include="Styles\notonastaliqurdudraft.css" />
+    <Content Include="Styles\Printing2.css" />
+    <Content Include="Summernote\lang\summernote-ar-AR.min.js" />
+    <Content Include="Summernote\lang\summernote-ar-AR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-az-AZ.js" />
+    <Content Include="Summernote\lang\summernote-az-AZ.min.js" />
+    <Content Include="Summernote\lang\summernote-az-AZ.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-bg-BG.min.js" />
+    <Content Include="Summernote\lang\summernote-bg-BG.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-ca-ES.min.js" />
+    <Content Include="Summernote\lang\summernote-ca-ES.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-cs-CZ.min.js" />
+    <Content Include="Summernote\lang\summernote-cs-CZ.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-da-DK.min.js" />
+    <Content Include="Summernote\lang\summernote-da-DK.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-de-DE.min.js" />
+    <Content Include="Summernote\lang\summernote-de-DE.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-el-GR.min.js" />
+    <Content Include="Summernote\lang\summernote-el-GR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-es-ES.min.js" />
+    <Content Include="Summernote\lang\summernote-es-ES.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-es-EU.min.js" />
+    <Content Include="Summernote\lang\summernote-es-EU.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-fa-IR.min.js" />
+    <Content Include="Summernote\lang\summernote-fa-IR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-fi-FI.min.js" />
+    <Content Include="Summernote\lang\summernote-fi-FI.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-fr-FR.min.js" />
+    <Content Include="Summernote\lang\summernote-fr-FR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-gl-ES.min.js" />
+    <Content Include="Summernote\lang\summernote-gl-ES.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-he-IL.min.js" />
+    <Content Include="Summernote\lang\summernote-he-IL.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-hr-HR.min.js" />
+    <Content Include="Summernote\lang\summernote-hr-HR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-hu-HU.min.js" />
+    <Content Include="Summernote\lang\summernote-hu-HU.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-id-ID.min.js" />
+    <Content Include="Summernote\lang\summernote-id-ID.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-it-IT.min.js" />
+    <Content Include="Summernote\lang\summernote-it-IT.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-ja-JP.min.js" />
+    <Content Include="Summernote\lang\summernote-ja-JP.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-ko-KR.min.js" />
+    <Content Include="Summernote\lang\summernote-ko-KR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-lt-LT.min.js" />
+    <Content Include="Summernote\lang\summernote-lt-LT.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-lt-LV.min.js" />
+    <Content Include="Summernote\lang\summernote-lt-LV.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-mn-MN.min.js" />
+    <Content Include="Summernote\lang\summernote-mn-MN.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-nb-NO.min.js" />
+    <Content Include="Summernote\lang\summernote-nb-NO.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-nl-NL.min.js" />
+    <Content Include="Summernote\lang\summernote-nl-NL.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-pl-PL.min.js" />
+    <Content Include="Summernote\lang\summernote-pl-PL.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-pt-BR.min.js" />
+    <Content Include="Summernote\lang\summernote-pt-BR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-pt-PT.min.js" />
+    <Content Include="Summernote\lang\summernote-pt-PT.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-ro-RO.min.js" />
+    <Content Include="Summernote\lang\summernote-ro-RO.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-ru-RU.min.js" />
+    <Content Include="Summernote\lang\summernote-ru-RU.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-sk-SK.min.js" />
+    <Content Include="Summernote\lang\summernote-sk-SK.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-sl-SI.min.js" />
+    <Content Include="Summernote\lang\summernote-sl-SI.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-sr-RS-Latin.min.js" />
+    <Content Include="Summernote\lang\summernote-sr-RS-Latin.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-sr-RS.min.js" />
+    <Content Include="Summernote\lang\summernote-sr-RS.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-sv-SE.min.js" />
+    <Content Include="Summernote\lang\summernote-sv-SE.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-ta-IN.min.js" />
+    <Content Include="Summernote\lang\summernote-ta-IN.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-th-TH.min.js" />
+    <Content Include="Summernote\lang\summernote-th-TH.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-tr-TR.min.js" />
+    <Content Include="Summernote\lang\summernote-tr-TR.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-uk-UA.min.js" />
+    <Content Include="Summernote\lang\summernote-uk-UA.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-uz-UZ.js" />
+    <Content Include="Summernote\lang\summernote-uz-UZ.min.js" />
+    <Content Include="Summernote\lang\summernote-uz-UZ.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-vi-VN.min.js" />
+    <Content Include="Summernote\lang\summernote-vi-VN.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-zh-CN.min.js" />
+    <Content Include="Summernote\lang\summernote-zh-CN.min.js.LICENSE.txt" />
+    <Content Include="Summernote\lang\summernote-zh-TW.min.js" />
+    <Content Include="Summernote\lang\summernote-zh-TW.min.js.LICENSE.txt" />
+    <Content Include="Summernote\summernote-bs4.css" />
+    <Content Include="Summernote\summernote-bs4.js" />
+    <Content Include="Summernote\summernote-bs4.min.js" />
+    <Content Include="Summernote\summernote-ext-print.js" />
+    <Content Include="Summernote\summernote-lite.css" />
+    <Content Include="Summernote\summernote-lite.js" />
+    <Content Include="Summernote\summernote.css" />
+    <Content Include="Summernote\summernote.js" />
+    <Content Include="Summernote\summernote.min.js" />
+    <Content Include="SuplementaryList.aspx" />
+    <Content Include="SwapQuestion.aspx" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.2.1.min.map" />
+    <Content Include="Summernote\font\summernote.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery.tmpl.js" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="Scripts\TabManager.js" />
+    <Content Include="SearchQuestion.aspx" />
+    <Content Include="Service.asmx" />
+    <Content Include="Styles\jquery-ui-1.10.4.custom.css" />
+    <Content Include="Styles\Login.css" />
+    <Content Include="Styles\modern.css" />
+    <Content Include="Scripts\mobilecards.js" />
+    <Content Include="Scripts\qmsdates.js" />
+    <Content Include="Scripts\qmsmembers.js" />
+    <Content Include="Scripts\qmsexport.js" />
+    <Content Include="Images\emblem.png" />
+    <Content Include="Images\senate-logo.png" />
+    <Content Include="PdfExport.ashx" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Styles\MainStyles.css" />
+    <Content Include="Styles\menu.css" />
+    <Content Include="Styles\NSole.css" />
+    <Content Include="Styles\Pages.css" />
+    <Content Include="Styles\Printing.css" />
+    <Content Include="Styles\SearchList.css" />
+    <Content Include="Test.aspx" />
+    <Content Include="TranslatedQuestionDetail.aspx" />
+    <Content Include="TranslatedResolutionDetails.aspx" />
+    <Content Include="TranslationQuestions.aspx" />
+    <Content Include="TranslationResolutions.aspx" />
+    <Content Include="UnderProcessDetails.aspx" />
+    <Content Include="ViewQuestion.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ReportPdf.cs" />
+    <Compile Include="PdfExport.ashx.cs">
+      <DependentUpon>PdfExport.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeQuestionsStatus.aspx.cs">
+      <DependentUpon>ChangeQuestionsStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeQuestionsStatus.aspx.designer.cs">
+      <DependentUpon>ChangeQuestionsStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompareQuestion.aspx.cs">
+      <DependentUpon>CompareQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompareQuestion.aspx.designer.cs">
+      <DependentUpon>CompareQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeletedResolutions.aspx.cs">
+      <DependentUpon>DeletedResolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeletedResolutions.aspx.designer.cs">
+      <DependentUpon>DeletedResolutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DuplicateQuestions.aspx.cs">
+      <DependentUpon>DuplicateQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DuplicateQuestions.aspx.designer.cs">
+      <DependentUpon>DuplicateQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GroupsDiary.aspx.cs">
+      <DependentUpon>GroupsDiary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GroupsDiary.aspx.designer.cs">
+      <DependentUpon>GroupsDiary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DueQuestions.aspx.cs">
+      <DependentUpon>DueQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DueQuestions.aspx.designer.cs">
+      <DependentUpon>DueQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListByMovement.aspx.cs">
+      <DependentUpon>ListByMovement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListByMovement.aspx.designer.cs">
+      <DependentUpon>ListByMovement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAssemblies.aspx.cs">
+      <DependentUpon>ManageAssemblies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageAssemblies.aspx.designer.cs">
+      <DependentUpon>ManageAssemblies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAssemblySessions.aspx.cs">
+      <DependentUpon>ManageAssemblySessions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageAssemblySessions.aspx.designer.cs">
+      <DependentUpon>ManageAssemblySessions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDivisions.aspx.cs">
+      <DependentUpon>ManageDivisions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageDivisions.aspx.designer.cs">
+      <DependentUpon>ManageDivisions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageGroups.aspx.cs">
+      <DependentUpon>ManageGroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageGroups.aspx.designer.cs">
+      <DependentUpon>ManageGroups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageListNumbers.aspx.cs">
+      <DependentUpon>ManageListNumbers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageListNumbers.aspx.designer.cs">
+      <DependentUpon>ManageListNumbers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageParliamentaryTenures.aspx.cs">
+      <DependentUpon>ManageParliamentaryTenures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageParliamentaryTenures.aspx.designer.cs">
+      <DependentUpon>ManageParliamentaryTenures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageParliamentaryTerms.aspx.cs">
+      <DependentUpon>ManageParliamentaryTerms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageParliamentaryTerms.aspx.designer.cs">
+      <DependentUpon>ManageParliamentaryTerms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageParliamentaryYears.aspx.cs">
+      <DependentUpon>ManageParliamentaryYears.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageParliamentaryYears.aspx.designer.cs">
+      <DependentUpon>ManageParliamentaryYears.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageQuestionCategories.aspx.cs">
+      <DependentUpon>ManageQuestionCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageQuestionCategories.aspx.designer.cs">
+      <DependentUpon>ManageQuestionCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageQuestionStatuses.aspx.cs">
+      <DependentUpon>ManageQuestionStatuses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageQuestionStatuses.aspx.designer.cs">
+      <DependentUpon>ManageQuestionStatuses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSessionSittings.aspx.cs">
+      <DependentUpon>ManageSessionSittings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSessionSittings.aspx.designer.cs">
+      <DependentUpon>ManageSessionSittings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSittingTypes.aspx.cs">
+      <DependentUpon>ManageSittingTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSittingTypes.aspx.designer.cs">
+      <DependentUpon>ManageSittingTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManQuestionDetails.aspx.cs">
+      <DependentUpon>ManQuestionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManQuestionDetails.aspx.designer.cs">
+      <DependentUpon>ManQuestionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManSearchQuestion.aspx.cs">
+      <DependentUpon>ManSearchQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManSearchQuestion.aspx.designer.cs">
+      <DependentUpon>ManSearchQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MotionAnnualReport.aspx.cs">
+      <DependentUpon>MotionAnnualReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MotionAnnualReport.aspx.designer.cs">
+      <DependentUpon>MotionAnnualReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MotionDetail.aspx.cs">
+      <DependentUpon>MotionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MotionDetail.aspx.designer.cs">
+      <DependentUpon>MotionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MotionList.aspx.cs">
+      <DependentUpon>MotionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MotionList.aspx.designer.cs">
+      <DependentUpon>MotionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MotionsSummary.aspx.cs">
+      <DependentUpon>MotionsSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MotionsSummary.aspx.designer.cs">
+      <DependentUpon>MotionsSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewMotion.aspx.cs">
+      <DependentUpon>NewMotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewMotion.aspx.designer.cs">
+      <DependentUpon>NewMotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewMember.aspx.cs">
+      <DependentUpon>NewMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewMember.aspx.designer.cs">
+      <DependentUpon>NewMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewQuestion.aspx.cs">
+      <DependentUpon>NewQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewQuestion.aspx.designer.cs">
+      <DependentUpon>NewQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewQuestion1.aspx.cs">
+      <DependentUpon>NewQuestion1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewQuestion1.aspx.designer.cs">
+      <DependentUpon>NewQuestion1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewResolution.aspx.cs">
+      <DependentUpon>NewResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewResolution.aspx.designer.cs">
+      <DependentUpon>NewResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeMotions.aspx.cs">
+      <DependentUpon>NoticeMotions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeMotions.aspx.designer.cs">
+      <DependentUpon>NoticeMotions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeQuestionDetails.aspx.cs">
+      <DependentUpon>NoticeQuestionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeQuestionDetails.aspx.designer.cs">
+      <DependentUpon>NoticeQuestionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeQuestions.aspx.cs">
+      <DependentUpon>NoticeQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeQuestions.aspx.designer.cs">
+      <DependentUpon>NoticeQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeResolutionDetail.aspx.cs">
+      <DependentUpon>NoticeResolutionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeResolutionDetail.aspx.designer.cs">
+      <DependentUpon>NoticeResolutionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeResolutions.aspx.cs">
+      <DependentUpon>NoticeResolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeResolutions.aspx.designer.cs">
+      <DependentUpon>NoticeResolutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeSummary.aspx.cs">
+      <DependentUpon>NoticeSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoticeSummary.aspx.designer.cs">
+      <DependentUpon>NoticeSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintImagesList.aspx.cs">
+      <DependentUpon>PrintImagesList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintImagesList.aspx.designer.cs">
+      <DependentUpon>PrintImagesList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintList.aspx.cs">
+      <DependentUpon>PrintList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintList.aspx.designer.cs">
+      <DependentUpon>PrintList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMotion.aspx.cs">
+      <DependentUpon>PrintMotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintMotion.aspx.designer.cs">
+      <DependentUpon>PrintMotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintMotionList.aspx.cs">
+      <DependentUpon>PrintMotionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintMotionList.aspx.designer.cs">
+      <DependentUpon>PrintMotionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOriginalQuestion.aspx.cs">
+      <DependentUpon>PrintOriginalQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintOriginalQuestion.aspx.designer.cs">
+      <DependentUpon>PrintOriginalQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintQuestion.aspx.cs">
+      <DependentUpon>PrintQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintQuestion.aspx.designer.cs">
+      <DependentUpon>PrintQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintQuestionSO.aspx.cs">
+      <DependentUpon>PrintQuestionSO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintQuestionSO.aspx.designer.cs">
+      <DependentUpon>PrintQuestionSO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintOriginalResolution.aspx.cs">
+      <DependentUpon>PrintOriginalResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintOriginalResolution.aspx.designer.cs">
+      <DependentUpon>PrintOriginalResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintResolution.aspx.cs">
+      <DependentUpon>PrintResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintResolution.aspx.designer.cs">
+      <DependentUpon>PrintResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintResolutionList.aspx.cs">
+      <DependentUpon>PrintResolutionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintResolutionList.aspx.designer.cs">
+      <DependentUpon>PrintResolutionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSuplimentaryList.aspx.cs">
+      <DependentUpon>PrintSuplimentaryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintSuplimentaryList.aspx.designer.cs">
+      <DependentUpon>PrintSuplimentaryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintUrduQuestion.aspx.cs">
+      <DependentUpon>PrintUrduQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintUrduQuestion.aspx.designer.cs">
+      <DependentUpon>PrintUrduQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Processing.aspx.cs">
+      <DependentUpon>Processing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Processing.aspx.designer.cs">
+      <DependentUpon>Processing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionAnnualReport.aspx.cs">
+      <DependentUpon>QuestionAnnualReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionAnnualReport.aspx.designer.cs">
+      <DependentUpon>QuestionAnnualReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionDetails.aspx.cs">
+      <DependentUpon>QuestionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionDetails.aspx.designer.cs">
+      <DependentUpon>QuestionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionDetailsRest.aspx.cs">
+      <DependentUpon>QuestionDetailsRest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionDetailsRest.aspx.designer.cs">
+      <DependentUpon>QuestionDetailsRest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionDocuments.aspx.cs">
+      <DependentUpon>QuestionDocuments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionDocuments.aspx.designer.cs">
+      <DependentUpon>QuestionDocuments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionLegisSummary.aspx.cs">
+      <DependentUpon>QuestionLegisSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionLegisSummary.aspx.designer.cs">
+      <DependentUpon>QuestionLegisSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsList.aspx.cs">
+      <DependentUpon>QuestionsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionsList.aspx.designer.cs">
+      <DependentUpon>QuestionsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionsSummary.aspx.cs">
+      <DependentUpon>QuestionsSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionsSummary.aspx.designer.cs">
+      <DependentUpon>QuestionsSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RevivedQuestions.aspx.cs">
+      <DependentUpon>RevivedQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RevivedQuestions.aspx.designer.cs">
+      <DependentUpon>RevivedQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt-MemberWiseResolutions.aspx.cs">
+      <DependentUpon>Rpt-MemberWiseResolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt-MemberWiseResolutions.aspx.designer.cs">
+      <DependentUpon>Rpt-MemberWiseResolutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_CoallitionWiseQuestionsSummary.aspx.cs">
+      <DependentUpon>Rpt_CoallitionWiseQuestionsSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_CoallitionWiseQuestionsSummary.aspx.designer.cs">
+      <DependentUpon>Rpt_CoallitionWiseQuestionsSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_GroupMinistryMeberSummary.aspx.cs">
+      <DependentUpon>Rpt_GroupMinistryMeberSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_GroupMinistryMeberSummary.aspx.designer.cs">
+      <DependentUpon>Rpt_GroupMinistryMeberSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_GroupsTotalSummary.aspx.cs">
+      <DependentUpon>Rpt_GroupsTotalSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_GroupsTotalSummary.aspx.designer.cs">
+      <DependentUpon>Rpt_GroupsTotalSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResolutionAnnualReport.aspx.cs">
+      <DependentUpon>ResolutionAnnualReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResolutionAnnualReport.aspx.designer.cs">
+      <DependentUpon>ResolutionAnnualReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResolutionDetail.aspx.cs">
+      <DependentUpon>ResolutionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResolutionDetail.aspx.designer.cs">
+      <DependentUpon>ResolutionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResolutionList.aspx.cs">
+      <DependentUpon>ResolutionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResolutionList.aspx.designer.cs">
+      <DependentUpon>ResolutionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResolutionSummary.aspx.cs">
+      <DependentUpon>ResolutionSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResolutionSummary.aspx.designer.cs">
+      <DependentUpon>ResolutionSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RotaList.aspx.cs">
+      <DependentUpon>RotaList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RotaList.aspx.designer.cs">
+      <DependentUpon>RotaList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_DefferedQuestions.aspx.cs">
+      <DependentUpon>Rpt_DefferedQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_DefferedQuestions.aspx.designer.cs">
+      <DependentUpon>Rpt_DefferedQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_GroupQuestions.aspx.cs">
+      <DependentUpon>Rpt_GroupQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_GroupQuestions.aspx.designer.cs">
+      <DependentUpon>Rpt_GroupQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_MemberWiseQuestions.aspx.cs">
+      <DependentUpon>Rpt_MemberWiseQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_MemberWiseQuestions.aspx.designer.cs">
+      <DependentUpon>Rpt_MemberWiseQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_ReceivedQuestionsResolutions.aspx.cs">
+      <DependentUpon>Rpt_ReceivedQuestionsResolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_ReceivedQuestionsResolutions.aspx.designer.cs">
+      <DependentUpon>Rpt_ReceivedQuestionsResolutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_StatusWisePercentage.aspx.cs">
+      <DependentUpon>Rpt_StatusWisePercentage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_StatusWisePercentage.aspx.designer.cs">
+      <DependentUpon>Rpt_StatusWisePercentage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpt_StatusWiseQuestions.aspx.cs">
+      <DependentUpon>Rpt_StatusWiseQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpt_StatusWiseQuestions.aspx.designer.cs">
+      <DependentUpon>Rpt_StatusWiseQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMotion.aspx.cs">
+      <DependentUpon>SearchMotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchMotion.aspx.designer.cs">
+      <DependentUpon>SearchMotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeletedQuestions.aspx.cs">
+      <DependentUpon>DeletedQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeletedQuestions.aspx.designer.cs">
+      <DependentUpon>DeletedQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchQuestion.aspx.cs">
+      <DependentUpon>SearchQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchQuestion.aspx.designer.cs">
+      <DependentUpon>SearchQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResolution.aspx.cs">
+      <DependentUpon>SearchResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResolution.aspx.designer.cs">
+      <DependentUpon>SearchResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service.asmx.cs">
+      <DependentUpon>Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SessionsRotaList.aspx.cs">
+      <DependentUpon>SessionsRotaList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionsRotaList.aspx.designer.cs">
+      <DependentUpon>SessionsRotaList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuplementaryList.aspx.cs">
+      <DependentUpon>SuplementaryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuplementaryList.aspx.designer.cs">
+      <DependentUpon>SuplementaryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SwapQuestion.aspx.cs">
+      <DependentUpon>SwapQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SwapQuestion.aspx.designer.cs">
+      <DependentUpon>SwapQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TranslatedQuestionDetail.aspx.cs">
+      <DependentUpon>TranslatedQuestionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TranslatedQuestionDetail.aspx.designer.cs">
+      <DependentUpon>TranslatedQuestionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TranslatedResolutionDetails.aspx.cs">
+      <DependentUpon>TranslatedResolutionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TranslatedResolutionDetails.aspx.designer.cs">
+      <DependentUpon>TranslatedResolutionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TranslationQuestions.aspx.cs">
+      <DependentUpon>TranslationQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TranslationQuestions.aspx.designer.cs">
+      <DependentUpon>TranslationQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TranslationResolutions.aspx.cs">
+      <DependentUpon>TranslationResolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TranslationResolutions.aspx.designer.cs">
+      <DependentUpon>TranslationResolutions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnderProcessDetails.aspx.cs">
+      <DependentUpon>UnderProcessDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnderProcessDetails.aspx.designer.cs">
+      <DependentUpon>UnderProcessDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewQuestion.aspx.cs">
+      <DependentUpon>ViewQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewQuestion.aspx.designer.cs">
+      <DependentUpon>ViewQuestion.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppImages\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="QLists\" />
+    <Folder Include="Report\" />
+    <Folder Include="Summernote\plugin\" />
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{6031797a-acda-43be-baf3-55c3f69399c4}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManBIZ\ManBIZ.csproj">
+      <Project>{d32209f4-d9c9-419d-a762-677ada56828b}</Project>
+      <Name>ManBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManEntities\ManEntities.csproj">
+      <Project>{cfafab5c-c10a-4216-8bb6-64c7df657a1c}</Project>
+      <Name>ManEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MotionBIZ\MotionBIZ.csproj">
+      <Project>{d6360203-db11-4972-8e93-f04eaade1412}</Project>
+      <Name>MotionBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MotionEntities\MotionEntities.csproj">
+      <Project>{5366cce3-543b-4e17-a9f1-21baab33e711}</Project>
+      <Name>MotionEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuestionBIZ\QuestionBIZ.csproj">
+      <Project>{2cb46caa-1cf3-4bf5-b127-a357e3c7e8ea}</Project>
+      <Name>QuestionBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResolutionBIZ\ResolutionBIZ.csproj">
+      <Project>{32c50c0f-2521-4b6f-8d94-bacc612cc173}</Project>
+      <Name>ResolutionBIZ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ResolutionEntities\ResolutionEntities.csproj">
+      <Project>{6cf74d40-ba4a-4354-ace4-aa9830a9649d}</Project>
+      <Name>ResolutionEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MODI">
+      <Guid>{A5EDEDF4-2BBC-45F3-822B-E60C278A1A79}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52554</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52554/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

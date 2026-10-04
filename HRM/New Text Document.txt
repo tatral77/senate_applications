@@ -1,0 +1,63 @@
+Column Name	ID	Pk	Null?	Data Type	Default	Histogram
+
+//EMP_COURSES_ID	1	1	N	NUMBER		Yes
+//COURSE_NAME	2		Y	VARCHAR2 (50 Byte)		Yes
+//COURSE_TYPES_ID	3		Y	NUMBER		Yes
+//INSTITUTION	4		Y	VARCHAR2 (100 Byte)		Yes
+//FROM_DATE	5		Y	DATE		Yes
+//TO_DATE	6		Y	DATE		Yes
+//SYSTEM_USERS_ID	7		Y	NUMBER		Yes
+//IS_FOREIGN	8		Y	NUMBER (1)		Yes
+//CITIES_ID	9		Y	NUMBER		Yes
+//COUNTRIES_ID	10		Y	NUMBER		Yes
+//DEGREE_DIPLOMA_CERT	11		Y	VARCHAR2 (50 Byte)		Yes
+//SPONSORED_BY	12		Y	VARCHAR2 (100 Byte)		Yes
+De
+
+update Emp_Courses set 
+Course_Name='Diploma in Senior Managers in Government'
+,Institution='Hans Seidel Foundation'
+,Course_types_id=2,
+Countries_id=186,
+Cities_id=0, 
+From_Date=TO_DATE('01/01/2006','DD/MM/YYYY'), 
+To_Date=TO_DATE('01/01/2006','DD/MM/YYYY')'
+,Sponsored_By='Harvard University, USA'
+,degree_diploma_cert='Diploma in Senior Managers in Government' 
+where Emp_Courses_Id=59"
+
+
+"Insert into Emp_Courses (system_users_id,Emp_Courses_Id,Course_Types_Id,Course_Name,Institution,From_Date,To_Date,Countries_Id,degree_diplome_cert,Sponsored_By) values(196,597,2,'Test','Test',TO_DATE('01/01/0001','DD/MM/YYYY'),TO_DATE('01/01/0001','DD/MM/YYYY')'1,'Test','')"
+
+
+
+
+Column Name	ID	Pk	Null?	Data Type	Default	Histogram
+
+EMP_PROMOTION_HIST_ID	1	1	N	NUMBER		Yes
+SYSTEM_USERS_ID	2		Y	NUMBER		Yes
+DATED	3		Y	DATE		Yes
+REMARKS	4		Y	VARCHAR2 (20 Byte)		Yes
+POST	5		Y	NUMBER		Yes
+BRANCH	6		Y	NUMBER		Yes
+BASIC_PAY_SCALES_ID	7		Y	NUMBER		Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

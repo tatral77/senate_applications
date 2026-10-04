@@ -1,0 +1,301 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\obj\Debug\IPR.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\ApplicationInsights.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\csc.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\vbc.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPR.dll.config
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPR.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPR.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPRBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPRENITITIES.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.Web.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPRDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPRBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPRENITITIES.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.Web.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\bin\IPRDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\obj\Debug\IPR.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\IPR\IPR\obj\Debug\IPR.pdb
+D:\Applications\IPR\IPR\bin\ApplicationInsights.config
+D:\Applications\IPR\IPR\bin\roslyn\csc.exe
+D:\Applications\IPR\IPR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Applications\IPR\IPR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Applications\IPR\IPR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Applications\IPR\IPR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Applications\IPR\IPR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Applications\IPR\IPR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Applications\IPR\IPR\bin\roslyn\System.Collections.Immutable.dll
+D:\Applications\IPR\IPR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Applications\IPR\IPR\bin\roslyn\vbc.exe
+D:\Applications\IPR\IPR\bin\roslyn\VBCSCompiler.exe
+D:\Applications\IPR\IPR\bin\roslyn\VBCSCompiler.exe.config
+D:\Applications\IPR\IPR\bin\IPR.dll.config
+D:\Applications\IPR\IPR\bin\IPR.dll
+D:\Applications\IPR\IPR\bin\IPR.pdb
+D:\Applications\IPR\IPR\bin\IPRBIZ.dll
+D:\Applications\IPR\IPR\bin\IPRENITITIES.dll
+D:\Applications\IPR\IPR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Applications\IPR\IPR\bin\Microsoft.AI.DependencyCollector.dll
+D:\Applications\IPR\IPR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Applications\IPR\IPR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Applications\IPR\IPR\bin\Microsoft.AI.Web.dll
+D:\Applications\IPR\IPR\bin\Microsoft.AI.WindowsServer.dll
+D:\Applications\IPR\IPR\bin\Microsoft.ApplicationInsights.dll
+D:\Applications\IPR\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Applications\IPR\IPR\bin\IPRDAL.dll
+D:\Applications\IPR\IPR\bin\IPRBIZ.pdb
+D:\Applications\IPR\IPR\bin\IPRENITITIES.pdb
+D:\Applications\IPR\IPR\bin\Microsoft.AI.DependencyCollector.xml
+D:\Applications\IPR\IPR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Applications\IPR\IPR\bin\Microsoft.AI.Web.xml
+D:\Applications\IPR\IPR\bin\Microsoft.AI.WindowsServer.xml
+D:\Applications\IPR\IPR\bin\Microsoft.ApplicationInsights.xml
+D:\Applications\IPR\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Applications\IPR\IPR\bin\IPRDAL.pdb
+D:\Applications\IPR\IPR\obj\Debug\IPR.csprojResolveAssemblyReference.cache
+D:\Applications\IPR\IPR\obj\Debug\IPR.dll
+D:\Applications\IPR\IPR\obj\Debug\IPR.pdb
+D:\Applications\IPRAPP\IPR\bin\ApplicationInsights.config
+D:\Applications\IPRAPP\IPR\bin\roslyn\csc.exe
+D:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Applications\IPRAPP\IPR\bin\roslyn\System.Collections.Immutable.dll
+D:\Applications\IPRAPP\IPR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Applications\IPRAPP\IPR\bin\roslyn\vbc.exe
+D:\Applications\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe
+D:\Applications\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe.config
+D:\Applications\IPRAPP\IPR\bin\IPR.dll.config
+D:\Applications\IPRAPP\IPR\bin\IPR.dll
+D:\Applications\IPRAPP\IPR\bin\IPR.pdb
+D:\Applications\IPRAPP\IPR\bin\IPRBIZ.dll
+D:\Applications\IPRAPP\IPR\bin\IPRENITITIES.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.Web.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.dll
+D:\Applications\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Applications\IPRAPP\IPR\bin\IPRDAL.dll
+D:\Applications\IPRAPP\IPR\bin\IPRBIZ.pdb
+D:\Applications\IPRAPP\IPR\bin\IPRENITITIES.pdb
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.xml
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.Web.xml
+D:\Applications\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.xml
+D:\Applications\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.xml
+D:\Applications\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Applications\IPRAPP\IPR\bin\IPRDAL.pdb
+D:\Applications\IPRAPP\IPR\obj\Debug\IPR.csprojResolveAssemblyReference.cache
+D:\Applications\IPRAPP\IPR\obj\Debug\IPR.dll
+D:\Applications\IPRAPP\IPR\obj\Debug\IPR.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\ApplicationInsights.config
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\csc.exe
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\System.Collections.Immutable.dll
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\vbc.exe
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe
+D:\Senate Projects\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe.config
+D:\Senate Projects\IPRAPP\IPR\bin\IPR.dll.config
+D:\Senate Projects\IPRAPP\IPR\bin\IPR.dll
+D:\Senate Projects\IPRAPP\IPR\bin\IPR.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\BUDBIZ.dll
+D:\Senate Projects\IPRAPP\IPR\bin\BUDENTITIES.dll
+D:\Senate Projects\IPRAPP\IPR\bin\EntityFramework.dll
+D:\Senate Projects\IPRAPP\IPR\bin\EntityFramework.SqlServer.dll
+D:\Senate Projects\IPRAPP\IPR\bin\IPRBIZ.dll
+D:\Senate Projects\IPRAPP\IPR\bin\IPRENITITIES.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.Web.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.dll
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Senate Projects\IPRAPP\IPR\bin\BUDDAL.dll
+D:\Senate Projects\IPRAPP\IPR\bin\IPRDAL.dll
+D:\Senate Projects\IPRAPP\IPR\bin\BUDBIZ.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\BUDENTITIES.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\IPRBIZ.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\IPRENITITIES.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\EntityFramework.xml
+D:\Senate Projects\IPRAPP\IPR\bin\EntityFramework.SqlServer.xml
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.xml
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.Web.xml
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.xml
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.xml
+D:\Senate Projects\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Senate Projects\IPRAPP\IPR\bin\BUDDAL.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\IPRDAL.pdb
+D:\Senate Projects\IPRAPP\IPR\obj\Debug\IPR.csprojAssemblyReference.cache
+D:\Senate Projects\IPRAPP\IPR\obj\Debug\IPR.csproj.CoreCompileInputs.cache
+D:\Senate Projects\IPRAPP\IPR\obj\Debug\IPR.csproj.CopyComplete
+D:\Senate Projects\IPRAPP\IPR\obj\Debug\IPR.dll
+D:\Senate Projects\IPRAPP\IPR\obj\Debug\IPR.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\SupportBIZ.dll
+D:\Senate Projects\IPRAPP\IPR\bin\SupportEntities.dll
+D:\Senate Projects\IPRAPP\IPR\bin\SupportDAL.dll
+D:\Senate Projects\IPRAPP\IPR\bin\SupportBIZ.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\SupportEntities.pdb
+D:\Senate Projects\IPRAPP\IPR\bin\SupportDAL.pdb
+E:\Applications\IPRAPP\IPR\bin\ApplicationInsights.config
+E:\Applications\IPRAPP\IPR\bin\roslyn\csc.exe
+E:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Applications\IPRAPP\IPR\bin\roslyn\System.Collections.Immutable.dll
+E:\Applications\IPRAPP\IPR\bin\roslyn\System.Reflection.Metadata.dll
+E:\Applications\IPRAPP\IPR\bin\roslyn\vbc.exe
+E:\Applications\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe
+E:\Applications\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe.config
+E:\Applications\IPRAPP\IPR\bin\IPR.dll.config
+E:\Applications\IPRAPP\IPR\bin\IPR.dll
+E:\Applications\IPRAPP\IPR\bin\IPR.pdb
+E:\Applications\IPRAPP\IPR\bin\BUDBIZ.dll
+E:\Applications\IPRAPP\IPR\bin\BUDENTITIES.dll
+E:\Applications\IPRAPP\IPR\bin\EntityFramework.dll
+E:\Applications\IPRAPP\IPR\bin\EntityFramework.SqlServer.dll
+E:\Applications\IPRAPP\IPR\bin\IPRBIZ.dll
+E:\Applications\IPRAPP\IPR\bin\IPRENITITIES.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.Web.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.dll
+E:\Applications\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Applications\IPRAPP\IPR\bin\SupportBIZ.dll
+E:\Applications\IPRAPP\IPR\bin\SupportEntities.dll
+E:\Applications\IPRAPP\IPR\bin\SupportDAL.dll
+E:\Applications\IPRAPP\IPR\bin\BUDDAL.dll
+E:\Applications\IPRAPP\IPR\bin\IPRDAL.dll
+E:\Applications\IPRAPP\IPR\bin\Shared.dll
+E:\Applications\IPRAPP\IPR\bin\SupportBIZ.pdb
+E:\Applications\IPRAPP\IPR\bin\SupportEntities.pdb
+E:\Applications\IPRAPP\IPR\bin\BUDBIZ.pdb
+E:\Applications\IPRAPP\IPR\bin\BUDENTITIES.pdb
+E:\Applications\IPRAPP\IPR\bin\IPRBIZ.pdb
+E:\Applications\IPRAPP\IPR\bin\IPRENITITIES.pdb
+E:\Applications\IPRAPP\IPR\bin\EntityFramework.xml
+E:\Applications\IPRAPP\IPR\bin\EntityFramework.SqlServer.xml
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.xml
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.Web.xml
+E:\Applications\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.xml
+E:\Applications\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.xml
+E:\Applications\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Applications\IPRAPP\IPR\bin\SupportDAL.pdb
+E:\Applications\IPRAPP\IPR\bin\BUDDAL.pdb
+E:\Applications\IPRAPP\IPR\bin\IPRDAL.pdb
+E:\Applications\IPRAPP\IPR\bin\Shared.pdb
+E:\Applications\IPRAPP\IPR\obj\Debug\IPR.csproj.AssemblyReference.cache
+E:\Applications\IPRAPP\IPR\obj\Debug\IPR.csproj.CoreCompileInputs.cache
+E:\Applications\IPRAPP\IPR\obj\Debug\IPR.csproj.CopyComplete
+E:\Applications\IPRAPP\IPR\obj\Debug\IPR.dll
+E:\Applications\IPRAPP\IPR\obj\Debug\IPR.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\ApplicationInsights.config
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\csc.exe
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.CSharp.Core.targets
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\System.Collections.Immutable.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\System.Reflection.Metadata.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\vbc.exe
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\roslyn\VBCSCompiler.exe.config
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPR.dll.config
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPR.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPR.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\BUDBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\BUDENTITIES.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\EntityFramework.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\EntityFramework.SqlServer.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPRBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPRENITITIES.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\itextsharp.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.Agent.Intercept.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.PerfCounterCollector.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.Web.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\PdfSharp.Charting.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\PdfSharp.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Select.HtmlToPdf.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\SupportBIZ.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\SupportEntities.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\SupportDAL.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\BUDDAL.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPRDAL.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\SupportBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\SupportEntities.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\BUDBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\BUDENTITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPRBIZ.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPRENITITIES.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\EntityFramework.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\EntityFramework.SqlServer.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\itextsharp.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.DependencyCollector.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.Web.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.AI.WindowsServer.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.ApplicationInsights.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\PdfSharp.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\PdfSharp.Charting.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Select.HtmlToPdf.xml
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\SupportDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\BUDDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\IPRDAL.pdb
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\de\PdfSharp.resources.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\de\PdfSharp.Charting.resources.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\bin\Select.Html.dep
+\\172.16.15.9\Applications\IPRAPP\IPR\obj\Debug\IPR.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\IPRAPP\IPR\obj\Debug\IPR.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\IPRAPP\IPR\obj\Debug\IPR.csproj.CopyComplete
+\\172.16.15.9\Applications\IPRAPP\IPR\obj\Debug\IPR.dll
+\\172.16.15.9\Applications\IPRAPP\IPR\obj\Debug\IPR.pdb

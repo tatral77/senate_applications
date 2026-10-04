@@ -1,0 +1,127 @@
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManBIZ.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManBIZ.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManDAL.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManEntities.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManDAL.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\bin\Debug\ManEntities.pdb
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\obj\Debug\ManBIZ.dll
+c:\users\masood\documents\visual studio 2015\Projects\TestApplication\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Administration\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Administration\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Administration\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\Budget\ManBIZ\bin\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\Budget\ManBIZ\bin\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\Budget\ManBIZ\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\Budget\ManBIZ\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Budget\ManBIZ\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\Budget\ManBIZ\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Budget\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+\\172.16.15.9\Applications\Budget\ManBIZ\obj\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\Budget\ManBIZ\obj\Debug\ManBIZ.pdb
+D:\BUDGET\Budget\ManBIZ\bin\Debug\ManBIZ.dll
+D:\BUDGET\Budget\ManBIZ\bin\Debug\ManBIZ.pdb
+D:\BUDGET\Budget\ManBIZ\bin\Debug\ManDAL.dll
+D:\BUDGET\Budget\ManBIZ\bin\Debug\ManEntities.dll
+D:\BUDGET\Budget\ManBIZ\bin\Debug\ManDAL.pdb
+D:\BUDGET\Budget\ManBIZ\bin\Debug\ManEntities.pdb
+D:\BUDGET\Budget\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+D:\BUDGET\Budget\ManBIZ\obj\Debug\ManBIZ.dll
+D:\BUDGET\Budget\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\ManDAL.dll
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\ManEntities.dll
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.dll
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.dll
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+\\172.16.15.9\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\ManDAL.dll
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\ManEntities.dll
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.dll
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.dll
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.pdb
+\\172.18.1.12\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.pdb
+\\172.18.1.12\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+\\172.18.1.12\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+\\172.18.1.12\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\ManDAL.dll
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\ManEntities.dll
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\BUDDAL.dll
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\BUDENTITIES.dll
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\BUDDAL.pdb
+C:\Apps-06-09-18\Finance\ManBIZ\bin\Debug\BUDENTITIES.pdb
+C:\Apps-06-09-18\Finance\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+C:\Apps-06-09-18\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Apps-06-09-18\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\ManDAL.dll
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\ManEntities.dll
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\BUDDAL.dll
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\BUDENTITIES.dll
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\BUDDAL.pdb
+C:\Users\Masood\Desktop\Finance\ManBIZ\bin\Debug\BUDENTITIES.pdb
+C:\Users\Masood\Desktop\Finance\ManBIZ\obj\Debug\ManBIZ.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Desktop\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+C:\Users\Masood\Desktop\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+E:\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.dll
+E:\Applications\Finance\ManBIZ\bin\Debug\ManBIZ.pdb
+E:\Applications\Finance\ManBIZ\bin\Debug\ManDAL.dll
+E:\Applications\Finance\ManBIZ\bin\Debug\ManEntities.dll
+E:\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.dll
+E:\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.dll
+E:\Applications\Finance\ManBIZ\bin\Debug\ManDAL.pdb
+E:\Applications\Finance\ManBIZ\bin\Debug\ManEntities.pdb
+E:\Applications\Finance\ManBIZ\bin\Debug\BUDDAL.pdb
+E:\Applications\Finance\ManBIZ\bin\Debug\BUDENTITIES.pdb
+E:\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+E:\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+E:\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete
+E:\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.dll
+E:\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.pdb
+\\172.16.15.9\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Finance\ManBIZ\obj\Debug\ManBIZ.csproj.CopyComplete

@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\172.16.15.9\\Applications\\HRM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29B00838-63F2-409B-8A61-D8D849E76A2A}|EstablishmentDAL\\EstablishmentDAL.csproj|\\\\172.16.15.9\\applications\\hrm\\establishmentdal\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6677352C-9850-49FD-940B-C652F3023B64}|EstablishmentASP\\EstablishmentASP.csproj|\\\\172.16.15.9\\applications\\hrm\\establishmentasp\\personalinformation.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6677352C-9850-49FD-940B-C652F3023B64}|EstablishmentASP\\EstablishmentASP.csproj|\\\\172.16.15.9\\applications\\hrm\\establishmentasp\\personalinformation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B00838-63F2-409B-8A61-D8D849E76A2A}|EstablishmentDAL\\EstablishmentDAL.csproj|\\\\172.16.15.9\\applications\\hrm\\establishmentdal\\administrationdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999848-900F-4CC2-9060-6196CC0A599E}|EstablishmentENT\\EstablishmentENT.csproj|\\\\172.16.15.9\\applications\\hrm\\establishmentent\\personaldetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdministrationDAL.cs",
+              "DocumentMoniker": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentDAL\\AdministrationDAL.cs",
+              "RelativeDocumentMoniker": "EstablishmentDAL\\AdministrationDAL.cs",
+              "ToolTip": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentDAL\\AdministrationDAL.cs",
+              "RelativeToolTip": "EstablishmentDAL\\AdministrationDAL.cs",
+              "ViewState": "AgIAABEEAAAAAAAAAAAcwB4EAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T07:31:48.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonalInformation.aspx",
+              "DocumentMoniker": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentASP\\PersonalInformation.aspx",
+              "RelativeDocumentMoniker": "EstablishmentASP\\PersonalInformation.aspx",
+              "ToolTip": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentASP\\PersonalInformation.aspx",
+              "RelativeToolTip": "EstablishmentASP\\PersonalInformation.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-12-16T06:57:42.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonalDetail.cs",
+              "DocumentMoniker": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentENT\\PersonalDetail.cs",
+              "RelativeDocumentMoniker": "EstablishmentENT\\PersonalDetail.cs",
+              "ToolTip": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentENT\\PersonalDetail.cs",
+              "RelativeToolTip": "EstablishmentENT\\PersonalDetail.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:55:40.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeDAL.cs",
+              "DocumentMoniker": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentDAL\\EmployeeDAL.cs",
+              "RelativeDocumentMoniker": "EstablishmentDAL\\EmployeeDAL.cs",
+              "ToolTip": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentDAL\\EmployeeDAL.cs",
+              "RelativeToolTip": "EstablishmentDAL\\EmployeeDAL.cs",
+              "ViewState": "AgIAAFsCAAAAAAAAAAAIwHsCAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:53:13.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonalInformation.aspx.cs",
+              "DocumentMoniker": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentASP\\PersonalInformation.aspx.cs",
+              "RelativeDocumentMoniker": "EstablishmentASP\\PersonalInformation.aspx.cs",
+              "ToolTip": "\\\\172.16.15.9\\Applications\\HRM\\EstablishmentASP\\PersonalInformation.aspx.cs",
+              "RelativeToolTip": "EstablishmentASP\\PersonalInformation.aspx.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAIwMgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T06:51:57.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

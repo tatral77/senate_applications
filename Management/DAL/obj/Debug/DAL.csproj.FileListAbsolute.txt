@@ -1,0 +1,29 @@
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\bin\Debug\DAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\bin\Debug\DAL.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\bin\Debug\Entities.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\bin\Debug\Entities.pdb
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\obj\Debug\DAL.dll
+C:\Users\Masood\Documents\Visual Studio 2015\Projects\Management\DAL\obj\Debug\DAL.pdb
+\\172.16.15.9\Applications\Management\DAL\bin\Debug\DAL.dll
+\\172.16.15.9\Applications\Management\DAL\bin\Debug\DAL.pdb
+\\172.16.15.9\Applications\Management\DAL\bin\Debug\Entities.dll
+\\172.16.15.9\Applications\Management\DAL\bin\Debug\Entities.pdb
+\\172.16.15.9\Applications\Management\DAL\obj\Debug\DAL.dll
+\\172.16.15.9\Applications\Management\DAL\obj\Debug\DAL.pdb
+\\172.16.15.9\Applications\Management\DAL\bin\Debug\DataEntities.dll
+\\172.16.15.9\Applications\Management\DAL\bin\Debug\DataEntities.pdb
+E:\Applications\Management\DAL\bin\Debug\DAL.dll
+E:\Applications\Management\DAL\bin\Debug\DAL.pdb
+E:\Applications\Management\DAL\bin\Debug\DataEntities.dll
+E:\Applications\Management\DAL\bin\Debug\Entities.dll
+E:\Applications\Management\DAL\bin\Debug\DataEntities.pdb
+E:\Applications\Management\DAL\bin\Debug\Entities.pdb
+E:\Applications\Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Applications\Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Applications\Management\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Applications\Management\DAL\obj\Debug\DAL.dll
+E:\Applications\Management\DAL\obj\Debug\DAL.pdb
+\\172.16.15.9\Applications\Management\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+\\172.16.15.9\Applications\Management\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+\\172.16.15.9\Applications\Management\DAL\obj\Debug\DAL.csproj.CopyComplete

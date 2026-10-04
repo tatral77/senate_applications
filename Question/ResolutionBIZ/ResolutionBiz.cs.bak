@@ -1,0 +1,199 @@
+﻿using QuestionDAL;
+using ResolutionEntities;
+using RsolutionDAL;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ResolutionBIZ
+{
+    public class ResolutionBiz
+    {
+        #region  RESOLUTION_STATUS_HISTORY
+
+        public List<ResolutionStatusHistoryEnt> GetResolutionStatusHistories()
+        {
+            return new ResolutionDal().GetResolutionStatusHistories();
+        }
+        public ResolutionStatusHistoryEnt GetResolutionStatusHistory(int ResolutionStatusHistoryId)
+        {
+            return new ResolutionDal().GetResolutionStatusHistory(ResolutionStatusHistoryId);
+        }
+        public void UpdateResolutionStatusHistory(ResolutionStatusHistoryEnt Temp)
+        {
+            new ResolutionDal().UpdateResolutionStatusHistory(Temp);
+        }
+        public void InsertResolutionStatusHistory(ResolutionStatusHistoryEnt Temp)
+        {
+            new ResolutionDal().InsertResolutionStatusHistory(Temp);
+        }
+        #endregion RESOLUTION_STATUS_HISTORY
+
+
+        #region  RESOLUTION_TYPES
+        public List<ResolutionTypesEnt> GetResolutionTypes()
+        {
+            return new AdministrationDAL().GetResolutionTypes();
+        }
+        public ResolutionTypesEnt GetResolutionType(int ResTypesId)
+        {
+            return new AdministrationDAL().GetResolutionType(ResTypesId);
+        }
+        public void UpdateResolutionType(ResolutionTypesEnt Temp)
+        {
+            new AdministrationDAL().UpdateResolutionTypes(Temp);
+        }
+        public void InsertResolutionType(ResolutionTypesEnt Temp)
+        {
+            new AdministrationDAL().InsertResolutionTypes(Temp);
+        }
+        #endregion RESOLUTION_TYPES
+
+        #region  RESOLUTION_STATUSES
+        public List<ResolutionStatusesEnt> GetResolutionStatuses()
+        {
+            return new AdministrationDAL().GetResolutionStatuses();
+        }
+        public ResolutionStatusesEnt GetResolutionStatus(int ResolutionTypesId)
+        {
+            return new AdministrationDAL().GetResolutionStatus(ResolutionTypesId);
+        }
+        public void UpdateResolutionStatus(ResolutionStatusesEnt Temp)
+        {
+            new AdministrationDAL().UpdateResolutionStatus(Temp);
+        }
+        public void InsertResolutionStatus(ResolutionStatusesEnt Temp)
+        {
+            new AdministrationDAL().InsertResolutionStatus(Temp);
+        }
+        #endregion RESOLUTION_STATUSES
+
+        #region  RESOLUTION
+        public List<ResolutionEnt> GetSentResolutions(int AssemblySessionId)
+        {
+            return new ResolutionDal().GetSentResolutions(AssemblySessionId);
+        }
+        public List<ResolutionEnt> GetResolutions(int AssemblySession)
+        {
+            return new ResolutionDal().GetResolutions(AssemblySession);
+        }
+        public List<ResolutionEnt> GetDeletedResolutions(int AssemblySession)
+        {
+            return new ResolutionDal().GetDeletedResolutions(AssemblySession);
+        }
+        public ResolutionEnt GetResolution(int ResolutionId)
+        {
+            return new ResolutionDal().GetResolution(ResolutionId);
+        }
+        public ResolutionEnt GetNoticeResolution(int ResolutionId)
+        {
+            return new ResolutionDal().GetNoticeResolution(ResolutionId);
+        }
+        public void UpdateResolution(ResolutionEnt Temp)
+        {
+            new ResolutionDal().UpdateResolution(Temp);
+        }
+        public int InsertResolution(ResolutionEnt Temp)
+        {
+            return new ResolutionDal().InsertResolution(Temp);
+        }
+        public void MoveResolution(ResolutionEnt Temp)
+        {
+            new ResolutionDal().MoveResolution(Temp);
+        }
+        public void DeleteResolution(int ResolutionId)
+        {
+            new ResolutionDal().DeleteResolution(ResolutionId);
+          
+        }
+        public void RecoverResolution(int ResolutionId)
+        {
+            new ResolutionDal().RecoverResolution(ResolutionId);
+
+        }
+        public void ChangeNoticeResolutionStatus(int noticeid,int status)
+        {
+            new ResolutionDal().ChangeNoticeResolutionStatus(noticeid, status);
+        }
+        #endregion RESOLUTION
+
+        #region  RESOLUTION_SUBMITTERS
+        public List<ResolutionSubmittersEnt> GetResolutionSubmitters(int ResolutionsId)
+        {
+            return new ResolutionDal().GetResolutionSubmitters(ResolutionsId);
+        }
+        public ResolutionSubmittersEnt GetResolutionSubmitter(int ResolutionSubmitterId)
+        {
+            return new ResolutionDal().GetResolutionSubmitter(ResolutionSubmitterId);
+        }
+        public void UpdateResolutionSubmitters(ResolutionSubmittersEnt Temp)
+        {
+            new ResolutionDal().UpdateResolutionSubmitters(Temp);
+        }
+        public void InsertResolutionSubmitters(ResolutionSubmittersEnt Temp)
+        {
+            new ResolutionDal().InsertResolutionSubmitters(Temp);
+        }
+        public List<ResolutionEnt> SearchResolutions(string query)
+        {
+            return new ResolutionDal().SearchResolutions(query);
+        }
+        public void DeleteResolutionMover(int ResolutionId, int MoverId)
+        {
+            new ResolutionDal().DeleteResolutionMover(ResolutionId, MoverId);
+        }
+        #endregion RESOLUTION_SUBMITTERS
+        public List<ResolutionEnt> GetAdmittedResolutions(int AssemblySessionsId)
+        {
+            return new ResolutionDal().GetAdmittedResolutions(AssemblySessionsId);
+        }
+        public List<ResolutionListEnt> GetResolutionList(int AssemblySessionsId)
+        {
+            return new ResolutionDal().GetResolutionList(AssemblySessionsId);
+        }
+        public void InsertResolutionList(ResolutionListEnt Temp)
+        {
+            new ResolutionDal().InsertResolutionList(Temp);
+        }
+        public void DeleteResolutionList(int ResolutionListId)
+        {
+            new ResolutionDal().DeleteResolutionList(ResolutionListId);
+        }
+        public ResolutionListEnt GetResolutionListById(int ResolutionListId)
+        {
+            return new ResolutionDal().GetResolutionListById(ResolutionListId);
+        }
+        public void UpdateResolutionListNo(int ResolutionsId, int ListNo, DateTime ListDate)
+        {
+            new ResolutionDal().UpdateResolutionListNo(ResolutionsId, ListNo, ListDate);
+        }
+        public List<ResolutionSummaryEnt> GetStatusNoOfResolutions(int FromSession, int ToSession)
+        {
+            return new ResolutionDal().GetStatusNoOfResolutions(FromSession, ToSession);
+        }
+        public void UpdateResolutionStatus(int ResolutionId, int StatusId, int AssemblySessionId, DateTime StatusDate)
+        {
+            new ResolutionDal().UpdateResolutionStatus(ResolutionId, StatusId, AssemblySessionId, StatusDate);
+        }
+        #region Translation
+        public List<ResolutionEnt> GetTranslationResolutions(int AssemblySessionsId)
+        {
+            return new ResolutionDal().GetTranslationResolutions(AssemblySessionsId);
+        }
+        public List<ResolutionEnt> GetTranslatedResolutions(int AssemblySessionsId)
+        {
+            return new ResolutionDal().GetTranslatedResolutions(AssemblySessionsId);
+        }
+        public void SendForTranslation(int ResolutionId)
+        {
+            new ResolutionDal().SendForTranslation(ResolutionId);
+        }
+        public void ApproveTranslation(int ResolutionId)
+        {
+            new ResolutionDal().ApproveTranslation(ResolutionId);
+        }
+        #endregion
+    }
+}

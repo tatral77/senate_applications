@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EstablishmentASP.Reports.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+   
+   <script src="./Jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <link href="./Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="./Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="./Styles/jquery-ui-1.10.4.custom.css" rel="stylesheet" />
+ 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+        
+    </asp:ContentPlaceHolder>
+ </head>   
+
+<body >
+<form role="form" data-toggle="validator" runat="server" id="form1">
+    <div class="form-group">
+<div class="container-flued">
+    
+         <div class="row">
+                <div class="col-md-2">
+                    <asp:Image ID="logoImage" runat="server" ImageUrl="~/images/logo.png" 
+                AlternateText="EVS Logo" Width="100px" Height="110px" 
+                style="margin-top: 0px" />
+                </div>
+                <div class="col-md-8" style="text-align:center">
+                    <h1>SENATE OF PAKISTAN</h1><h3>Employee Management</h3>
+                </div>
+             <div class="col-md-2" >
+                
+                   
+                
+
+            </div>
+
+                 
+            </div>
+          
+   
+   
+        <div class="col-md-12 img-rounded" style="background-color:lightsteelblue;height:50px;padding:10px" >
+            <div class="btn-group">
+                 <button type="button" class="btn btn-custom dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Employee <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="NewEmployee.aspx">New Employee</a></li>
+                    <li><a href="SearchEmployee.aspx">Search Employee</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-custom dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Manage<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="EmpPosts.aspx">Posts</a></li>
+                    <li><a href="BranchesInfo.aspx">Branches</a></li>
+                    <li><a href="#">Countries</a></li>
+                    <li><a href="#">Provinces</a></li>
+                    <li><a href="#">Districts</a></li>
+                    <li><a href="#">Cities</a></li>
+                </ul>
+             </div>
+
+             <div class="btn-group">
+                <button type="button" class="btn btn-custom dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Reports<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Employees Details</a></li>
+                    <li><a href="#">Superannuation Report</a></li>
+                    <li><a href="#">Superannuation Report</a></li>
+                    <li><a href="#">Length of Service in Senate</a></li>
+                    <li><a href="#">Annual Medical Checkup Report</a></li>
+                    <li><a href="#">Assets Declaration Report</a></li>
+                    <li><a href="ContactDetails.aspx">Employees Contact Details</a></li>
+                    <li><a href="#">Employees Working on Deputation</a></li>
+                    <li><a href="#">Appointment Made during Last 3 Years</a></li>
+                    <li><a href="#">Age Report</a></li>
+                    <li><a href="#">Job Experience Report</a></li>
+
+
+        
+      
+                </ul>
+             </div>
+             <asp:Button ID="btn" class=" btn btn-custom" runat="server" onclick="Logout_Click" Text="Logout" />
+            </div>
+            
+      
+</div>
+   </div>
+    <div class="clearfix"></div>
+    <br />
+        <div class="container-fluid">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+
+        
+
+
+    
+
+    
+        
+      
+</form>  
+</body>
+</html>
